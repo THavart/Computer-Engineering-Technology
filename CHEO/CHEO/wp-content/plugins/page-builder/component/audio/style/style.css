@@ -1,0 +1,154 @@
+/******************************************************************************/
+/* Audio																	  */
+/******************************************************************************/
+
+.pb-audio
+{
+	display:none;
+}
+
+.pb-audio ul>li
+{
+	padding-left:0px;
+}
+
+.pb-audio div.jp-audio,
+.pb-audio div.jp-video,
+.pb-audio div.jp-audio-stream
+{
+	border:none;
+}
+
+.pb-audio div.jp-audio
+{
+	width:100%;
+}
+
+.pb-audio div.jp-interface
+{
+	height:100%;
+	padding:10px;
+	overflow:hidden;
+}
+
+.pb-audio div.jp-interface>*
+{
+	z-index:2;
+	position:relative;
+}
+
+.pb-audio div.jp-controls-1
+{
+	float:left
+}
+
+.pb-audio div.jp-controls-2
+{
+	float:right;
+}
+.pb-audio div.jp-audio>div
+{
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+.pb-audio div.jp-current-time
+{
+	float:left;
+}
+
+.pb-audio div.jp-duration
+{
+	float:right;
+}
+
+div.jp-audio div.jp-progress-box
+{
+	z-index:1;
+	width:100%;
+	position:absolute;
+	box-sizing:border-box;
+}
+
+div.jp-audio div.jp-progress
+{
+	width:100%;
+}
+
+div.jp-audio div.jp-progress *,
+div.jp-audio div.jp-volume-bar *
+{
+	height:100%;
+	cursor:pointer;
+}
+
+div.jp-audio div.jp-playlist
+{
+	clear:both;
+	padding:10px;
+}
+
+div.jp-audio div.jp-playlist li
+{
+	background:none;
+	display:inline-block;
+	margin:0px 10px 0px 0px;
+}
+
+div.jp-audio div.jp-playlist li a,
+div.jp-audio div.jp-playlist li a:hover
+{
+	opacity:0.5;
+	text-decoration:none;
+}
+
+div.jp-audio div.jp-playlist li.jp-playlist-current a
+{
+	opacity:1;
+	font-weight:600;
+}
+
+
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl .pb-audio,
+body.rtl .pb-audio:before,
+body.rtl .pb-audio *,
+body.rtl .pb-audio:after
+{
+	direction: ltr;
+}
+
+body.rtl .pb-audio ul>li
+{
+	padding-right:0px;
+	padding-left:0px;
+}
+
+body.rtl .pb-audio div.jp-controls-1
+{
+	float:right
+}
+
+body.rtl .pb-audio div.jp-controls-2
+{
+	float:left;
+}
+
+body.rtl .pb-audio div.jp-current-time
+{
+	float:right;
+}
+
+body.rtl .pb-audio div.jp-duration
+{
+	float:left;
+}
+
+body.rtl div.jp-audio div.jp-playlist li
+{
+	margin:0px 0px 0px 10px;
+}

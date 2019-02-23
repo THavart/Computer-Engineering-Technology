@@ -1,0 +1,546 @@
+/*		RTL CODE		*/
+
+/******************************************************************************/
+/* General																	  */
+/******************************************************************************/
+
+.pb .pb-tab-fixed
+{
+	right:0px;
+	left:auto;
+}
+
+/******************************************************************************/
+/* Link																		  */
+/******************************************************************************/
+
+.pb .pb-link-add,
+.pb .pb-link-remove
+{
+	float:left;
+}
+
+/******************************************************************************/
+/* Plugin option															  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Plugin option / Notice											   	  */
+	/**************************************************************************/
+	
+		.pb .pb-plugin-option .pb-plugin-option-notice h4,
+		.pb .pb-plugin-option .pb-plugin-option-notice h6
+		{
+			margin-right:75px;
+			margin-left:0;
+		}
+		
+			.pb .pb-plugin-option .pb-plugin-option-notice span
+			{
+				float:right;
+			}
+
+	/**************************************************************************/
+	/* Plugin option / Button												  */
+	/**************************************************************************/
+	
+	.pb .pb-plugin-option input[type="submit"].pb-plugin-option-button,
+	.pb .pb-plugin-option input[type="button"].pb-plugin-option-button
+	{
+		float:left;
+		margin-left:0;
+		margin-right:5px;
+	}
+
+	/**************************************************************************/
+	/* Plugin option / Dimensions											  */
+	/**************************************************************************/
+
+	.pb .pb-plugin-option .pb-plugin-option-header .pb-plugin-option-header-left,
+	.pb .pb-plugin-option .pb-plugin-option-footer .pb-plugin-option-footer-left,
+	.pb .pb-plugin-option .pb-plugin-option-content .pb-plugin-option-content-left
+	{
+		float:right;
+	}
+
+	.pb .pb-plugin-option .pb-plugin-option-header .pb-plugin-option-header-right,
+	.pb .pb-plugin-option .pb-plugin-option-footer .pb-plugin-option-footer-right,
+	.pb .pb-plugin-option .pb-plugin-option-content .pb-plugin-option-content-right
+	{
+		float:left;
+	}
+	
+	/**************************************************************************/
+	/* Plugin option / Plugin option										  */
+	/**************************************************************************/
+
+		/**********************************************************************/
+		/* Plugin option / Header											  */
+		/**********************************************************************/
+
+			/******************************************************************/
+			/* Plugin option / Header / Right								  */
+			/******************************************************************/
+
+				.pb .pb-plugin-option .pb-plugin-option-header .pb-plugin-option-header-right>div
+				{
+					float:right;
+				}
+
+				.pb .pb-plugin-option .pb-plugin-option-header .pb-plugin-option-header-right h6
+				{
+					float:right;
+				}
+
+				.pb .pb-plugin-option .pb-plugin-option-header .pb-plugin-option-header-right a.pb-plugin-option-header-right-logo
+				{
+					float:left;
+					margin:20px 0px 0px 20px;
+				}
+
+		/**********************************************************************/
+		/* Plugin option / Content											  */
+		/**********************************************************************/
+
+			/******************************************************************/
+			/* Plugin option / Content / Left								  */
+			/******************************************************************/
+
+						.pb .pb-plugin-option .pb-plugin-option-content .pb-plugin-option-content-left #pb_plugin_option_menu li ul li a
+						{
+							height:28px;
+							padding:12px 15px 0px 20px;		
+						}
+
+					.pb .pb-plugin-option .pb-plugin-option-content .pb-plugin-option-content-left #pb_plugin_option_menu li a
+					{
+						padding:22px 15px 0px 20px;
+					}
+
+						.pb .pb-plugin-option .pb-plugin-option-content .pb-plugin-option-content-left #pb_plugin_option_menu li>a>span
+						{
+							float:right;
+							margin-left:10px;
+							margin-right:0;
+						}
+
+		/**********************************************************************/
+		/* Plugin option / Footer										      */
+		/**********************************************************************/
+
+			/******************************************************************/
+			/* Plugin option / Footer / Left								  */
+			/******************************************************************/
+
+				/**************************************************************/
+				/* Plugin option / Footer / Social List						  */
+				/**************************************************************/
+
+				.pb .pb-plugin-option .pb-plugin-option-social-list
+				{
+					margin-right:20px;
+					margin-left:0;
+				}
+
+					.pb .pb-plugin-option .pb-plugin-option-social-list li
+					{
+						float:right;
+					}
+
+/******************************************************************************/
+/* Preloader															      */
+/******************************************************************************/
+
+#pb-preloader
+{
+	float:left;
+	margin-right:0;
+	margin-left:10px;
+	padding-left:35px;
+	padding-left:0;
+	background-position:center left;
+}
+	
+/******************************************************************************/
+/* Tabs																	      */
+/******************************************************************************/
+	
+	.pb-tab.ui-tabs>.ui-tabs-panel
+	{
+		border-width:0px 1px 1px 1px;
+	}
+	
+	.pb-tab.ui-tabs .ui-tabs-nav li
+	{
+		float:right;
+		margin:1px 0 0 .2em;
+	}
+
+/******************************************************************************/
+/* Caption																      */
+/******************************************************************************/
+
+.pb #pb-content-caption
+{
+	right:0px;
+	left:auto;
+}
+
+/******************************************************************************/
+/* Layout																      */
+/******************************************************************************/
+
+.pb-layout
+{
+	float:right;
+	margin:0px 10px 0px 0px;
+}
+
+	.pb-layout-icon {
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+
+/******************************************************************************/
+/* Component															      */
+/******************************************************************************/
+
+.pb-component.pb-component-source
+{
+	float:right;
+	margin:0px 10px 0px 0px;
+}
+
+/******************************************************************************/
+/* Layout list																  */
+/* Component list														      */
+/******************************************************************************/
+
+	#pb-tab-layout ul,
+	#pb-tab-component ul
+	{
+		margin:20px 10px 30px 20px;
+	}
+
+/******************************************************************************/
+/* Content																      */
+/******************************************************************************/
+	
+	/**************************************************************************/
+	/* Content / Lines													      */
+	/**************************************************************************/
+
+		/**********************************************************************/
+		/* Content / Lines / Line											  */
+		/**********************************************************************/
+	
+		#pb-content>ul>li
+		{
+			margin-right:0px;
+			margin-left:0;
+		}
+			
+			/******************************************************************/
+			/* Content / Lines / Line / Layout								  */
+			/******************************************************************/
+			
+				/**************************************************************/
+				/* Content / Lines / Line / Layout / Column					  */
+				/**************************************************************/
+			
+						/******************************************************/
+						/* Content / Lines / Line / Layout / Column / Caption */
+						/******************************************************/
+					
+						#pb-content .pb-content-column-box .pb-content-column-box-caption
+						{
+							right:0px;
+							left:auto;
+						}
+
+						/******************************************************/
+						/* Content / Lines / Line / Layout / Column			  */
+						/* / Elements										  */
+						/******************************************************/
+						
+							/**************************************************/
+							/* Content / Lines / Line / Layout / Column		  */
+							/* / Elements / Element							  */
+							/**************************************************/
+							
+								#pb-content .pb-component-bar
+								{
+									left:1px;
+									right:auto;
+								}
+								
+									#pb-content .pb-component-bar .pb-content-button
+									{
+										float:left;
+										border-width:0px 1px 1px 0px;
+									}
+							
+	/**************************************************************************/
+	/* Content / Button													      */
+	/**************************************************************************/
+
+	#pb-content .pb-content-button
+	{
+		float:left;
+	}
+		
+/******************************************************************************/
+/* Layouts																	  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Layout 100 (in percentage)											  */
+	/**************************************************************************/
+	
+	.pb .layout-100>.column-left 
+	{ 
+		float:right; 
+	}
+
+	/**************************************************************************/
+	/* Layout 50x50 (in percentage)											  */
+	/**************************************************************************/
+	
+	.pb .layout-50x50>.column-left 
+	{ 
+		float:right; 
+	}
+
+	.pb .layout-50x50>.column-right 
+	{ 
+		float:left; 
+	}
+
+	/**************************************************************************/
+	/* Layout 33x33x33 (in percentage)										  */
+	/**************************************************************************/
+	
+	.pb .layout-33x33x33>.column-left,
+	.pb .layout-33x33x33>.column-center
+	{
+		float:right; 
+	}
+
+	.pb .layout-33x33x33>.column-right
+	{ 
+		float:left; 
+	}
+
+	/**************************************************************************/
+	/* Layout 25x25x25x25 (in percentage)									  */
+	/**************************************************************************/
+	
+	.pb .layout-25x25x25x25>.column-left,
+	.pb .layout-25x25x25x25>.column-center-left,
+	.pb .layout-25x25x25x25>.column-center-right
+	{
+		float:right; 
+	}
+
+	.pb .layout-25x25x25x25>.column-right 
+	{ 
+		float:left; 
+	}
+
+	/**************************************************************************/
+	/* Layout 66x33 (in percentage)											  */
+	/**************************************************************************/
+
+	.pb .layout-66x33>.column-left 
+	{ 
+		float:right; 
+	}
+
+	.pb .layout-66x33>.column-right 
+	{ 
+		float:left; 
+	}
+
+	/**************************************************************************/
+	/* Layout 33x66 (in percentage)											  */
+	/**************************************************************************/
+	
+	.pb .layout-33x66>.column-left 
+	{ 
+		float:right; 
+	}
+
+	.pb .layout-33x66>.column-right 
+	{ 
+		float:left; 
+	}
+	
+	/**************************************************************************/
+	/* Layout 25x75 (in percentage)											  */
+	/**************************************************************************/
+	
+	.pb .layout-25x75>.column-left 
+	{ 
+		float:right; 
+	}
+
+	.pb .layout-25x75>.column-right 
+	{ 
+		float:left; 
+	}
+	
+	/**************************************************************************/
+	/* Layout 75x25 (in percentage)											  */
+	/**************************************************************************/
+	
+	.pb .layout-75x25>.column-left 
+	{ 
+		float:right; 
+	}
+
+	.pb .layout-75x25>.column-right 
+	{ 
+		float:left; 
+	}
+	
+/******************************************************************************/
+/* Dialog																	  */
+/******************************************************************************/
+
+		.pb-dialog.pb-dialog-edit.ui-dialog .ui-dialog-titlebar button.ui-dialog-titlebar-close,
+		.pb-dialog.pb-dialog-confirm.ui-dialog .ui-dialog-titlebar button.ui-dialog-titlebar-close
+		{
+			margin-left:-4px;
+			margin-right:0;
+		}
+
+			.pb-dialog.pb-dialog-edit.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset
+			{
+				float:left;
+			}
+
+/******************************************************************************/
+/* Form																	      */
+/******************************************************************************/
+
+	.pb-field-list .pb-group-header
+	{
+		float:right;
+	}
+	
+/******************************************************************************/
+/*  Qtip																	  */
+/******************************************************************************/
+
+.pb .pb-qtip
+{
+	margin:0px 5px 0px 0px !important;
+}
+
+/******************************************************************************/
+/* Table						                                              */
+/******************************************************************************/
+
+	.pb table.pb-table th
+	{
+		text-align:right;
+	}
+
+	.pb .pb-table-button-add
+	{
+		float:left;
+	}
+	
+/******************************************************************************/
+/* Form																	      */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Form / Button, Field Browse										      */
+	/**************************************************************************/
+	
+	input.pb-select-button
+	{
+		margin:0px -2px 0px 0px;
+	}
+	
+	/**************************************************************************/
+	/* Form / Buttonset													      */
+	/**************************************************************************/
+
+	.pb input[type="radio"].ui-helper-hidden-accessible,
+	.pb input[type="checkbox"].ui-helper-hidden-accessible
+	{
+		right:0px;
+		left:auto;
+	}
+	
+		.pb .ui-buttonset .ui-button
+		{
+			float:right;
+			margin-right:0;
+			margin-left:-1px;
+		}
+		
+	/**************************************************************************/
+	/* Form / Color picker													  */
+	/**************************************************************************/
+
+	.pb .pb-color-picker-sample
+	{
+		float:right;
+		margin-right:0;
+		margin-left:1px;
+	}
+	
+	.pb .pb-multi-field .pb-color-picker-sample
+	{
+		margin-right:1px;
+		margin-left:0;
+	}
+
+	/**************************************************************************/
+	/* Form / Slider														  */
+	/**************************************************************************/	
+	
+	.pb .pb-slider.ui-slider
+	{
+		float:right;
+	}
+
+	.pb input.pb-slider-value
+	{
+		float:right;
+		margin-right:10px;
+		margin-left:0;
+	}
+	
+	/**************************************************************************/
+	/* Form / Tinymce														  */
+	/**************************************************************************/
+	
+	.mce-pb-tinymce-shortcode-list
+	{
+		margin-right:3px !important;
+		margin-left:0 !important;
+	}
+	
+	/**************************************************************************/
+	/* Form / Autocomplete													  */
+	/**************************************************************************/
+
+			.pb input[type="text"].ui-autocomplete-loading,
+			.pb.input[type="text"].ui-autocomplete-loading
+			{
+				background-position-x:1%;
+			}
+			
+		.pb .ui-autocomplete .ui-autocomplete-item-description,
+		.pb.ui-autocomplete .ui-autocomplete-item-description
+		{
+			float:left;
+		}

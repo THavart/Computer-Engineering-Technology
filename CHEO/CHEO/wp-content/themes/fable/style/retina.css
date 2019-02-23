@@ -1,0 +1,308 @@
+/******************************************************************************/
+/* Retina						                                              */
+/******************************************************************************/
+
+@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2)
+{
+	ul>li
+	{
+		background-size:17px 17px;
+		background-image:url('../media/image/public/2x/icon_bullet/style_1.png');
+	}
+	
+	/***/
+
+	.pb-accordion .ui-accordion-header .ui-accordion-header-icon
+	{
+		background-size:36px 72px;
+		background-image:url('../media/image/public/2x/accordion_icon.png');
+	}
+
+	/***/
+	
+	#comments_list>ul>li .theme-comment-meta>.theme-comment-meta-date,
+	div.theme-footer-top .widget_theme_widget_post_most_recent>ul>li>span,
+	div.theme-footer-top .widget_theme_widget_post_most_comment>ul>li>span,
+	.theme-post .theme-post-meta>div.theme-post-meta-tag,
+	.theme-post .theme-post-meta>div.theme-post-meta-author,
+	.theme-post .theme-post-meta>div.theme-post-meta-category,
+	.theme-post .theme-post-meta>div.theme-post-meta-comment-count,
+	.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-author,	
+	.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category,	
+	.pb-recent-post.pb-recent-post-template-2>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-comment-count,	
+	.widget_theme_widget_post_most_recent>ul>li>span,
+	.widget_theme_widget_post_most_comment>ul>li>span
+	{
+		background-size:16px 16px;
+	}
+	
+	.theme-post .theme-post-meta>div.theme-post-meta-author,
+	.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-author
+	{
+		background-image:url('../media/image/public/2x/author.png');
+	}
+	
+	.theme-post .theme-post-meta>div.theme-post-meta-category,
+	.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category
+	{
+		background-image:url('../media/image/public/2x/category.png');
+	}
+	
+	.theme-post .theme-post-meta>div.theme-post-meta-comment-count,
+	.pb-recent-post.pb-recent-post-template-2>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-comment-count
+	{
+		background-image:url('../media/image/public/2x/comment.png');	
+	}
+	
+	#comments_list>ul>li .theme-comment-meta>.theme-comment-meta-date,
+	.widget_theme_widget_post_most_recent>ul>li>span
+	{
+		background-image:url('../media/image/public/2x/date.png');
+	}
+	
+	div.theme-footer-top .widget_theme_widget_post_most_recent>ul>li>span
+	{
+		background-image:url('../media/image/public/2x/date_footer.png');
+	}
+	
+	.widget_theme_widget_post_most_comment>ul>li>span
+	{
+		background-image:url('../media/image/public/2x/comment.png');
+	}
+	
+	div.theme-footer-top .widget_theme_widget_post_most_comment>ul>li>span
+	{
+		background-image:url('../media/image/public/2x/comment_footer.png');
+	}
+
+	.theme-post .theme-post-meta>div.theme-post-meta-tag
+	{
+		background-image:url('../media/image/public/2x/tag.png');
+	}
+	
+	/***/
+
+	#theme-go-to-top
+	{
+		background-size:55px 55px;
+		background-image:url('../media/image/public/2x/go_to_top.png');
+	}
+	
+	/***/
+	
+	.pb-header .pb-header-underline,
+	.pb-header-subheader .pb-header-underline,
+	.theme-section-white.pb-header .pb-header-underline,
+	.theme-section-white.pb-header-subheader .pb-header-underline
+	{
+		background-size:100px 14px;
+	}
+	
+	.pb-header .pb-header-underline,
+	.pb-header-subheader .pb-header-underline
+	{
+		background-image:url('../media/image/public/2x/header_divider.png');
+	}
+	
+	.theme-section-white.pb-header .pb-header-underline,
+	.theme-section-white.pb-header-subheader .pb-header-underline
+	{
+		background-image:url('../media/image/public/2x/header_divider_alt.png') !important;
+	}
+	
+	/***/
+	
+	.theme-post.theme-post-type-text .theme-post-icon,
+	.theme-post.theme-post-type-image .theme-post-icon,			
+	.theme-post.theme-post-type-audio .theme-post-icon,			
+	.theme-post.theme-post-type-video .theme-post-icon,			
+	.theme-post.theme-post-type-quote .theme-post-icon,
+	.theme-post.theme-post-type-sticky .theme-post-icon,
+	.theme-post.theme-post-type-image_slider .theme-post-icon			
+	{ 
+		background-size:32px 32px;
+	}
+	
+	.theme-post.theme-post-type-text .theme-post-icon			
+	{ 
+		background-image:url('../media/image/public/2x/media_text.png');			
+	}
+
+	.theme-post.theme-post-type-sticky .theme-post-icon			
+	{ 
+		background-image:url('../media/image/public/2x/media_sticky.png');			
+	}
+
+	.theme-post.theme-post-type-image .theme-post-icon			
+	{ 
+		background-image:url('../media/image/public/2x/media_image.png');			
+	}
+
+	.theme-post.theme-post-type-audio .theme-post-icon			
+	{ 
+		background-image:url('../media/image/public/2x/media_audio.png');			
+	}
+
+	.theme-post.theme-post-type-video .theme-post-icon			
+	{ 
+		background-image:url('../media/image/public/2x/media_video.png');			
+	}
+
+	.theme-post.theme-post-type-quote .theme-post-icon			
+	{ 
+		background-image:url('../media/image/public/2x/media_quote.png');			
+	}
+	
+	.theme-post.theme-post-type-image_slider .theme-post-icon			
+	{ 
+		background-image:url('../media/image/public/2x/media_image_slider.png');			
+	}
+	
+	/***/
+	
+	.pb-menu .pb-menu-responsive .nav-toggle span span
+	{
+		background-size:20px 30px;
+		background-image:url('../media/image/public/2x/menu_icon.png');
+	}
+	
+	/***/
+	
+	div.theme-post-navigation a.theme-post-navigation-prev span.theme-post-navigation-arrow,
+	div.theme-post-navigation a.theme-post-navigation-next span.theme-post-navigation-arrow
+	{
+		background-size:11px 17px;
+	}
+	
+	div.theme-post-navigation a.theme-post-navigation-prev span.theme-post-navigation-arrow
+	{
+		background-image:url('../media/image/public/2x/post_prev_arrow.png');
+	}
+
+	div.theme-post-navigation a.theme-post-navigation-next span.theme-post-navigation-arrow
+	{
+		background-image:url('../media/image/public/2x/post_next_arrow.png');
+	}
+	
+	/***/
+	
+	div.theme-footer-top .pb-blockquote blockquote,
+	div.theme-footer-top .pb-testimonial ul>li>div>div.pb-testimonial-cite-up,
+	.pb-blockquote blockquote,
+	.pb-team>ul>li .pb-team-quote-box,
+	.pb-testimonial ul>li>div>div.pb-testimonial-cite-up,
+	.theme-section-white.pb-testimonial ul>li>div>div.pb-testimonial-cite-up
+	{
+		background-size:32px 32px;
+	}
+	
+	.pb-blockquote blockquote,
+	.pb-team>ul>li .pb-team-quote-box,
+	.pb-testimonial ul>li>div>div.pb-testimonial-cite-up
+	{
+		background-image:url('../media/image/public/2x/quote.png');			
+	}
+
+	div.theme-footer-top .pb-blockquote blockquote,
+	div.theme-footer-top .pb-testimonial ul>li>div>div.pb-testimonial-cite-up,
+	.theme-section-white.pb-testimonial ul>li>div>div.pb-testimonial-cite-up
+	{
+		background-image:url('../media/image/public/2x/quote_alt.png') !important;
+	}
+	
+	/***/
+	
+	.tp-leftarrow.round,
+	.tp-rightarrow.round,
+	.pb-nivo-slider .nivo-directionNav .nivo-prevNav,
+	.pb-nivo-slider .nivo-directionNav .nivo-nextNav
+	{
+		background-size:45px 45px !important;
+	}
+	
+	.tp-leftarrow.round,
+	.pb-nivo-slider .nivo-directionNav .nivo-prevNav,
+	.pb-flex-slider .flex-direction-nav li a.flex-prev
+	{
+		background-image:url('../media/image/public/2x/slider_previous.png') !important;
+	}
+
+	.tp-rightarrow.round,
+	.pb-nivo-slider .nivo-directionNav .nivo-nextNav,
+	.pb-flex-slider .flex-direction-nav li a.flex-next
+	{
+		background-image:url('../media/image/public/2x/slider_next.png') !important;
+	}
+	
+	/***/
+
+	div.theme-footer-top .pb-twitter-user-timeline .pb-twitter-user-timeline-text .pb-twitter-user-timeline-text-part-1,
+	.pb-twitter-user-timeline .pb-twitter-user-timeline-text .pb-twitter-user-timeline-text-part-1,
+	.theme-section-white.pb-twitter-user-timeline .pb-twitter-user-timeline-text .pb-twitter-user-timeline-text-part-1
+	{
+		background-size:32px 32px;
+	}
+
+	div.theme-footer-top .pb-twitter-user-timeline .pb-twitter-user-timeline-text .pb-twitter-user-timeline-text-part-1,
+	.theme-section-white.pb-twitter-user-timeline .pb-twitter-user-timeline-text .pb-twitter-user-timeline-text-part-1
+	{
+		background-image:url('../media/image/public/2x/twitter_alt.png') !important;
+	}
+
+	.pb-twitter-user-timeline .pb-twitter-user-timeline-text .pb-twitter-user-timeline-text-part-1
+	{
+		background-image:url('../media/image/public/2x/twitter.png');
+	}
+	
+	/***/
+	
+	.pb-image-box.pb-image-hover .pb-image>span>span>span
+	{
+		background-size:20px 20px;
+		background-image:url('../media/image/public/2x/image_overlay.png');
+	}
+	
+	/***/
+	
+	.pb-screen-preloader
+	{
+		background-size:40px 40px;
+		background-image:url('../media/image/public/2x/screen_preloader.gif');
+	}
+	
+	/***/
+
+	.pb-preloader,
+	.pb-image-preloader
+	{
+		background-size:20px 20px;
+		background-image:url('../media/image/public/2x/preloader.gif');	
+	}
+	
+	/***/
+
+	.pb-menu sup.pb-menu-new
+	{
+		background-size:21px 11px;
+		background-image:url('../media/image/public/2x/new.png');
+	}
+	
+	/***/
+	
+	.pb-audio a.jp-play,
+	.pb-audio a.jp-pause,
+	.pb-audio a.jp-mute,
+	.pb-audio a.jp-unmute
+	{
+		background-size:112px 56px;
+		background-image:url('../media/image/public/2x/audio_control.png');
+	}	
+	
+	/***/
+	
+	.tabs_box_navigation .tabs_box_navigation_icon
+	{
+		background-size:11px 22px;
+		background-image:url('../media/image/public/2x/arrow_menu_expand.png');
+	}
+}

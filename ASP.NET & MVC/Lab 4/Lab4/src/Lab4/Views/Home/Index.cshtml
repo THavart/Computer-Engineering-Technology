@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Lab4.Models.Movie>
+@{
+
+}
+
+<style>
+    tr {
+        vertical-align: central;
+        text-align: center;
+    }
+</style>
+
+<a asp-controller="Home" asp-action="Index">Home</a>
+<a asp-controller="Home" asp-action="AddMovie">Add Movie</a>
+
+<h2>Home</h2>
+<table style="width: 100%;">
+
+    @if (Model == null || Model.Count() == 0)
+    {
+        <h4>Currently, there are no Movies to display.</h4>
+    }
+    else
+    {
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a asp-controller="Home" asp-action="EditMovie" asp-route-id="@item.MovieId">Edit</a>&nbsp;&nbsp;
+                    <a asp-controller="Home" asp-action="DeleteMovie" asp-route-id="@item.MovieId">Delete</a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    @item.Model
+                    @item.SubTitle
+                    @item.Description
+                    @item.Year
+                    @item.Rating
+                </li>
+            }
+        </ul>
+    }
+    <br />
+</table>
+<footer>
+    &copy; 2017 - Mateen P
+    <br />
+    <br />
+</footer>

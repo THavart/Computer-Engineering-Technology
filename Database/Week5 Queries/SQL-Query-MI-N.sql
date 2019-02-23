@@ -1,0 +1,5 @@
+SELECT DISTINCT ShipperName, SHIPMENT.ShipmentID, DepartureDate
+FROM SHIPMENT, SHIPMENT_ITEM
+WHERE SHIPMENT.ShipmentID = SHIPMENT_ITEM.ShipmentID
+AND (Value = 1000 OR Value > 1000)
+ORDER BY ShipperName, DepartureDate DESC;

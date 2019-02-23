@@ -1,0 +1,84 @@
+/*
+ * Name - Taylor Havart-Labrecque
+ * Course - Real Time Programming
+ * File Name - Lab4Client.c
+ * Purpose - To build a client side program of the socket application in QNX.
+ */
+
+/*Include all the header files required for socket programming*/
+#include <stdio.h>
+#include  <signal.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/neutrino.h>
+#include <netinet/in.h>
+#include <netdb.h>
+#include <sys/netmgr.h>
+
+/*Prints a descriptive error message.*/
+void error(char *msg) {
+	perror(msg);
+	exit(0);
+}
+
+/*Main method of the client application.*/
+int main(int argc, char *argv[]) {
+	int bool = 1;
+	int channel_id;
+	int conn_id;
+	int server_pid;
+	int msgSend;
+	char send_msg[256];
+	char menu[256];
+	char recv_msg[256];
+	char index[256];
+	FILE *fptr;
+	if ((fptr = fopen("INFO2.txt", "r")) == NULL)
+		perror("Error! opening file");
+
+	fscanf(fptr, "%d %d", &channel_id, &server_pid);
+
+	fclose(fptr);
+	conn_id = ConnectAttach(0, server_pid, channel_id, 0, 0);
+	if (conn_id < 0)
+		perror("Error in connection");
+	int client_pid = getpid();
+	char str[20];
+
+	memset(&str, '\0', 255);
+	itoa(client_pid, str, 10);
+	printf("Client PID: %s", str);
+
+	int clientIdSent = MsgSend(conn_id, str, sizeof(str), &recv_msg,
+			sizeof(recv_msg));
+
+	while (bool) {
+		printf("\nEnter 1 to continue. Enter exit to terminate :\n");
+		fgets(menu, 256, stdin);
+		int len = strlen(menu);
+		//printf("%d",len);
+		if (len == 2) {
+			printf("Enter the message: ");
+			fgets(send_msg, 256, stdin);
+			printf("Enter the index: ");
+			fgets(index, 256, stdin);
+			strcat(send_msg, "~");
+			strcat(send_msg, index);
+			memset(&recv_msg, '\0', 256);
+			msgSend = MsgSend(conn_id, send_msg, sizeof(send_msg), &recv_msg,
+					sizeof(recv_msg));
+			if (msgSend < 0)
+				perror("MsgSend error");
+			printf("%s\n", recv_msg);
+		} else {
+
+			memset(&recv_msg, '\0', 256);
+			strcpy(send_msg, "exit");
+			msgSend = MsgSend(conn_id, send_msg, sizeof(send_msg), &recv_msg,
+					sizeof(recv_msg));
+			ConnectDetach(conn_id);
+			bool = 0;
+		}
+	}
+	return 0;
+}

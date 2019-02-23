@@ -1,0 +1,349 @@
+<?php
+wp_enqueue_style('ep_fitness-style-64', wp_ep_fitness_URLPATH . 'assets/cube/css/cubeportfolio.css');
+wp_enqueue_style('ep_fitness-style-dataTables-64', wp_ep_fitness_URLPATH . 'assets/cube/css/jquery.dataTables.min.css');
+
+
+global $wp_roles;
+global $product;
+$iii=0;
+$current_user = wp_get_current_user();
+$roles = $current_user->roles;
+$role = array_shift( $roles );
+
+$default_fields = array();
+$field_set=get_option('_ep_fitness_url_postype' );		
+
+if($field_set!=""){ 
+		$default_fields=get_option('_ep_fitness_url_postype' );
+}else{															
+		$default_fields['training-plans']='Training Plans';
+		$default_fields['detox-plans']='Detox Plans';
+		$default_fields['diet-plans']='Diet Plans';
+		$default_fields['diet-guide']='Diet Guide';
+		$default_fields['recipes']='Recipes';																	
+}
+if(sizeof($field_set)<1){																
+		$default_fields['training-plans']='Training Plans';
+		$default_fields['detox-plans']='Detox Plans';
+		$default_fields['diet-plans']='Diet Plans';
+		$default_fields['diet-guide']='Diet Guide';
+		$default_fields['recipes']='Recipes';		
+ }	
+foreach ( $default_fields as $field_key => $field_value ) {
+ $f_cpt=$field_key;
+ break;
+}	
+
+$profile=(isset($_REQUEST['profile'])?$_REQUEST['profile']:$f_cpt);
+
+$current_post_type=	$profile;	
+$args = array(
+	'post_type' => $profile, // enter your custom post type
+	//'paged' => $paged,
+	'post_status' => 'publish',
+	//'fields' => 'all',
+	//'orderby' => 'ASC',
+	'posts_per_page'=> '9999',  // overrides posts per page in theme settings
+);
+
+
+$the_query = new WP_Query( $args );
+
+$user_content= get_user_meta($current_user->ID, 'iv_user_content_setting', true);
+if($user_content==''){$user_content='both_content';}
+
+
+$user_id = get_current_user_id();
+$get_my_activities = array_unique(get_user_meta($user_id, 'my_activities', false));
+$query_my_activities = new WP_Query( array( 'post_type' => 'activities', 'post__in' => $get_my_activities, 'post_status' => 'publish', 'posts_per_page'=> '9999') );
+?>
+   <div class="profile-content">   
+	<div class="portlet light">
+		<?php if($_GET['profile'] ==='myactivities'){?>
+		  <div class="portlet-title tabbable-line clearfix">
+			<div class="caption caption-md">
+				<span class="caption-subject"> 
+				
+				
+					<?php
+						
+						if ( $query_my_activities->have_posts() ) {
+							while ( $query_my_activities->have_posts() ) {
+								$query_my_activities->the_post();
+								$featured_img_url = get_the_post_thumbnail_url($post->ID, 'full'); 
+								?>
+								<div class="box-content-activities col-sm-4 col-xs-12">
+									<div class="activities-img">
+										<img src="<?php echo $featured_img_url; ?>">
+										<div class="hover-add"><a class="add-my-activities" href="javascript:void(0)" data-id="<?php echo get_the_ID(); ?>">Remove</a></div>
+									</div>
+									<div class="activities-content">
+										<h3><?php echo get_the_title(); ?></h3>
+										<p class="p-desc"><?php echo get_the_content(); ?></p>
+										<span class="name-activities">PDF: <a href="<?php echo $file; ?>"><?php echo get_field( "name" ); ?></a></span>
+									</div>
+									
+								</div>
+								
+								<?php
+							}
+						}
+
+					?>
+				</span>
+			</div>						
+		  </div>     
+		<?php } ?> 
+	<?php if($_GET['profile'] ==='activities'){?>		
+		<div class="clearfix">
+			<?php
+			$argscat = array(
+							'type'                     => $current_post_type,
+							'orderby'                  => 'name',
+							'order'                    => 'ASC',
+							'hide_empty'               => true,
+							'hierarchical'             => 1,
+							'exclude'                  => '',
+							'include'                  => '',
+							'number'                   => '',
+							'taxonomy'                 => $current_post_type.'-category',
+							'pad_counts'               => false
+
+							);
+			$categories = get_categories( $argscat );
+			$taxonomy = $current_post_type.'-category';
+			if(sizeof($categories)){
+			?>
+			<ul id="filters">
+				
+				<li><a class="all-activities" href="javascript:void(0)" data-filter="*"><?php _e('All','epfitness'); ?></a></li>
+				<?php		
+						if ( $categories && !is_wp_error( $categories ) ) :
+							$i=1;
+							foreach ( $categories as $term ) {	?>
+							<li><a href="javascript:void(0)" data-filter=".<?php echo $term->slug;?>" class="grid-item"><?php echo $term->name; ?></a></li>
+							<?php
+							$i++;												
+							}
+						endif;
+					?>	
+			</ul >
+			
+			
+			
+			<?php
+			}
+			?>      
+		</div>
+		<div id="container">
+		<table id="all_activities_table" class="table table-bordered">
+			<thead>
+			<tr>
+				<th>Image</th>
+				<th>name</th> 
+				<th>title</th>
+				<th>description</th>
+				<th>pdf</th>
+				<th>button </th>
+			</tr>
+			</thead>
+			<tbody>
+				<?php 
+					if ( $the_query->have_posts() ) {
+						while ( $the_query->have_posts() ) {
+							$the_query->the_post();
+							$featured_img_url = get_the_post_thumbnail_url($post->ID, 'full'); 
+							$terms = get_the_terms( get_the_ID(), $taxonomy );
+							if (is_array($terms) || is_object($terms)){
+								foreach($terms as $value){ 
+									$string = $value->slug.' ';
+								}
+							}
+							$file = get_field('upload_pdf');
+							
+							?>
+								<tr>
+									<td class="col-md-2 col-2"><img src="<?php echo $featured_img_url; ?>"></td>
+									<td class="col-md-2 col-2"><?php echo get_field( "name" ); ?></td>
+									<td class="col-md-2 col-2"><?php echo get_the_title(); ?></td>
+									<td class="col-md-2 col-2"><?php echo get_the_content(); ?></td>
+									<td class="col-md-2 col-2"><a href="<?php echo $file; ?>">PDF</a></td>
+									<td class="col-md-2 col-2"><a href="javascript:void(0)">Add to my activites</a></td>
+								</tr>
+								
+							<?php
+						}
+						?>
+						<?php
+						/* Restore original Post Data */
+						wp_reset_postdata();
+					} else {
+						_e( 'Sorry, no posts matched your criteria.','epfitness' ); 
+					}
+					
+				?>
+			</tbody>
+		</table>
+			<input class="user_id" type="hidden" value="<?php echo $user_id ?>">	
+		</div>
+
+	</div>
+ <?php } ?> 
+
+</div>
+	
+<?php
+wp_enqueue_script('ep_fitness-ar-script-23', wp_ep_fitness_URLPATH . 'assets/cube/js/jquery.cubeportfolio.min.js');						
+wp_enqueue_script('ep_fitness-ar-script-dataTables', wp_ep_fitness_URLPATH . 'assets/cube/js/jquery.dataTables.min.js');						
+?>
+<!--<script type='text/javascript' src='http://heavenlyapps.skycodec.com/wp-content/plugins/fitness-trainer/assets/cube/js/isotope.pkgd.min.js?ver=4.9.1'></script>-->
+			
+<script>		
+	
+jQuery( document ).ready(function() {
+	//var $container = jQuery('#container');
+	// initialize isotope
+	//$container.isotope();
+
+	// filter items when filter link is clicked
+	// jQuery('#filters a').click(function(){
+	  // var selector = jQuery(this).attr('data-filter');
+	  // $container.isotope({ filter: selector });
+	  // jQuery( "#filters li" ).removeClass( "activer" );
+	  // jQuery(this).closest( "li" ).addClass("activer");
+	  // return false;
+	// });
+	// jQuery( ".all-activities" ).trigger( "click" );	
+	jQuery( ".activities-img" ).hover(function() {
+		jQuery(this).find(".hover-add").toggleClass("hover-active");
+	});
+	jQuery( "a.add-my-activities" ).click(function() {
+		var post_id = jQuery(this).attr('data-id');
+		var user_id = jQuery(".user_id").val();
+			jQuery.ajax({
+				url : '<?php echo admin_url( "admin-ajax.php" ); ?>',
+				type : 'post',
+				data : {
+					action : 'ep_add_my_activities',
+					post_id : post_id,
+					user_id :user_id
+				},
+				success : function( response ) {
+					if(response.status == '1'){
+						jQuery( ".profile-content" ).prepend( "<h2 class='activities_success'>Add Activities Success <span>x</span></h2>" );
+					}else{
+						jQuery( ".profile-content" ).prepend( "<h2 class='activities_limit'>Add Activities Limit <span>x</span></h2>" );
+					}
+				},
+				error: function(msg){
+					alert(msg);
+				}
+			});
+	});
+	jQuery(document).on('click', '#profile-account2 h2.activities_limit span', function(){ 
+		jQuery('.activities_limit').hide();
+	}); 
+	jQuery(document).on('click', '#profile-account2 h2.activities_success span', function(){ 
+		jQuery('.activities_success').hide();
+	}); 
+});	
+
+</script>				
+<style>
+/*Updata 12-01-2018*/
+.activities-content h3{
+	margin-bottom: 5px;
+    margin-top: 10px;
+    color: #f3b329;
+}
+ul#filters>li{
+	background-image: none;
+    display: inline-block;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+#container{
+	margin-left: -15px;
+    margin-right: -15px;
+}
+#profile-account2 li.activer{
+	background-color: #F9B240;
+    border-color: #F9B240;
+}
+#profile-account2 li.activer a{
+	color:#fff;
+}
+.bootstrap-wrapper p.p-desc{
+	margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-transform: none;
+}
+.activities-img img{
+	max-height: 150px;
+    width: 100%;
+    min-height: 150px;
+}
+.box-content-activities{
+	margin-bottom:30px;
+}
+.profile-usermenu ul.nav li{
+	background-image:none;
+}
+.activities-img{
+	position: relative;
+}
+.activities-img .hover-add{
+	position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+	opacity: 0;
+}
+.activities-img .hover-add.hover-active{
+	opacity: 1;
+}
+.activities-img .hover-add a{ 
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 29%;
+    display: block;	
+}
+.bootstrap-wrapper .hover-add a.add-my-activities:hover{
+	color:#fff;
+}
+#profile-account2 h2.activities_success{
+	background: #40bf40;
+    padding: 20px 10px;
+    color: #fff;
+}
+#profile-account2 h2.activities_success span, #profile-account2 h2.activities_limit span{
+	float: right;
+	cursor: pointer;
+}
+#profile-account2 h2.activities_limit{
+	background: red;
+    padding: 20px 10px;
+    color: #fff;
+}
+.profile-usermenu ul>li{
+	background-image: none;
+}
+#all_activities_table tr td img{
+	width:100%;
+} 
+</style>
+        
+    

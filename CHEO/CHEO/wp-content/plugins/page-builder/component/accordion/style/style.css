@@ -1,0 +1,36 @@
+/******************************************************************************/
+/* Accordion																  */
+/******************************************************************************/
+
+.pb-accordion
+{
+	visibility:hidden;
+}
+
+	.pb-accordion .ui-accordion-header
+	{
+		margin-top:10px;
+		margin-bottom:0px;
+	}
+	
+	.pb-accordion .ui-accordion-header:first-child
+	{
+		margin-top:0px;
+	}
+	
+		.pb-accordion .ui-accordion-header .ui-accordion-header-icon
+		{
+			box-sizing:border-box;
+		}
+	
+		.pb-accordion .ui-accordion-header a
+		{
+			display:block;
+			text-decoration:none;
+			padding:10px 15px 10px 15px;
+		}
+
+	.pb-accordion .ui-accordion-content
+	{
+		padding:15px 0px 15px 0px;
+	}

@@ -1,0 +1,55 @@
+/******************************************************************************/
+/* Preformatted Text														  */
+/******************************************************************************/
+
+.pb-preformatted-text
+{
+	display:none;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.pb-preformatted-text>pre::-webkit-scrollbar
+{
+	height:12px;
+}
+
+.pb-preformatted-text>pre::-webkit-scrollbar-track
+{
+	border-width:1px 0px 0px 0px;
+}
+	
+	.pb-preformatted-text a 
+	{
+		display:block;
+		text-decoration:none;
+		padding:10px 15px 10px 15px;
+	}
+	
+	.pb-preformatted-text a:hover
+	{
+		text-decoration:underline;
+	}
+	
+		.pb-preformatted-text a span
+		{
+			display:none;
+		}
+		
+		.pb-preformatted-text a span:first-letter
+		{
+			font-weight:bold;
+		}
+		
+	.pb-preformatted-text pre 
+	{
+		display:none;
+		white-space:pre;
+		overflow-x:scroll;
+		padding:10px 15px 20px 15px;
+	}
+	
+	.pb-preformatted-text.pb-preformatted-text-visible pre
+	{
+		display:block;
+	}

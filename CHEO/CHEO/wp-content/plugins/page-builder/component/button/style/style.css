@@ -1,0 +1,104 @@
+/******************************************************************************/
+/* Button																	  */
+/******************************************************************************/
+
+.pb-button
+{
+	margin:0px 5px 5px 0px;
+	display:inline-block;
+}
+
+.pb-button>a,
+.pb-button>a:hover
+{
+	display:inline-block;
+	text-decoration:none;
+}
+
+	.pb-button>a>span.pb-button-box
+	{
+		display:block;
+	}
+	
+		.pb-button>a>span.pb-button-box>span.pb-button-icon
+		{
+			top:0px;
+			width:16px;
+			height:16px;
+			position:relative;
+			background-repeat:no-repeat;
+			background-position:0px 0px;
+			background-size:16px 16px;
+		}
+
+		.pb-button>a>span.pb-button-box>span.pb-button-content
+		{
+
+		}
+
+/******************************************************************************/
+/* Button / Icon position													  */
+/******************************************************************************/
+
+.pb-button.pb-button-icon.pb-button-icon-position-left>a>.pb-button-box>.pb-button-icon
+{
+	float:left;
+	margin-right:10px;
+}
+
+.pb-button.pb-button-icon.pb-button-icon-position-right>a>.pb-button-box>.pb-button-icon
+{
+	float:right;
+	margin-left:10px;
+}
+
+/******************************************************************************/
+/* Button / Button size														  */
+/******************************************************************************/
+		
+.pb-button.pb-button-size-tiny>a>.pb-button-box
+{
+	margin:2px 4px 2px 4px;
+}
+
+.pb-button.pb-button-size-small>a>.pb-button-box
+{
+	margin:4px 8px 4px 8px;
+}
+
+.pb-button.pb-button-size-medium>a>.pb-button-box
+{
+	margin:6px 12px 6px 12px;
+}
+
+.pb-button.pb-button-size-large>a>.pb-button-box
+{
+	margin:10px 16px 10px 16px;
+}
+
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl .pb-button
+{
+	margin:0px 0px 5px 5px;
+}
+
+/******************************************************************************/
+/* Button / Icon position													  */
+/******************************************************************************/
+
+body.rtl .pb-button.pb-button-icon.pb-button-icon-position-left>a>.pb-button-box>.pb-button-icon
+{
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+
+body.rtl .pb-button.pb-button-icon.pb-button-icon-position-right>a>.pb-button-box>.pb-button-icon
+{
+	float:left;
+	margin-right:10px;
+	margin-left:0;
+}

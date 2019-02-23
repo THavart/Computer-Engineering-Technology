@@ -1,0 +1,64 @@
+/******************************************************************************/
+/* Gallery																	  */
+/******************************************************************************/
+
+.pb-gallery
+{
+	
+}
+
+	.pb-gallery>ul
+	{
+
+	}
+	
+	.pb-gallery>ul.pb-layout-full-width>li
+	{
+		margin-bottom:0px !important;
+	}
+
+		.pb-gallery>ul>li
+		{
+			overflow:hidden;
+			margin-bottom:30px;
+		}
+		
+			/******************************************************************/
+			/* Gallery / Image box											  */
+			/******************************************************************/
+
+			.pb-gallery>ul>li>div.pb-gallery-image-box
+			{
+
+			}
+			
+				.pb-gallery>ul>li>div.pb-gallery-image-box>.pb-gallery-image-box-content
+				{
+					display:block;
+					overflow:hidden;
+					position:relative;
+				}
+				
+					.pb-gallery>ul>li>div.pb-gallery-image-box>.pb-gallery-image-box-content>img
+					{
+						display:block;
+					}
+											
+			/******************************************************************/
+			/* Gallery / Text box											  */
+			/******************************************************************/
+				
+			.pb-gallery>ul>li>div.pb-gallery-text-box
+			{
+				padding:10px 15px 15px 15px;
+			}
+			
+				.pb-gallery>ul>li>div.pb-gallery-text-box>.pb-gallery-text-box-caption
+				{
+
+				}
+
+				.pb-gallery>ul>li>div.pb-gallery-text-box>.pb-gallery-text-box-description
+				{
+
+				}

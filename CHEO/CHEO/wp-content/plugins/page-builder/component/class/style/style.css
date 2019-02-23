@@ -1,0 +1,135 @@
+/******************************************************************************/
+/* Class																	  */
+/******************************************************************************/
+
+.pb-class
+{
+	
+}
+
+	.pb-class>ul
+	{
+		
+	}
+	
+		.pb-class>ul>li
+		{
+			position:relative;
+			visibility:hidden;
+			margin-bottom:30px;
+			image-rendering:optimizeQuality;
+		}
+		
+			.pb-class>ul>li>div
+			{
+				width:50%;
+				height:100%;
+				padding:20px;
+				box-sizing:border-box;
+			}
+			
+			.pb-class.pb-responsive-width-300>ul>li>div
+			{
+				width:100%;
+			}
+			
+			.pb-class.pb-responsive-width-300>ul>li
+			{
+				height:auto !important;
+			}
+
+				/**************************************************************/
+				/* Class / Name												  */
+				/**************************************************************/
+
+				.pb-class>ul>li>div>.pb-class-item-name
+				{
+					margin-bottom:0px;
+				}
+
+				/**************************************************************/
+				/* Class / Label											  */
+				/**************************************************************/
+
+				.pb-class>ul>li>div>.pb-class-item-label
+				{
+
+				}
+
+				/**************************************************************/
+				/* Class / Attribute List									  */
+				/**************************************************************/
+
+				.pb-class>ul>li>div>.pb-class-item-attribute
+				{
+					margin-top:50px;
+				}
+				
+				.pb-class.pb-responsive-width-300>ul>li>div>.pb-class-item-attribute
+				{
+					margin-top:30px;
+					margin-bottom:50px;
+				}
+
+					.pb-class>ul>li>div>.pb-class-item-attribute>li
+					{
+						text-align:center;
+						box-sizing:border-box;
+						margin:0px !important;
+						width:50% !important;
+						padding:0px 5px 0px 5px;
+					}
+					
+						/******************************************************/
+						/* Class / Attribute List / Name					  */
+						/******************************************************/
+
+						.pb-class>ul>li>div>.pb-class-item-attribute>li>.pb-class-item-attribute-name
+						{
+						
+						}
+
+						/******************************************************/
+						/* Class / Attribute List / Value					  */
+						/******************************************************/
+
+						.pb-class>ul>li>div>.pb-class-item-attribute>li>.pb-class-item-attribute-value
+						{
+							
+						}
+
+				/**************************************************************/
+				/* Class / Button											  */
+				/**************************************************************/
+
+				.pb-class>ul>li>div>.pb-class-item-button
+				{
+					right:0px;
+					bottom:0px;
+					position:absolute;
+				}
+
+					.pb-class>ul>li>div>.pb-class-item-button>a
+					{
+						display:inline-block;
+					}
+					
+						.pb-class>ul>li>div>.pb-class-item-button>a,
+						.pb-class>ul>li>div>.pb-class-item-button>a:hover
+						{
+							text-decoration:none;
+						}
+						
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+				/**************************************************************/
+				/* Class / Button											  */
+				/**************************************************************/
+
+				body.rtl .pb-class>ul>li>div>.pb-class-item-button
+				{
+					left:0px;
+					right:auto;
+				}

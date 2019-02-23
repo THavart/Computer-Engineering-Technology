@@ -1,0 +1,33 @@
+
+as12, an absolute assembler for Motorola MCU's, version 1.2h
+
+                        ; Validate_CC.asm
+0000                    Validate_CC
+                        
+0000 18 06                      aba
+0002 18 07                      daa
+0004 c6 00                      ldab    #$00
+0006 ce 10 00                   ldx     #$1000
+0009 18 10                      idiv
+000b 81 00                      cmpa    #$00
+000d 27 02                      beq     Valid
+000f 20 08                      bra     Invalid
+                                
+Validate_CC.asm:13: Error - Symbol ValidResult is undefined.
+0011 96 00              Valid   ldaa	ValidResult
+0013 42                         inca
+Validate_CC.asm:15: Error - Symbol ValidResult is undefined.
+0014 5a 00                      staa	ValidResult
+0016 3d                         rts
+                        
+                        
+Validate_CC.asm:19: Error - Phasing error.
+Validate_CC.asm:19: Error - Symbol InvalidResult is undefined.
+0017 96 00              Invalid ldaa	InvalidResult
+0019 42                         inca
+Validate_CC.asm:21: Error - Symbol InvalidResult is undefined.
+001a 5a 00                      staa	InvalidResult
+001c 3d                 	rts
+
+Executed: Wed Apr 20 12:23:14 2016
+Total errors: 5, Total warnings: 0

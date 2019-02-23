@@ -1,0 +1,197 @@
+/******************************************************************************/
+/* FlexSlider																  */
+/******************************************************************************/
+
+.pb-flex-slider
+{
+	
+}
+
+	/**************************************************************************/
+	/* FlexSlider / Directional navigation									  */
+	/**************************************************************************/
+	
+	.pb-flex-slider .flex-direction-nav
+	{
+		width:100%;
+	}
+	
+		.pb-flex-slider .flex-direction-nav li
+		{
+			margin:0px;
+			padding:0px;
+			background-image:none;
+		}
+		
+			.pb-flex-slider .flex-direction-nav li a
+			{
+				opacity:1;
+				margin:0px;
+				background-repeat:no-repeat;
+				background-position:center center;				
+			}
+			
+			.pb-flex-slider .flex-direction-nav li a,
+			.pb-flex-slider .flex-direction-nav li a:hover
+			{
+				-moz-transition: none;
+				-webkit-transition: none;
+				-o-transition:all 0 ease-in;
+				transition:none;				
+			}
+			
+			.pb-flex-slider .flex-direction-nav li a:before
+			{
+				content:"";
+			}
+		
+			.pb-flex-slider .flex-direction-nav li a.flex-prev
+			{
+				left:0px;
+			}
+		
+			.pb-flex-slider .flex-direction-nav li a.flex-next
+			{
+				right:0px;
+			}
+		
+	/**************************************************************************/
+	/* FlexSlider / Control navigation										  */
+	/**************************************************************************/
+	
+	.pb-flex-slider .flex-control-nav
+	{
+		bottom:0px;
+		display:none;
+		position:static;
+	}
+	
+		.pb-flex-slider .flex-control-nav li
+		{
+			float:left;
+			margin:0px;
+			display:block;
+		}
+		
+		.pb-flex-slider .flex-control-nav li:first-child
+		{
+			margin-left:0px !important;
+		}
+		
+			.pb-flex-slider .flex-control-nav li a
+			{
+				width:100%;
+				display:block;
+				box-shadow:none;
+				background:transparent;
+				border-radius:0px;
+				-moz-border-radius:0px;
+				-webkit-border-radius:0px;
+			}
+			
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl .pb-flex-slider
+{
+	direction: ltr;
+}
+
+	/**************************************************************************/
+	/* FlexSlider / Directional navigation									  */
+	/**************************************************************************/
+	
+			body.rtl .pb-flex-slider .flex-direction-nav li a
+			{
+				background-position:center center;
+				-moz-transform: scaleX(-1);
+				-o-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				transform: scaleX(-1);
+				filter: FlipH;
+				-ms-filter: "FlipH";
+			}
+			
+			body.rtl .pb-flex-slider .flex-direction-nav li a.flex-prev
+			{
+				right:0px;
+				left:auto;
+			}
+		
+			body.rtl .pb-flex-slider .flex-direction-nav li a.flex-next
+			{
+				left:0px;
+				right:auto;
+			}
+		
+	/**************************************************************************/
+	/* FlexSlider / Control navigation										  */
+	/**************************************************************************/
+	
+		body.rtl .pb-flex-slider .flex-control-nav li
+		{
+			float:right;
+			left:auto;
+		}
+		
+		body.rtl .pb-flex-slider .flex-control-nav li:first-child
+		{
+			margin-left:2% !important;
+		}
+		
+		body.rtl .pb-flex-slider .flex-control-nav li:last-child
+		{
+			margin-left:0 !important;
+		}
+
+/**************************************************************************/
+/* jQuery FlexSlider Default Theme										  */
+/**************************************************************************/
+
+body.rtl .carousel li
+{
+    margin-left:5px;
+}
+
+body.rtl .flex-direction-nav .flex-prev
+{
+    right:-50px;
+}
+
+body.rtl .flex-direction-nav .flex-next
+{
+    left:-50px;
+    text-align:left;
+}
+
+body.rtl .flexslider:hover .flex-prev
+{
+    right:10px;
+}
+
+body.rtl .flexslider:hover .flex-next
+{
+    left:10px;
+}
+
+body.rtl .flex-pauseplay a
+{
+    right:10px;
+}
+
+body.rtl .flex-control-thumbs li
+{
+    float:right;
+}
+
+@media screen and (max-width: 860px) {
+	body.rtl .flex-direction-nav .flex-prev
+	{
+		right: 10px;
+	}
+	body.rtl .flex-direction-nav .flex-next
+	{
+		left: 10px;
+	}
+}

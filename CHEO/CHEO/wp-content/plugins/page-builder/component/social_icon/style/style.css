@@ -1,0 +1,192 @@
+/******************************************************************************/
+/* Social Icon																  */
+/******************************************************************************/
+
+ul.pb-social-icon
+{
+	margin:0px;
+	padding:0px;
+	font-size:0px;
+	list-style-type:none;
+}
+
+	ul.pb-social-icon>li
+	{
+		display:inline-block;
+		vertical-align:middle;
+		margin:0px 2px 2px 0px;
+	}
+	
+	ul.pb-social-icon>li:last-child
+	{
+		margin-right:0px;
+	}
+	
+		ul.pb-social-icon>li>a
+		{
+			width:46px;
+			height:46px;
+			display:block;
+			text-align:center;
+			box-sizing:border-box;
+			background-repeat:no-repeat;
+			background-position:center center;
+			background-size:40px 40px;
+		}
+		
+			ul.pb-social-icon>li>a>i
+			{
+				line-height:46px;
+				vertical-align:middle;
+			}
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a
+		{
+			opacity:1;
+			border-style:none;
+		}
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a:hover
+		{
+			opacity:0.8;
+			border-style:none;
+		}	
+		
+		/**********************************************************************/
+		/* Social Icon / Native Color										  */
+		/**********************************************************************/
+		
+		ul.pb-social-icon.pb-social-icon-type-fa.pb-social-icon-color-native>li>a
+		{
+			color:#FFFFFF;
+		}
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-behance,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-behance:hover			{ background-color:#30539D; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-bing,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-bing:hover			{ background-color:#FFA616; }
+
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-blogger,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-blogger:hover			{ background-color:#FF6600; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-deezer,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-deezer:hover			{ background-color:#222231; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-designfloat,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-designfloat:hover		{ background-color:#EF7D00; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-deviantart,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-deviantart:hover		{ background-color:#3D895F; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-digg,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-digg:hover			{ background-color:#000000; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-dribbble,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-dribbble:hover		{ background-color:#323232; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-envato,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-envato:hover			{ background-color:#82B540; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-facebook,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-facebook:hover		{ background-color:#3B5998; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-flickr,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-flickr:hover			{ background-color:#FF0084; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-forrst,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-forrst:hover			{ background-color:#398466; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-foursquare,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-foursquare:hover		{ background-color:#0072B1; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-friendfeed,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-friendfeed:hover		{ background-color:#2F72C4; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-googleplus,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-googleplus:hover		{ background-color:#DD4B39; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-github,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-github:hover			{ background-color:#4078C0; }		
+
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-houzz,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-houzz:hover			{ background-color:#7AC143; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-instagram,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-instagram:hover		{ background-color:#517FA4; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-linkedin,	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-linkedin:hover		{ background-color:#007BB6; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-myspace,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-myspace:hover			{ background-color:#030303; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-paypal,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-paypal:hover			{ background-color:#005EA6; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-picasa,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-picasa:hover			{ background-color:#E04A3F; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-pinterest,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-pinterest:hover		{ background-color:#CB2027; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-reddit,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-reddit:hover			{ background-color:#000000; }		
+	
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-rss,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-rss:hover				{ background-color:#FB7629; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-skype,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-skype:hover			{ background-color:#0F6CD4; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-soundcloud,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-soundcloud:hover		{ background-color:#FF4D01; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-spotify,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-spotify:hover			{ background-color:#89B703; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-stumbleupon,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-stumbleupon:hover		{ background-color:#EA4B24; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-technorati,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-technorati:hover		{ background-color:#3FB24D; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-tumblr,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-tumblr:hover			{ background-color:#32506D; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-twitter,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-twitter:hover			{ background-color:#00ACED; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-vimeo,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-vimeo:hover			{ background-color:#AAD450; }	
+
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-weibo,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-weibo:hover			{ background-color:#D52B2B; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-vine,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-vine:hover			{ background-color:#00D9A3; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-wykop,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-wykop:hover			{ background-color:#2E6E99; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-xing,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-xing:hover			{ background-color:#006464; }	
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-yelp,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-yelp:hover			{ background-color:#B4282E; }		
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-youtube,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-youtube:hover			{ background-color:#BB0000; }
+		
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-vk,
+		ul.pb-social-icon.pb-social-icon-color-native>li>a.pb-social-icon-vk:hover				{ background-color:#507299; }		
+		
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl ul.pb-social-icon>li:last-child
+{
+	margin-left:0px;
+	margin-right:0;
+}

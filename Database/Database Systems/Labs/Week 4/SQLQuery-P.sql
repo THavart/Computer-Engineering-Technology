@@ -1,0 +1,5 @@
+SELECT DISTINCT LastName,FirstName,Phone
+FROM CUSTOMER,INVOICE,INVOICE_ITEM
+WHERE CustomerID IN (SELECT CustomerNumber FROM INVOICE,INVOICE_ITEM
+WHERE Item = 'Dress Shirt' AND INVOICE.InvoiceNumber = INVOICE_ITEM.InvoiceNumber)
+ORDER BY LastName ASC, FirstName DESC;

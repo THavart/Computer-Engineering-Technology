@@ -1,0 +1,18 @@
+﻿Build started 4/21/2017 3:55:27 PM.
+     1>Project "C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 2\Scanner\Scanner.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt buffer.c platy_st.c scanner.c
+         scanner.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(156): warning C4001: nonstandard extension 'single line comment' was used
+     1>c:\users\t-hla\documents\2017\compilers\assignments\assignment 2\scanner\table.h(33): warning C4005: 'EOF' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(59) : see previous definition of 'EOF'
+     1>c:\users\t-hla\documents\2017\compilers\assignments\assignment 2\scanner\scanner.c(52): fatal error C1083: Cannot open include file: 'stable.h': No such file or directory
+         platy_st.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(156): warning C4001: nonstandard extension 'single line comment' was used
+         buffer.c
+         Generating Code...
+     1>Done Building Project "C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 2\Scanner\Scanner.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43

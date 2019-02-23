@@ -1,0 +1,277 @@
+/******************************************************************************/
+/* Recent post																  */
+/******************************************************************************/
+
+.pb-recent-post
+{
+	overflow:hidden;
+}
+
+	.pb-recent-post>ul
+	{
+		
+	}
+	
+		.pb-recent-post>ul>li
+		{
+			
+		}
+		
+			.pb-recent-post>ul>li>div
+			{
+				padding-bottom:30px;
+			}
+			
+				/**************************************************************/
+				/* Recent post / Date										  */
+				/**************************************************************/
+				
+				.pb-recent-post>ul>li div.pb-recent-post-date
+				{
+					margin-bottom:20px;
+				}
+		
+				/**************************************************************/
+				/* Recent post / Image										  */
+				/**************************************************************/
+				
+				.pb-recent-post>ul>li div.pb-recent-post-image
+				{
+					position:relative;
+					margin-bottom:20px;
+				}
+				
+					.pb-recent-post>ul>li div.pb-recent-post-image a,
+					.pb-recent-post>ul>li div.pb-recent-post-image img
+					{
+						display:block;
+					}
+				
+					.pb-recent-post>ul>li div.pb-recent-post-image a
+					{
+						overflow:hidden;
+						position:relative;						
+					}
+				
+					.pb-recent-post>ul>li div.pb-recent-post-image>a>span
+					{
+		
+					}
+					
+						.pb-recent-post>ul>li div.pb-recent-post-image>a>span>span
+						{
+								
+						}
+						
+					/**********************************************************/
+					/* Recent post / Image / Comment count					  */
+					/**********************************************************/
+					
+					.pb-recent-post.pb-recent-post-template-1>ul>li div.pb-recent-post-image .pb-recent-post-comment-count
+					{
+						right:0px;
+						bottom:0px;
+						position:absolute;
+					}
+					
+						.pb-recent-post.pb-recent-post-template-1>ul>li div.pb-recent-post-image .pb-recent-post-comment-count>span.pb-recent-post-comment-count-value
+						{
+							display:block;
+							min-width:40px;
+							font-size:20px;
+							font-weight:400;
+							text-align:center;
+							padding:7px 0px 7px 0px;
+						}
+						
+						.pb-recent-post.pb-recent-post-template-1>ul>li div.pb-recent-post-image .pb-recent-post-comment-count>span.pb-recent-post-comment-count-arrow
+						{
+							right:0px;
+							width:0px;
+							height:0px;
+							position:absolute;
+							border-left:10px solid transparent;
+							border-top-style:solid;
+							border-top-width:10px;
+						}
+				
+				/**************************************************************/
+				/* Recent post / Header										  */
+				/**************************************************************/
+				
+				.pb-recent-post.pb-recent-post-template-1>ul>li .pb-recent-post-header
+				{
+					margin-bottom:20px;
+				}
+				
+				.pb-recent-post.pb-recent-post-template-2>ul>li .pb-recent-post-header
+				{
+					margin-bottom:10px;
+				}
+				
+					.pb-recent-post>ul>li .pb-recent-post-header,
+					.pb-recent-post>ul>li .pb-recent-post-header>a
+					{
+						line-height:130%;
+					}
+					
+					.pb-recent-post>ul>li .pb-recent-post-header>a
+					{
+						text-decoration:none;
+					}
+					
+					.pb-recent-post>ul>li .pb-recent-post-header>a:hover
+					{
+						text-decoration:underline;
+					}
+				
+				/**************************************************************/
+				/* Recent post / Excerpt									  */
+				/**************************************************************/
+				
+				.pb-recent-post>ul>li div.pb-recent-post-excerpt
+				{
+					margin-bottom:20px;
+				}
+				
+				/**************************************************************/
+				/* Recent post / Meta										  */
+				/**************************************************************/
+				
+				.pb-recent-post>ul>li div.pb-recent-post-meta
+				{
+					padding:10px 0px 5px 0px;
+				}
+				
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div
+					{
+
+					}
+					
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div,
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div a
+					{
+						
+					}
+					
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div a
+					{
+						text-decoration:none;
+					}
+					
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div a:hover
+					{
+						text-decoration:underline;
+					}
+					
+					/**********************************************************/
+					/* Recent post / Meta / Author							  */
+					/* Recent post / Meta / Category						  */
+					/* Recent post / Meta / Comment Count					  */
+					/**********************************************************/
+					
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-author,
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category,
+					.pb-recent-post.pb-recent-post-template-2>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-comment-count
+					{
+						float:left;
+						padding-left:20px;
+						margin-right:30px;
+						margin-bottom: 5px;
+						background-repeat:no-repeat;
+						background-position:center left;
+					}
+					
+					/**********************************************************/
+					/* Recent post / Meta / Author							  */
+					/**********************************************************/
+	
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-author
+					{
+						
+					}
+					
+					/**********************************************************/
+					/* Recent post / Meta / Category						  */
+					/**********************************************************/
+					
+					.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category
+					{
+
+					}
+					
+						.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category>ul
+						{
+							
+						}
+						
+							.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category>ul>li
+							{
+								float:left;
+							}
+							
+					/**********************************************************/
+					/* Recent post / Meta / Comment Count					  */
+					/**********************************************************/
+				
+					.pb-recent-post.pb-recent-post-template-2>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-comment-count
+					{
+
+					}
+					
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+				/**************************************************************/
+				/* Recent post / Image										  */
+				/**************************************************************/
+						
+					/**********************************************************/
+					/* Recent post / Image / Comment count					  */
+					/**********************************************************/
+					
+					body.rtl .pb-recent-post.pb-recent-post-template-1>ul>li div.pb-recent-post-image .pb-recent-post-comment-count
+					{
+						left:0px;
+						right:auto;
+					}
+					
+						body.rtl .pb-recent-post.pb-recent-post-template-1>ul>li div.pb-recent-post-image .pb-recent-post-comment-count>span.pb-recent-post-comment-count-arrow
+						{
+							left:0px;
+							right:auto;
+							border-right:10px solid transparent;
+							border-left:none;
+						}
+				
+				/**************************************************************/
+				/* Recent post / Meta										  */
+				/**************************************************************/
+				
+					/**********************************************************/
+					/* Recent post / Meta / Author							  */
+					/* Recent post / Meta / Category						  */
+					/* Recent post / Meta / Comment Count					  */
+					/**********************************************************/
+					
+					body.rtl .pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-author,
+					body.rtl .pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category,
+					body.rtl .pb-recent-post.pb-recent-post-template-2>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-comment-count
+					{
+						float:right;
+						padding-right:20px;
+						padding-left:0;
+						margin-left:30px;
+						margin-right:0;
+						background-position:center right;
+					}
+					
+					/**********************************************************/
+					/* Recent post / Meta / Category						  */
+					/**********************************************************/
+						
+							body.rtl .pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category>ul>li
+							{
+								float:right;
+							}

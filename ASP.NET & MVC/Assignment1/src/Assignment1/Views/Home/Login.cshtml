@@ -1,0 +1,28 @@
+﻿@model Assignment1.Models.User
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container-fluid text-center">
+    <form asp-controller="Home" asp-action="Authenticate">
+        <fieldset style="width: 300px">
+            <br />
+            <br />
+            <legend>Login </legend>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="Email" required="required" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name ="Password" required="required" /></td>
+                </tr>
+            </table>
+            <br />
+            <input type="submit" value="Login" />
+        </fieldset>
+    </form>
+</div>

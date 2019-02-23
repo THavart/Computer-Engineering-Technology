@@ -1,0 +1,1 @@
+Select LastName,FirstName,Phone From CUSTOMER; /*B*/

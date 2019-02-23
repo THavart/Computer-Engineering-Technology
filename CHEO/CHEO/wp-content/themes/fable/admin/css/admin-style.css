@@ -1,0 +1,6 @@
+#your-profile .form-table tr.user-rich-editing-wrap, #your-profile .form-table tr.user-admin-color-wrap,
+#your-profile .form-table tr.user-comment-shortcuts-wrap, #your-profile .form-table .show-admin-bar.user-admin-bar-front-wrap, #your-profile .form-table .user-language-wrap,
+#your-profile .form-table tr.user-url-wrap, #your-profile .form-table tr.user-phone-wrap, #your-profile .form-table tr.user-twitter-wrap, #your-profile .form-table tr.user-facebook-wrap,
+#your-profile .form-table tr.user-gplus-wrap, #your-profile .form-table tr.user-linkedin-wrap{
+	display:none;
+}

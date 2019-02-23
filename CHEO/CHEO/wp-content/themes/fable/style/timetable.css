@@ -1,0 +1,101 @@
+/******************************************************************************/
+/* Plugin / Timetable							                              */
+/******************************************************************************/
+
+.tt_event_theme_page
+{
+	width:100%;
+	display:block;
+	box-sizing:border-box;
+}
+
+.tt_timetable .hours
+{
+	font-weight:normal;
+	font-size:16px;
+}
+
+.tt_timetable th
+{
+	color:#707070;
+}
+
+.tt_timetable td
+{
+	color:#707070;
+}
+
+.tt_timetable .event a,
+.tt_timetable .event .event_header
+{
+	font-family:Lato;
+	font-weight:400;
+	font-size:18px;
+	line-height:1.4em;
+}
+
+.tt_timetable .event .after_hour_text,
+.tt_timetable .event .before_hour_text
+{
+	font-size:14px;
+}
+
+.sf-timetable-menu li:hover ul a
+{
+	color:#707070 !important;
+}
+
+.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected:hover
+{
+	color:#56509F;
+}
+
+.tt_tabs .tt_timetable
+{
+	font-family:'Open Sans' !important;
+}
+
+.tt_tabs .tt_timetable td
+{
+	height:40px;
+}
+
+.tt_tabs .tt_timetable .event
+{
+	background:#56509F;
+} 
+
+.tt_tabs_navigation li a:hover,
+.tt_tabs_navigation li a.selected,
+.tt_tabs_navigation li.ui-tabs-active a
+{
+	border-color:#FE6500 !important;
+}
+
+.tt_items_list li
+{
+	background-image:none;
+}
+
+.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected
+{
+	background-color:#FE6500;
+	border-color:#FE6500;
+}
+
+.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected:hover
+{
+	background-color:#FFFFFF;
+	border:1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sf-timetable-menu li ul li a:hover,
+.sf-timetable-menu li ul li.selected a:hover
+{
+	background-color:#FE6500;
+}
+
+.tabs_box_navigation .tabs_box_navigation_icon
+{
+	background:url('../media/image/public/arrow_menu_expand.png') no-repeat scroll 0px 0px transparent; 
+}

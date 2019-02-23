@@ -1,0 +1,11 @@
+﻿body {
+    background-color:aliceblue;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    border: solid black 5px;
+    margin-left: auto;
+    margin-right: auto;
+}

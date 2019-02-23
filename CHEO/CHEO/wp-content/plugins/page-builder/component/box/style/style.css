@@ -1,0 +1,74 @@
+/******************************************************************************/
+/* Box																		  */
+/******************************************************************************/
+
+.pb-box
+{
+	width:100%;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+	.pb-box .pb-box-header
+	{
+		margin-bottom:20px;
+	}
+	
+	.pb-box .pb-box-header+.pb-box-content>p:first-child
+	{
+		padding-top:0px;
+	}
+	
+	.pb-box .pb-box-content
+	{
+		
+	}
+	
+	/**************************************************************************/
+	/* Box / Icon															  */
+	/**************************************************************************/
+	
+	.pb-box.pb-box-icon>.pb-box-inner
+	{
+		background-repeat:no-repeat;
+	}
+	
+	/***/
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-top>.pb-box-inner
+	{
+		background-position:center top;
+	}
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-right>.pb-box-inner
+	{
+		background-position:right center;
+	}
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-bottom>.pb-box-inner
+	{
+		background-position:center bottom;
+	}
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-left>.pb-box-inner
+	{
+		background-position:left center;
+	}
+	
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Box / Icon															  */
+	/**************************************************************************/
+	
+	body.rtl .pb-box.pb-box-icon.pb-box-icon-position-right>.pb-box-inner
+	{
+		background-position:left center;
+	}
+	
+	body.rtl .pb-box.pb-box-icon.pb-box-icon-position-left>.pb-box-inner
+	{
+		background-position:right center;
+	}

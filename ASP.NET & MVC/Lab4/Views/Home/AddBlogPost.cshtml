@@ -1,0 +1,15 @@
+﻿@model Lab4.Models.BlogPost
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-controller="Home" asp-action="CreateBlogPost">
+    Title: <input asp-for="Title">
+    <br />
+    Content: <input asp-for="Content">
+    <br />
+    Posted: <input asp-for="Posted">
+    <br />
+    <input type="submit" value="Add Blog Post">
+</form>

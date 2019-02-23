@@ -1,0 +1,141 @@
+/******************************************************************************/
+/* Widget: Meta																  */
+/* Widget: Pages															  */
+/* Widget: Archive															  */
+/* Widget: Categories														  */
+/******************************************************************************/
+
+.widget_pages>ul ul.children,
+.widget_categories>ul ul.children
+{
+	margin-left:0px;
+	margin-right:0px;
+}
+	
+/******************************************************************************/
+/* Widget: Tags																  */
+/******************************************************************************/
+
+.widget_tag_cloud a
+{
+	float:right;
+	margin-left:5px;
+	margin-right:0px;
+}
+
+/******************************************************************************/
+/* Widget: Theme - Recent Post												  */
+/* Widget: Theme - Most Commented											  */
+/******************************************************************************/
+
+		.widget_theme_widget_post_most_recent>ul>li>a,
+		.widget_theme_widget_post_most_comment>ul>li>a
+		{
+			float:right;
+		}
+		
+		.widget_theme_widget_post_most_recent>ul>li>a+h6,
+		.widget_theme_widget_post_most_recent>ul>li>a+h6+span,
+		.widget_theme_widget_post_most_comment>ul>li>a+h6,
+		.widget_theme_widget_post_most_comment>ul>li>a+h6+span
+		{
+			margin-right:100px;
+			margin-left:0px;
+		}
+		
+		.widget_theme_widget_post_most_recent>ul>li>span,
+		.widget_theme_widget_post_most_comment>ul>li>span
+		{
+			padding-right:30px;
+			padding-left:0px;
+			background-position:right 2px;
+		}
+						
+/******************************************************************************/
+/* Widget: Search															  */
+/******************************************************************************/
+
+	.widget_search input[type="submit"]
+	{
+		float:left;
+	}
+	
+/******************************************************************************/
+/* Widget: RSS																  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Widget: RSS / List													  */
+	/**************************************************************************/
+	
+		/**********************************************************************/
+		/* Widget: RSS / List item											  */
+		/**********************************************************************/
+
+			/******************************************************************/
+			/* Widget: RSS / List item	/ Date								  */
+			/* Widget: RSS / List item	/ Author							  */
+			/******************************************************************/
+
+			.widget_rss>ul>li>cite,
+			.widget_rss>ul>li>span.rss-date
+			{
+				margin-left:10px;
+				margin-right:0px;
+			}
+		
+/******************************************************************************/
+/* Widget: Recent posts														  */
+/* Widget: Recent comments													  */
+/******************************************************************************/
+	
+			.widget_recent_comments>ul>li,
+			.widget_recent_entries>ul>li>a
+			{
+				padding-left:0px;
+				padding-right:30px;
+				background-position:right 4px;
+			}
+			
+			.widget_recent_entries>ul>li>span.post-date,
+			.widget_recent_comments>ul>li>span.post-date
+			{
+				margin-right:30px;
+				margin-left:0px;
+			}
+				
+/******************************************************************************/
+/* Widget: Custom menu														  */
+/******************************************************************************/			
+			.theme-page-sidebar-enable.theme-page-sidebar-right .widget_nav_menu ul li a
+			{
+				border-right-width: 1px !important;
+				border-right-style: solid !important;
+				border-left:none !important;
+			}
+
+			.theme-page-sidebar-enable.theme-page-sidebar-left .widget_nav_menu ul li a
+			{
+				border-left-width: 1px !important;
+				border-left-style: solid !important;
+				border-right:none !important;
+			}
+			
+				.theme-footer-top .widget_nav_menu ul li a>span,
+				.theme-page-sidebar-enable.theme-page-sidebar-right .widget_nav_menu ul li a>span
+				{
+					right:-1px;
+					left:auto;
+				}
+
+				.theme-page-sidebar-enable.theme-page-sidebar-left .widget_nav_menu ul li a>span
+				{
+					left:-1px;
+					right:auto;
+				}
+	
+	.widget_nav_menu .sub-menu
+	{
+		margin-right:20px;
+		margin-left:0px;
+	}

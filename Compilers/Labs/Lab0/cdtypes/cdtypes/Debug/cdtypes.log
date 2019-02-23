@@ -1,0 +1,14 @@
+﻿Build started 1/11/2017 9:36:44 AM.
+     1>Project "C:\Users\t-hla\Documents\2017\Compilers\Labs\Lab0\cdtypes\cdtypes\cdtypes.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Lab0.c
+         Lab0.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(156): warning C4001: nonstandard extension 'single line comment' was used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\t-hla\Documents\2017\Compilers\Labs\Lab0\cdtypes\Debug\cdtypes.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\t-hla\Documents\2017\Compilers\Labs\Lab0\cdtypes\Debug\cdtypes.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\t-hla\Documents\2017\Compilers\Labs\Lab0\cdtypes\Debug\cdtypes.lib" /MACHINE:X86 Debug\Lab0.obj
+         cdtypes.vcxproj -> C:\Users\t-hla\Documents\2017\Compilers\Labs\Lab0\cdtypes\Debug\cdtypes.exe
+     1>Done Building Project "C:\Users\t-hla\Documents\2017\Compilers\Labs\Lab0\cdtypes\cdtypes\cdtypes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.41

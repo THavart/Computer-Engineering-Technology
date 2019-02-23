@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@{
+    Layout = "_Layout";
+}
+
+<h3>Display Session Data</h3> 
+<table>
+    <tr>
+        <td>
+            Email Address:
+        </td>
+        <td>
+            @Context.Session.GetString("emailAddress");
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Password:
+        </td>
+        <td>
+            @Context.Session.GetString("password");
+        </td>
+    </tr>
+</table>
+<br />
+<br />
+<br />
+NOTE: This data will persist in the Session for the lifetime of the users active connection to the website. Default timeout from inactivity is 20 minutes.

@@ -1,0 +1,60 @@
+
+as12, an absolute assembler for Motorola MCU's, version 1.2h
+
+                        ; Add_Odd.asm
+                        
+0000                    Add_odd
+0000 a6 40                      ldaa    0,y    ;loads the value of y, at index 0  into accumulator a
+0002 c6 02                      ldab    #$02   ;loads 2 into accumulator b
+0004 12                         mul
+0005 18 0f                      tba
+0007 81 09                      cmpa    #$09
+0009 23 0f                      bls     lessT9
+000b 20 00                      bra     moreT9
+                                
+000d 8b 06              moreT9  adda    #$06
+000f 48                         lsla
+0010 48                         lsla
+0011 48                         lsla
+0012 48                         lsla
+0013 44                         lsra
+0014 44                         lsra
+0015 44                         lsra
+0016 44                         lsra
+0017 42                         inca
+0018 20 01                      bra     NextNum
+                                
+001a 36                 lessT9  psha
+                        
+001b a6 42              NextNum ldaa    2,y
+001d c6 02                      ldab    #$02
+001f 12                         mul
+0020 18 0f                      tba
+0022 81 09                      cmpa    #$09
+0024 23 0f                      bls     less2T9
+0026 20 00                      bra     more2T9
+                        
+0028 8b 06              more2T9 adda    #$06
+002a 48                         lsla
+002b 48                         lsla
+002c 48                         lsla
+002d 48                         lsla
+002e 44                         lsra
+002f 44                         lsra
+0030 44                         lsra
+0031 44                         lsra
+0032 42                         inca
+0033 20 01                      bra     AddVal
+                        
+0035 36                 less2T9 psha
+                        
+0036 32                 AddVal  pula
+0037 33                         pulb
+0038 18 06                      aba
+003a 18 07                      daa
+003c 36                         psha
+003d 3d                         rts
+
+Executed: Wed Apr 20 12:20:43 2016
+Total cycles: 77, Total bytes: 62
+Total errors: 0, Total warnings: 0

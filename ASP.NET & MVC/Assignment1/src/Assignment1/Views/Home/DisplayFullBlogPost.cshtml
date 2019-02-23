@@ -1,0 +1,41 @@
+﻿@model Assignment1.Models.BlogPost
+@{
+    ViewBag.Title = @Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid text-center">
+
+    <h1>@Model.Title</h1>
+    <h4>Posted by @ViewData["PosterFirstName"] @ViewData["PosterLastName"]</h4>
+    <h5>@ViewData["PosterEmail"] at: @Model.Posted</h5>
+    <br />
+    <br />
+    <p>@Model.Content</p>
+    <br />
+    <br />
+    <h2>Comments: </h2>
+    <ul>
+    @foreach (var item in (IEnumerable<Assignment1.Models.Comment>)ViewData["comments"])
+    {
+        <li class="list-group-item">
+            @item.Content;
+            <br />
+            <br />
+        </li>
+    }
+        </ul>
+
+
+    @if (ViewData["UserId"] != null)
+    {
+        <form asp-controller="Home" asp-action="CommentBlogPost" asp-route-id="@Model.BlogPostId">
+            <input type="hidden" value="@ViewData["UserId"]" name="UserId" />
+            <textarea rows="5" cols="160" placeholder="Comment" name="comment"></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Comment" />
+        </form>
+        <br />
+    }
+</div>

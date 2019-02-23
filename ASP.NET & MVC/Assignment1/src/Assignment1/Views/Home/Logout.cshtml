@@ -1,0 +1,19 @@
+﻿@model Assignment1.Models.User
+@{
+    ViewBag.Title = "Logout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid text-center">
+    <form asp-controller="Home" asp-action="Dethenticate">
+        <fieldset style="width: 300px">
+            <br />
+            <br />
+            <legend>Logout </legend>
+                You logged out fool! <br /> No comments for you!
+           
+            <br />
+            <input type="submit" value="Home" />
+        </fieldset>
+    </form>
+</div>

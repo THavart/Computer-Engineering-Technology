@@ -1,0 +1,572 @@
+/******************************************************************************/
+/* Default styles															  */
+/******************************************************************************/
+
+body
+{
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+/******************************************************************************/
+/* List			`															  */
+/******************************************************************************/
+
+ol
+{
+	margin-right:20px;
+	margin-left:0px;
+}
+
+ul>li>ul,ol>li>ol
+{
+	margin-right:20px;
+	margin-left:0px;
+}
+
+ul>li
+{
+	padding-right:30px;
+	padding-left:0px;
+	background-position:right 2px;
+}
+	
+/******************************************************************************/
+/* Go to top button															  */
+/******************************************************************************/
+
+#theme-go-to-top
+{
+	left:30px;
+	right:auto;
+}
+
+/******************************************************************************/
+/* Page layout																  */
+/******************************************************************************/
+
+	.theme-page-sidebar-enable>.theme-column-left
+	{
+		float:right;
+	}
+	
+	.theme-page-sidebar-enable>.theme-column-right
+	{
+		float:left;
+	}
+		
+/******************************************************************************/
+/* Layout																	  */
+/******************************************************************************/
+	
+	/**************************************************************************/
+	/* Layout / Layout 50x50 (in percentage)								  */
+	/**************************************************************************/
+	
+	.theme-layout-50x50>.theme-layout-column-left 
+	{ 
+		float:right; 
+	}
+
+	.theme-layout-50x50>.theme-layout-column-right 
+	{ 
+		float:left; 
+	}
+	
+	/**************************************************************************/
+	/* Layout / Layout 33x33x33 (in percentage)								  */
+	/**************************************************************************/
+	
+	.theme-layout-33x33x33>.theme-layout-column-left,
+	.theme-layout-33x33x33>.theme-layout-column-center
+	{
+		float:right; 
+		margin-left:3.125%;
+		margin-right:0px;
+	}
+
+	.theme-layout-33x33x33>.theme-layout-column-right
+	{ 
+		float:left; 
+	}
+	
+	/**************************************************************************/
+	/* Layout / Layout 25x25x25x25 (in percentage)							  */
+	/**************************************************************************/
+
+	.theme-layout-25x25x25x25>.theme-layout-column-left,
+	.theme-layout-25x25x25x25>.theme-layout-column-center-left,
+	.theme-layout-25x25x25x25>.theme-layout-column-center-right
+	{
+		float:right; 
+		margin-left:3.125%;
+		margin-right:0px;
+	}
+
+	.theme-layout-25x25x25x25>.theme-layout-column-right 
+	{ 
+		float:left; 
+	}
+	
+	/**************************************************************************/
+	/* Layout / Layout 66x33 (in percentage)								  */
+	/**************************************************************************/
+	
+	.theme-layout-66x33>.theme-layout-column-left 
+	{ 
+		
+		float:right; 
+		margin-left:3.1346875%;
+		margin-right:0px;
+	}
+
+	.theme-layout-66x33>.theme-layout-column-right 
+	{ 
+		float:left; 
+	}
+	
+	/**************************************************************************/
+	/* Layout / Layout 33x66 (in percentage)								  */
+	/**************************************************************************/
+	
+	.theme-layout-33x66>.theme-layout-column-left 
+	{ 
+		float:right; 
+		margin-left:3.1346875%;
+		margin-right:0px;
+	}
+
+	.theme-layout-33x66>.theme-layout-column-right 
+	{ 
+		float:left; 
+	}
+		
+	/**************************************************************************/
+	/* Layout / Layout 25x75 (in percentage)								  */
+	/**************************************************************************/
+	
+	.theme-layout-25x75>.theme-layout-column-left 
+	{ 
+		float:right;
+		margin-left:3.125%;
+		margin-right:0px;
+	}
+
+	.theme-layout-25x75>.theme-layout-column-right 
+	{ 
+		float:left; 
+	}
+	
+	/**************************************************************************/
+	/* Layout / Layout 75x25 (in percentage)								  */
+	/**************************************************************************/
+	
+	.theme-layout-75x25>.theme-layout-column-left 
+	{ 
+		float:right; 
+		margin-right:0px;
+		margin-left:3.125%;
+	}
+
+	.theme-layout-75x25>.theme-layout-column-right 
+	{ 
+		float:left;
+	}
+	
+/******************************************************************************/
+/* Form																		  */
+/******************************************************************************/
+
+.widget_search label,
+label.pb-infield-label,
+label.theme-infield-label,
+.pb-contact-form>div>ul>li label.pb-infield-label
+{
+	left:auto;
+	right:2px;
+}
+
+/******************************************************************************/
+/* Blog																	      */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Post	/ Meta														      */
+	/**************************************************************************/
+
+		.theme-post .theme-post-meta>div
+		{
+			padding-right:30px;
+			padding-left:0px;
+			background-position:center right;
+		}
+
+	/**************************************************************************/
+	/* Post	/ Post navigation												  */
+	/**************************************************************************/
+	
+		div.theme-post-navigation a.theme-post-navigation-prev
+		{
+			left:-1px;
+			right:auto;
+			text-align:left;
+			border-right-width:0px;
+		}
+		
+		div.theme-post-navigation a.theme-post-navigation-next
+		{
+			right:-1px;
+			left:auto;
+			text-align:right;
+			border-left-width:0px;
+		}
+		
+			div.theme-post-navigation a.theme-post-navigation-prev span.theme-post-navigation-arrow
+			{
+				right:20px;
+				left:auto;
+			}
+		
+			div.theme-post-navigation a.theme-post-navigation-next span.theme-post-navigation-arrow
+			{
+				left:20px;
+				right:auto;
+			}
+			
+			div.theme-post-navigation a.theme-post-navigation-prev span.theme-post-navigation-arrow,
+			div.theme-post-navigation a.theme-post-navigation-next span.theme-post-navigation-arrow
+			{
+				-moz-transform:scaleX(-1);
+				-o-transform:scaleX(-1);
+				-webkit-transform:scaleX(-1);
+				transform:scaleX(-1);
+				filter:FlipH;
+				-ms-filter:"FlipH";
+			}
+			
+		div.theme-post-navigation a.theme-post-navigation-prev
+		{
+			float:right;
+		}
+	
+		div.theme-post-navigation a.theme-post-navigation-next
+		{
+			float:left;
+		}	
+
+/******************************************************************************/
+/* Comments																      */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Comments / Misc														  */
+	/**************************************************************************/
+	
+	#comments_list>ul>li ul.children,
+	#comments_list>ul>li ul.children li,
+	#comments_list>ul>li .theme-comment-meta,
+	#comments_list>ul>li .theme-comment-content
+	{
+		margin-right:100px;
+		margin-left:0px;
+	}
+
+	#comments_list>ul>li ul.children li ul.children,
+	#comments_list>ul>li ul.children li ul.children li,
+	#comments_list>ul>li .theme-comment-meta .theme-comment-meta,
+	#comments_list>ul>li .theme-comment-content .theme-comment-content
+	{
+		margin-right:0px;
+		margin-left:0px;
+	}
+
+			/******************************************************************/
+			/*	Comments / Comments list / Comment / Avatar					  */
+			/******************************************************************/
+		
+			#comments_list>ul>li .theme-comment-avatar
+			{
+				float:right;
+			}
+
+			/******************************************************************/
+			/*	Comments / Comments list / Comment / Meta					  */
+			/******************************************************************/
+			
+				#comments_list>ul>li .theme-comment-meta>.theme-comment-meta-date,
+				#comments_list>ul>li .theme-comment-meta>.theme-comment-meta-reply,
+				#comments_list>ul>li .theme-comment-meta>.theme-comment-meta-author
+				{
+					float:right;
+				}
+				
+				#comments_list>ul>li .theme-comment-meta>.theme-comment-meta-author
+				{
+					margin-left:5px;
+					margin-right:0px;
+				}
+				
+				#comments_list>ul>li .theme-comment-meta>.theme-comment-meta-date
+				{
+					padding-left:0px;
+					padding-right:25px;
+					background-position:center right;
+				}
+			
+/******************************************************************************/
+/* Comment form															      */
+/******************************************************************************/
+
+	#reply-title #cancel-comment-reply-link
+	{
+		left:0px;
+		right:auto;
+	}
+		
+/******************************************************************************/
+/* Component					                                              */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Component / Accordion	                                              */
+	/**************************************************************************/			
+			
+			.pb-accordion .ui-accordion-header .ui-accordion-header-icon
+			{
+				float:right;
+			}
+				
+			.pb-accordion .ui-accordion-header a
+			{
+				margin-right:60px;
+				margin-left:0px;
+				padding:7px 0px 7px 10px;
+			}
+			
+		.pb-accordion .ui-accordion-content
+		{
+			padding:0px;
+			margin-right:60px;
+			margin-left:0px;
+		}
+		
+	/**************************************************************************/
+	/* Component / Audio		                                              */
+	/**************************************************************************/
+
+	.pb-audio,
+	.pb-audio:before,
+	.pb-audio *,
+	.pb-audio:after
+	{
+		direction:ltr;
+	}
+
+	/**************************************************************************/
+	/* Component / Blockquote	                                              */
+	/**************************************************************************/
+
+		.pb-blockquote blockquote
+		{
+			background-position:right top;		
+		}
+		
+		.pb-blockquote .pb-blockquote-author
+		{
+			text-align:right;
+		}
+		
+	/**************************************************************************/
+	/* Component / Box			                                              */
+	/**************************************************************************/
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-right.pb-box-icon-size-small>.pb-box-inner
+	{
+		padding-left:36px;
+		padding-right:0px;
+	}
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-right.pb-box-icon-size-medium>.pb-box-inner
+	{
+		padding-left:100px;
+		padding-right:0px;
+	}
+
+	.pb-box.pb-box-icon.pb-box-icon-position-right.pb-box-icon-size-large>.pb-box-inner
+	{
+		padding-left:100px;
+		padding-right:0px;
+	}
+	
+	/***/
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-left.pb-box-icon-size-small>.pb-box-inner
+	{
+		padding-right:36px;
+		padding-left:0px;
+	}
+	
+	.pb-box.pb-box-icon.pb-box-icon-position-left.pb-box-icon-size-medium>.pb-box-inner
+	{
+		padding-right:100px;
+		padding-left:0px;
+	}
+
+	.pb-box.pb-box-icon.pb-box-icon-position-left.pb-box-icon-size-large>.pb-box-inner
+	{
+		padding-right:100px;
+		padding-left:0px;
+	}
+
+	/**************************************************************************/
+	/* Component / Counter List	                                              */
+	/**************************************************************************/
+					
+					div.pb-counter-list>ul>li>span.pb-counter-list-label
+					{
+						float:right;
+					}
+
+					div.pb-counter-list>ul>li>span.pb-counter-list-value
+					{
+						float:left;
+					}
+
+	/**************************************************************************/
+	/* Component / Menu														  */
+	/**************************************************************************/
+
+	sup.pb-menu-new
+	{
+		margin-right:5px;
+		margin-left:0px;
+	}
+	
+	.pb-menu .pb-menu-responsive .nav-toggle>span
+	{
+		border-left:none;
+	}
+
+	/**************************************************************************/
+	/* Component / Notice		                                              */
+	/**************************************************************************/
+
+	.pb-notice
+	{
+		background-position:right 34px center;
+	}
+	
+		.pb-notice.pb-notice-icon>.pb-notice-content
+		{
+			margin-right:100px;
+			margin-left:0px;
+		}
+
+			.pb-notice>.pb-notice-content>.pb-notice-timeline
+			{
+				right:0px;
+				left:auto;
+			}
+
+	/**************************************************************************/
+	/* Component / Recent Post												  */
+	/**************************************************************************/
+
+			.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-author,
+			.pb-recent-post>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-category,
+			.pb-recent-post.pb-recent-post-template-2>ul>li div.pb-recent-post-meta>div.pb-recent-post-meta-comment-count
+			{
+				padding-left:0px;
+				padding-right:30px;
+			}
+
+	/**************************************************************************/
+	/* Component / Tab														  */
+	/**************************************************************************/
+
+			.pb-tab>.ui-tabs-nav>li
+			{
+				margin-right:0px;
+				margin-left:20px;
+			}
+
+				.pb-tab>.ui-tabs-nav>li.ui-state-hover>span,
+				.pb-tab>.ui-tabs-nav>li.ui-state-active>span
+				{
+					right:50%;
+					left:auto;
+					margin-left:0px;
+					margin-right:-8px;
+				}
+
+	/**************************************************************************/
+	/* Component / Team														  */
+	/**************************************************************************/
+
+		/**********************************************************************/
+		/* Component / Team / List											  */
+		/**********************************************************************/
+	
+			/******************************************************************/
+			/* Component / Team / List / List Element						  */
+			/******************************************************************/
+		
+				/**************************************************************/
+				/* Component / Team / List / List Element / Skill list		  */
+				/**************************************************************/		
+
+						.pb-team>ul>li .pb-team-skill-box>.pb-team-skill>.pb-team-skill-label
+						{
+							float:right;
+						}
+
+						.pb-team>ul>li .pb-team-skill-box>.pb-team-skill>.pb-team-skill-value
+						{
+							float:left;
+						}
+		
+/******************************************************************************/
+/* WP classes					                                              */
+/******************************************************************************/
+
+.alignleft
+{
+	margin-right:0px !important;
+	margin-left:auto !important;
+	text-align:right !important;
+}
+
+.alignright
+{
+	margin-right:auto !important;
+	margin-left:0px !important;
+	text-align:left !important;
+}
+
+/******************************************************************************/
+/* Button arrow				    										      */
+/******************************************************************************/
+
+.pb-button-arrow 
+{
+	margin-right:10px;
+	margin-left:0px;
+	border-width:2px 0px 0px 2px;
+}
+
+.pb-button-arrow-right
+{
+	transform:rotate(315deg);
+	-ms-transform:rotate(315deg);
+	-moz-transform:rotate(315deg);
+	-webkit-transform:rotate(315deg);
+}
+
+/******************************************************************************/
+/* List of icons				                                              */
+/******************************************************************************/
+
+.pb-icon-list>li
+{
+	float:right;
+}

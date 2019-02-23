@@ -1,0 +1,144 @@
+/******************************************************************************/
+/* Nivo slider																  */
+/******************************************************************************/
+
+.pb-nivo-slider
+{
+	z-index:1;
+	position:relative;
+}
+
+	.pb-nivo-slider img
+	{
+		display:none;
+	}
+	
+	/**************************************************************************/
+	/* Nivo slider / Direction navigation									  */
+	/**************************************************************************/	
+	
+	.pb-nivo-slider .nivo-directionNav
+	{
+
+	}	
+	
+		.pb-nivo-slider .nivo-directionNav .nivo-prevNav,
+		.pb-nivo-slider .nivo-directionNav .nivo-nextNav
+		{
+			top:50%;
+			width:40px;
+			height:80px;
+			margin-top:-40px;
+			background-repeat:no-repeat;
+			background-image:url('../image/direction_navigation.png');
+		}
+	
+		.pb-nivo-slider .nivo-directionNav .nivo-prevNav
+		{
+			background-position:0px 0px;
+		}	
+		
+		.pb-nivo-slider .nivo-directionNav .nivo-prevNav:hover
+		{
+			background-position:0px -80px;
+		}
+		
+		.pb-nivo-slider .nivo-directionNav .nivo-nextNav
+		{
+			background-position:-40px 0px;
+		}	
+	
+		.pb-nivo-slider .nivo-directionNav .nivo-nextNav:hover
+		{
+			background-position:-40px -80px;
+		}
+		
+	/**************************************************************************/
+	/* Nivo slider / Control navigation										  */
+	/**************************************************************************/	
+	
+	.pb-nivo-slider .nivo-controlNav.nivo-thumbs-enabled
+	{
+		height:100%;
+		width:100%;
+		overflow:hidden;
+	}	
+	
+	.pb-nivo-slider .nivo-controlNav.nivo-thumbs-enabled img
+	{
+		display:block;
+	}	
+	
+	.pb-nivo-slider .nivo-controlNav a
+	{
+		margin-right:0px;
+	}
+	
+	.pb-nivo-slider .nivo-controlNav a:first-child
+	{
+		margin-left:0px !important;
+	}
+	
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/* Nivo slider / Direction navigation									  */
+	/**************************************************************************/
+	
+		body.rtl .pb-nivo-slider .nivo-directionNav .nivo-prevNav,
+		body.rtl .pb-nivo-slider .nivo-directionNav .nivo-nextNav
+		{
+			-moz-transform: scaleX(-1);
+			-o-transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+			filter: FlipH;
+			-ms-filter: "FlipH";
+		}
+		
+	/**************************************************************************/
+	/* Nivo slider / Control navigation										  */
+	/**************************************************************************/	
+	
+	body.rtl .pb-nivo-slider .nivo-controlNav a
+	{
+		margin-left:0px;
+		margin-right:0;
+		float:right;
+	}
+	
+	body.rtl .pb-nivo-slider .nivo-controlNav a:first-child
+	{
+		margin-right:0px !important;
+		margin-left:0 !important;
+	}
+
+/**************************************************************************/
+/* jQuery Nivo Slider v3.2												  */
+/**************************************************************************/	
+
+body.rtl .nivoSlider a.nivo-imageLink
+{
+	right:0px;
+	left:auto;
+}
+
+body.rtl .nivo-caption
+{
+	right:0px;
+	left:auto;
+}
+
+body.rtl .nivo-prevNav
+{
+	right:0px;
+	left:auto;
+}
+
+body.rtl .nivo-nextNav
+{
+	left:0px;
+	right:auto;
+}

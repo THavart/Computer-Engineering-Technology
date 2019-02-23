@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model IEnumerable<Lab4.Models.BlogPost>
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <header>
+        <h3>User Blog</h3>
+        <a href="/">Home</a>&nbsp;&nbsp;&nbsp;
+        @if (Context.Session.GetString("FirstName") != null && (Context.Session.GetString("Role") == "1"))
+        {
+            <a href="/Home/AddBlogPost">Add Blog Post</a>
+        }
+       
+            <a href="/Home/AddUser">Add User</a>
+        <a href="/Home/UserLogin">User Login</a>
+        
+    </header>
+    <div>
+    <style>
+        tr {
+            vertical-align: central;
+            text-align: center;
+        }
+    </style>
+
+        <h2>Home</h2>
+        <table style="width: 100%;">
+            <tr>
+                <th>
+                    Blogs
+                </th>
+                
+            </tr>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        @if((Context.Session.GetString("Role") == "1")){
+                        <a asp-controller="Home" asp-action="EditMovie" asp-route-id="@item.BlogPostId">Edit</a>;
+                        <br />
+                        <br />
+                        <a asp-controller="Home" asp-action="DeleteMovie" asp-route-id="@item.BlogPostId">Delete</a>;
+                        }
+                    </td>
+                    <td>
+                        @item.Title
+                        @item.Content
+                        @item.Posted
+                    </td>
+                   
+                </tr>
+            }
+        </table>
+
+  </div>
+    <footer>
+            &copy; 2017 - Brad St John
+            <br />
+            <br />
+            
+        </footer>
+
+</body>
+

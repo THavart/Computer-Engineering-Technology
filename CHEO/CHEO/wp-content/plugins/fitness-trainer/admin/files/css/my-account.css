@@ -1,0 +1,622 @@
+
+	ol li{font-size:22px; text-transform:uppercase; letter-spacing:2px; font-weight:300}
+	section{ position:relative}
+	section.step-1{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-1::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-1::after{content:"01"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+
+	section.step-2{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-2::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-2::after{content:"02"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+
+	section.step-3{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-3::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-3::after{content:"03"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	section.step-4{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-4::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-4::after{content:"04"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	section.step-5{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-5::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-5::after{content:"05"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	section.step-6{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-6::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-6::after{content:"06"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	section.step-7{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-7::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-7::after{content:"07"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	
+	section.step-8{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-8::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-8::after{content:"08"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	
+	section.step-9{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-9::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-9::after{content:"09"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	
+	section.step-10{ margin:20px 120px 10px 0; border-right:1px solid #ffc3cc; padding:10px}
+	section.step-10::before{content:"Step"; position:absolute; right:-120px; top:45%; margin-top:-28px; text-transform:uppercase; letter-spacing:6px; font-size:26px; font-weight:100; color:#89a2c1}
+	section.step-10::after{content:"10"; position:absolute; right:-110px; top:45%; text-transform:uppercase; letter-spacing:6px; font-size:44px; font-weight:500; color:#89a2c1; font-weight:700}
+	
+	
+	
+	@media (max-width: 767px) {
+		.day-count{ position:relative; text-align:center}
+		tr{ display:inline-block !important}
+		.day-count .big{font-size:64px; line-height:32px}
+		section.step-1, section.step-2,section.step-3{ margin:0; border:0}
+		section.step-1::before{ content:"Step 1" !important; position:relative; }
+		section.step-1::after{ display:none}
+
+		section.step-2::before{ content:"Step 2" !important; position:relative; }
+		section.step-2::after{ display:none}
+
+		section.step-3::before{ content:"Step 3" !important; position:relative; }
+		section.step-3::after{ display:none}
+		section.step-4::before{ content:"Step 4" !important; position:relative; }
+		section.step-4::after{ display:none}
+
+		section.step-5::before{ content:"Step 5" !important; position:relative; }
+		section.step-5::after{ display:none}
+
+
+	}
+
+  /***
+  New Profile Page
+  ***/
+      .training-calendar{margin:auto; padding:0}
+	 .training-calendar li{ list-style:none; display:inline-block; width:33%; padding:20px 10px 10px 10px; position:relative; margin:0; height:150px; vertical-align:top}
+	 .training-calendar li.odd{background:#fcfcfc}
+	 .training-calendar li.even{background:#f3f3f3}
+	 .training-calendar li h5{ position:absolute; right:15px; top:5px; color:#999}
+	 .training-calendar li h4{ font-size:15px; font-weight:500 !important; letter-spacing:1px; margin-top: 15px} 
+.done-training{margin-bottom:30px !important; font-size:22px !important; letter-spacing:10px !important; color:white !important; border:none !important; text-transform:uppercase; font-weight:800 !important; padding:10px 30px !important}
+  #training_done{ font-size:26px; letter-spacing:2px; text-align:center; margin-bottom:20px !important;}
+  .image-container {
+		position: relative;
+		height: 200px;
+		width: 100%;
+	}
+  .media-modal-close, .media-modal-close span.media-modal-icon {
+    width: auto !important;
+  }
+  .bs-callout {
+    margin: 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+  }
+  .bs-callout-info {
+    background-color: #E4F1FE;
+    border-color: #22A7F0;
+  }
+  .html-active .switch-html, .tmce-active .switch-tmce {
+    height: 28px!important;
+  }
+  .wp-switch-editor {
+    height: 28px!important;
+  }
+
+  #profile-account2 label {
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #fff;
+    display: block;
+  }
+
+  #profile-account2  .form-control {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius:0 !important;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  input[type="text"].form-control-solid,
+  input[type="password"].form-control-solid
+  input[type="email"].form-control-solid {
+    /*background-color: #F1F3F8;*/
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 2px solid #cecece;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  input[type="text"].form-control-solid:focus,
+  input[type="password"].form-control-solid:focus,
+  input[type="email"].form-control-solid:focus{
+    border: 2px solid #333;
+    box-shadow: none;
+
+  }
+
+
+  .form-control-solid,
+  .form-control-solid
+  .form-control-solid {
+    /*background-color: #F1F3F8;*/
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 2px solid #cecece;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .form-control-solid:focus,
+  .form-control-solid:focus,
+  .form-control-solid:focus{
+    border: 2px solid #333;
+    box-shadow: none;
+
+  }
+
+
+  #profile-account2 .fa-times{
+    margin: 0 8px 0 12px;
+  }
+  #profile-account2 .fa-pencil{
+    margin: 0 8px 0 12px;
+  }
+
+  #profile-account2 .btn .default {
+    color: #333333;
+    background: #e5e5e5;
+    background-image: none;
+    border-color: "";
+  }
+
+  #profile-account2 .default {
+    color: #333333;
+    background: #e5e5e5;
+    border-color: "";
+  }
+
+  #profile-account2 .green-haze{
+    color: white;
+    background: #<?php echo $color_setting; ?> !important;
+    background-image: none;
+    box-shadow: none;
+    outline: none;
+    filter:none;
+  }
+  .btn-primary {
+	background-color: #<?php echo $color_setting; ?>!important;
+	}
+  #profile-account2  .form-control:focus{
+    border-color: #999999;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  #profile-account2  .profile-usertitle-name {
+    color: #5a7391;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  #profile-account2 .nav  li a {
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 0;
+  }
+  #profile-account2  .profile-sidebar {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+    padding: 0 0 10px 15p
+    x;
+  }
+  #profile-account2 .active{
+    background-color: #fff;
+  }
+  #profile-account2 .profile-usermenu .active{
+   border-left: 5px solid #<?php echo $color_setting; ?>;
+ }
+ #profile-account2  .icon-round{
+  border: 1px solid #93a3b5;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 8px !important;
+}
+#profile-account2  .nav{
+  margin-left: 0;
+}
+#profile-account2  .nav li{
+  margin-left: 0;
+}
+#profile-account2  .nav li:hover .icon-round{
+  border: 1px solid #<?php echo $color_setting; ?>;
+}
+
+#profile-account2  .portlet-title  .nav li:hover{
+  border-bottom: 5px solid #<?php echo $color_setting; ?>;
+}
+#profile-account2  .portlet-title  .nav li.active{
+  border-bottom: 5px solid #<?php echo $color_setting; ?>;
+}
+#profile-account2  .portlet-title  .nav li a:focus{
+  box-shadow: 0 0 0 0px #5b9dd9,0 0 0px 0px rgba(30,140,190,.0);
+  -web-kit-box-shadow:  0 0 0 0px #5b9dd9,0 0 0px 0px rgba(30,140,190,.0);
+}
+#profile-account2  .nav-tabs > li.active > a{
+  border: 1px solid #fff;
+
+}
+#profile-account2  .profile-content {
+  overflow: hidden;
+  background: #fff;
+  padding: 15px;
+  border: 0;
+  border: 1px solid #f3f3f3;
+}
+#profile-account2 a{
+  border:none !important;
+  text-decoration: none;
+}
+/* PROFILE SIDEBAR */
+#profile-account2  .profile-sidebar-portlet {
+  padding: 30px 5px 0  !important;
+}
+
+#profile-account2  .profile-userpic {
+  padding: 20px 20px 0px;
+}
+
+#profile-account2  .profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #f4f4f4;
+  width: 100%;
+  height: auto;
+
+}
+
+#profile-account2  .profile-usertitle {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#profile-account2  .profile-usertitle-name {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+#profile-account2  .profile-usertitle-job {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 7px;
+}
+
+#profile-account2  .profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+  /*padding-bottom: 30px;*/
+  /*border-bottom: 1px solid #f3f3f3;*/
+}
+
+#profile-account2  .profile-userbuttons .btn {
+  margin-right: 5px;
+}
+#profile-account2  .profile-userbuttons .btn:last-child {
+  margin-right: 0;
+}
+#profile-account2  .caption {
+  float: left;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 100%;
+  padding: 10px 0;
+}
+#profile-account2  .profile-userbuttons button {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+}
+
+#profile-account2  .profile-usermenu {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+#profile-account2  .profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+  padding: 0;
+}
+
+#profile-account2  .profile-usermenu ul li:first-child {
+  border-top: 1px solid #f0f4f7;
+}
+
+#profile-account2  .profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 14px;
+  padding: 10px;
+
+}
+
+#profile-account2  .profile-usermenu ul li a {
+  font-size: 14px;
+}
+
+#profile-account2  .profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #<?php echo $color_setting; ?>;
+}
+
+.profile-usermenu ul li.active a {
+  color: #<?php echo $color_setting; ?> !important;
+  background-color: #f6f9fb;
+  border-left: 2px solid #<?php echo $color_setting; ?>;
+  margin-left: -2px;
+}
+
+#profile-account2  .profile-stat {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.about-profile-owner {
+  padding: 30px;
+  display: inline-block;
+  width: 100%;
+}
+.about-profile-owner .profile-desc-title {
+  color: #333;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+#profile-account2  .profile-stat-title {
+  color: #7f90a4;
+  font-size: 25px;
+  text-align: center;
+}
+#profile-account2 .tabbable-line{
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 30px;
+}
+#profile-account2 .profile-stat-text {
+  color: #<?php echo $color_setting; ?>;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+}
+#profile-account2 .btn-circle{
+  border-top-right-radius:30px ;
+  border-top-left-radius:30px ;
+  outline: 0;
+  border-bottom-right-radius:30px ;
+  border-bottom-left-radius:30px ;
+}
+#profile-account2 .profile-desc-title {
+  color: #333;
+  font-size: 17px;
+  font-weight: 600;
+}
+#profile-account2 .profile-desc-text {
+  color: #7e8c9e;
+  font-size: 14px;
+  display: block;
+}
+#profile-account2 .caption-subject{
+  font-weight: 600;
+  font-size: 15px !important;
+  text-transform: uppercase;
+  color: #<?php echo $color_setting; ?> !important;
+}
+#profile-account2 .profile-desc-link i {
+  width: 22px;
+  font-size: 25px;
+  color: #abb6c4;
+  margin-right: 5px;
+}
+#profile-account2 .portlet{
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+#profile-account2 .portlet0{
+  border: 0;
+}
+
+#profile-account2 .profile-desc-link {
+  float: left;
+}
+#profile-account2 .profile-desc-link a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #<?php echo $color_setting; ?>;
+}
+
+#profile-account2 .profile-desc-link a  i {
+  font-size: 32px;
+  margin-right: 18px;
+}
+
+#profile-account2 .profile-desc-link a  span {
+  display: none;
+}
+
+
+
+#profile-account2 .profile-sidebar-portlet {
+  padding: 0 !important;
+  _box-shadow: 0px 1px 3px 1px rgba(0,0,0, .1);
+  border: 1px solid #f3f3f3;
+  border-radius: 4px;
+}
+
+
+#profile-account2 .margin-top-20{
+  margin-top: 20px
+}
+#profile-account2  h2 {
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 15px;
+  display: block;
+  color:#<?php echo $color_setting; ?> !important;
+  border-bottom: 1px solid #ececec;
+}
+#profile-account2 .nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+#profile-account2 .nav-tabs {
+  background: none;
+  margin: 0;
+  float: right;
+  display: inline-block;
+  border: 0;
+}
+
+#profile-account2 .around-separetor{
+  background-color: #eff3f8 !important;
+}
+
+#profile-account2 ul.iv-pagination {
+ display: inline-block;
+ padding-left: 0;
+ margin: 20px 0;
+ border-radius: 4px;
+ list-style: none;
+}
+#profile-account2 .list-pagi{
+  border: 1px solid transparent;
+  float: left;
+  margin-left: .5em;
+  padding: 0;
+  list-style: none;
+  border-radius: 3px;
+}
+#profile-account2 .list-pagi a{
+  color: #666;
+  padding: 1px 10px;
+}
+#profile-account2 .list-pagi:hover{
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #333;
+}
+#profile-account2 .list-pagi:hover a{
+  color: #333;
+  text-decoration: none;
+}
+#profile-account2 .active-li{
+  border: 1px solid #ddd;
+  background: transparent;
+}
+#profile-account2 .active-li a{
+  color: #333;
+}
+
+.listing-table {
+  width: 100%;
+  margin-top: 20px;
+}
+/*Updata 12-01-2018*/
+.activities-content h3{
+	margin-bottom: 5px;
+    margin-top: 10px;
+    color: #f3b329;
+}
+@media (max-width: 991px) {
+  .listing-table {
+  overflow-x: auto;
+
+  }
+}
+
+.listing-table .table {
+  min-width: 400px;
+}
+/* RESPONSIVE MODE */
+@media (max-width: 767px) {
+
+  #profile-account2 .profile-sidebar {
+    float: none;
+    width: 100%;
+    margin-right: 20px;
+    padding: 0 0 15px 15px;
+    text-align: center
+  }
+
+  #profile-account2  .profile-sidebar > .portlet {
+    margin-bottom: 10px;
+  }
+
+  #profile-account2  .profile-content {
+    overflow: visible;
+  }
+}
+
+
+
+.table-head  {
+  border: 1px solid #<?php echo $color_setting; ?>;
+}
+
+
+.table-head th{
+  background: #<?php echo $color_setting; ?>;
+  font-weight: normal;
+  color: #fff;
+  padding: 13px 19px !important;
+  border-top: 0 !important;
+}
+
+
+#profile-account2 .tab-content .table tbody tr td {
+  padding-top: 13px;
+  padding-bottom: 14px;
+}
+
+#profile-account2 .tab-content .table {
+  background: #f3f3f3;
+}
+
+
+@media (min-width: 767px) {
+  .narrow-width .col-md-3.col-sm-3,
+  .narrow-width .col-md-9.col-sm-9 {
+    width: 100%;
+  }
+}
+
+
+

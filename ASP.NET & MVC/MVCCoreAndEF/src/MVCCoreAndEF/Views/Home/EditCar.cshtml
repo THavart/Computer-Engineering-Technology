@@ -1,0 +1,11 @@
+﻿@model MVCCoreAndEF.Models.Car
+@{
+}
+
+<form asp-controller="Home" asp-action="ModifyCar">
+    <input type="hidden" value="@Model.CarId" name="CarId" />
+    Car Name: <input asp-for="Model" />
+    <br />
+    <br />
+    <input type="submit" value="Add Car" />
+</form>

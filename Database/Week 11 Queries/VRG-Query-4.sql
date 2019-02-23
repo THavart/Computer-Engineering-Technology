@@ -1,0 +1,2 @@
+SELECT * FROM CUSTOMERPHONEVIEW
+WHERE CustomerLastName = 'Bench';

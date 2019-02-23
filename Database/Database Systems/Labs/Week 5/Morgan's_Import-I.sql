@@ -1,0 +1,1 @@
+SELECT COUNT(ShipmentID) AS NumberOfShipments FROM SHIPMENT;

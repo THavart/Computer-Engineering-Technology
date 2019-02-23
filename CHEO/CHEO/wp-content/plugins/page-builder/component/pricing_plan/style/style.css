@@ -1,0 +1,215 @@
+/******************************************************************************/
+/* Pricing Plan																  */
+/******************************************************************************/
+
+.pb-pricing-plan
+{
+	overflow:hidden;
+}
+
+	.pb-pricing-plan>ul
+	{
+
+	}
+
+		.pb-pricing-plan>ul>li
+		{
+			position:relative;
+		}
+		
+		.pb-pricing-plan.pb-pricing-plan-type-2>ul>li
+		{
+			background-repeat:no-repeat;
+			background-position:top right;
+		}
+
+		.pb-pricing-plan.pb-pricing-plan-type-2.pb-responsive-width-300>ul>li
+		{
+			background-image:none !important;
+		}
+		
+		.pb-pricing-plan.pb-pricing-plan-type-1>ul>li,
+		.pb-pricing-plan.pb-pricing-plan-type-2.pb-responsive-width-300>ul>li
+		{
+			padding-top:30px;
+		}
+		
+		.pb-pricing-plan.pb-pricing-plan-type-1>ul>li,
+		.pb-pricing-plan.pb-pricing-plan-type-2>ul>li
+		{
+			margin-bottom:30px !important;
+		}
+		
+			/******************************************************************/
+			/* Pricing Plan / Box											  */
+			/******************************************************************/
+		
+			.pb-pricing-plan>ul>li>div
+			{
+				padding:30px;
+				box-sizing:border-box;
+			}
+			
+			.pb-pricing-plan.pb-pricing-plan-type-2>ul>li>div
+			{
+				width:65%;
+			}
+			
+			.pb-pricing-plan.pb-pricing-plan-type-2.pb-responsive-width-300>ul>li>div
+			{
+				width:100%;
+			}
+		
+				/**************************************************************/
+				/* Pricing Plan / Box / Header								  */
+				/**************************************************************/
+
+				.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-header
+				{
+					margin-bottom:15px;
+				}
+				
+				.pb-pricing-plan.pb-pricing-plan-type-1>ul>li>div .pb-pricing-plan-item-header
+				{
+					text-align:center;
+				}
+
+				/**************************************************************/
+				/* Pricing Plan / Box / Description							  */
+				/**************************************************************/
+
+				.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-description
+				{
+					margin-bottom:20px;
+				}
+
+					.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-description>p
+					{
+
+					}	
+					
+				.pb-pricing-plan.pb-pricing-plan-type-1>ul>li>div .pb-pricing-plan-item-description
+				{
+					text-align:center;
+				}
+
+				/**************************************************************/
+				/* Pricing Plan / Box /Feature list							  */
+				/**************************************************************/			
+
+				.pb-pricing-plan>ul>li>div>ul,
+				.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-feature-list
+				{
+					margin-bottom:30px;
+				}
+
+					.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-feature-list>ul
+					{
+
+					}
+
+						.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-feature-list>ul>li
+						{
+							padding-left:30px;
+							margin-bottom:8px;
+							background-repeat:no-repeat;
+							background-position:left 2px;
+							background-size:17px 17px;
+						}
+						
+				/**************************************************************/
+				/* Pricing Plan / Box / Button								  */
+				/**************************************************************/
+	
+				.pb-pricing-plan.pb-pricing-plan-type-1>ul>li>div .pb-pricing-plan-item-button 
+				{
+					text-align:center;
+				}
+				
+					.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-button a
+					{
+						display:inline-block;
+					}
+
+					.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-button a,
+					.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-button a:hover
+					{
+						text-decoration:none;
+					}
+					
+				/**************************************************************/
+				/* Pricing Plan / Box / Price box							  */
+				/**************************************************************/
+				
+				.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-price-box 
+				{
+					text-align:center;
+					box-sizing:border-box;
+				}
+				
+				.pb-pricing-plan.pb-pricing-plan-type-1>ul>li>div .pb-pricing-plan-item-price-box
+				{
+					width:100%;
+					padding:10%;
+					margin-top:-60px;
+					margin-bottom:30px;
+				}
+				
+				.pb-pricing-plan.pb-pricing-plan-type-2>ul>li>div .pb-pricing-plan-item-price-box
+				{
+					width:35%;
+					right:30px;
+					bottom:30px;
+					position:absolute;
+					padding:30px 0px 30px 0px;
+				}
+				
+				.pb-pricing-plan.pb-pricing-plan-type-2.pb-responsive-width-300>ul>li>div .pb-pricing-plan-item-price-box
+				{
+					width:100%;
+					position:static;
+					margin-top:-60px;
+					margin-bottom:30px;
+				}
+				
+					.pb-pricing-plan>ul>li>div .pb-pricing-plan-item-price-box span
+					{
+						line-height:1
+					}
+				
+					.pb-pricing-plan.pb-pricing-plan-type-2>ul>li>div .pb-pricing-plan-item-price-box .pb-pricing-plan-item-price-box-suffix
+					{
+						clear:both;
+						display:block;
+						margin-top:5px;
+					}
+					
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+		body.rtl .pb-pricing-plan.pb-pricing-plan-type-2>ul>li
+		{
+			background-position:top left;
+		}
+
+				/**************************************************************/
+				/* Pricing Plan / Box /Feature list							  */
+				/**************************************************************/			
+
+						body.rtl .pb-pricing-plan>ul>li>div .pb-pricing-plan-item-feature-list>ul>li
+						{
+							padding-right:30px;
+							padding-left:0;
+							background-position:right 2px;
+						}
+					
+				/**************************************************************/
+				/* Pricing Plan / Box / Price box							  */
+				/**************************************************************/
+				
+				body.rtl .pb-pricing-plan.pb-pricing-plan-type-2>ul>li>div .pb-pricing-plan-item-price-box
+				{
+					right:auto;
+					left:30px;
+				}

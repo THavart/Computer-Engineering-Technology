@@ -1,0 +1,99 @@
+/******************************************************************************/
+/* Call To Action															  */
+/******************************************************************************/
+
+.pb-call-to-action
+{
+	
+}
+
+.pb-call-to-action,
+.pb-call-to-action .pb-call-to-action-box
+{
+	height:100%;
+	overflow:hidden;
+}
+
+	.pb-call-to-action .pb-call-to-action-box
+	{
+		
+	}
+	
+		.pb-call-to-action .pb-call-to-action-box>.pb-call-to-action-box-first-line,
+		.pb-call-to-action .pb-call-to-action-box>.pb-call-to-action-box-second-line
+		{
+			width:70%;
+			float:left;
+			display:block;
+		}
+	
+		.pb-call-to-action .pb-call-to-action-box>.pb-call-to-action-box-first-line
+		{
+
+		}
+		
+		.pb-call-to-action .pb-call-to-action-box>.pb-call-to-action-box-second-line
+		{
+
+		}
+		
+		.pb-call-to-action .pb-call-to-action-box>div
+		{
+			text-align:right;
+		}
+		
+			.pb-call-to-action .pb-call-to-action-box>div>a
+			{
+				display:inline-block;
+			}
+
+			.pb-call-to-action .pb-call-to-action-box>div>a,
+			.pb-call-to-action .pb-call-to-action-box>div>a:hover
+			{
+				text-decoration:none;
+			}
+		
+		.pb-call-to-action.pb-call-to-action-responsive .pb-call-to-action-box>.pb-call-to-action-box-first-line,
+		.pb-call-to-action.pb-call-to-action-responsive .pb-call-to-action-box>.pb-call-to-action-box-second-line
+		{
+			width:100%;
+			float:none;
+			text-align:center;
+		}
+		
+		.pb-call-to-action.pb-call-to-action-responsive .pb-call-to-action-box>div
+		{
+			text-align:center;
+		}
+
+			.pb-call-to-action.pb-call-to-action-responsive .pb-call-to-action-box>div>a
+			{
+				right:0px;
+				clear:both;
+				display:block;
+				position:static;
+				text-align:center;
+				margin-top:20px !important;
+				margin-bottom:0px !important;
+			}
+			
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+		body.rtl .pb-call-to-action .pb-call-to-action-box>.pb-call-to-action-box-first-line,
+		body.rtl .pb-call-to-action .pb-call-to-action-box>.pb-call-to-action-box-second-line
+		{
+			float:right;
+		}
+	
+		body.rtl .pb-call-to-action .pb-call-to-action-box>div
+		{
+			text-align:left;
+		}
+
+			body.rtl .pb-call-to-action.pb-call-to-action-responsive .pb-call-to-action-box>div>a
+			{
+				left:0px;
+				right:auto;
+			}

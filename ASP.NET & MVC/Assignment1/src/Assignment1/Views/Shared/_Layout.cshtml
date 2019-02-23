@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>@ViewBag.Title</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse ">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Assignment 1 Blog</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse">
+
+                <ul class="nav navbar-nav">
+                    <li><a href="@Url.Action("Index", "Home")"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                    @if (ViewData["RoleId"] != null)
+                    {
+
+                        <li><a href="@Url.Action("AddBlogPost", "Home")"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Add Blog Post</a></li>
+
+                    }
+                    <li><a href="@Url.Action("Register", "Home")"><span class="glyphicon glyphicon-user"></span>&nbsp;Register</a></li>
+                    <li><a href="@Url.Action("Login", "Home")"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Login</a></li>
+                    <li><a href="@Url.Action("Logout", "Home")"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Logout</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    @if (ViewData["UserId"] != null)
+                    {
+                        <li><a href="#"> @ViewData["FirstName"].ToString() @ViewData["LastName"].ToString()</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <hr />
+    <footer>
+        <p>
+            © 2017 - Sang Yoon Shin
+            <br />040 837 545
+        </p>
+    </footer>
+</body>
+</html>

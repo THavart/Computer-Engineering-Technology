@@ -1,0 +1,67 @@
+/******************************************************************************/
+/* List																		  */
+/******************************************************************************/
+
+div.pb-list 
+{
+	
+}
+
+	div.pb-list ul
+	{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+	}
+	
+		div.pb-list ul li
+		{
+			margin-bottom:8px;
+		}
+		
+		div.pb-list ul li ul
+		{
+			margin-top:8px;
+		}
+	
+		div.pb-list.pb-list-icon-type-gr ul li
+		{
+			padding-left:30px;
+			background-size:17px 17px;
+			background-repeat:no-repeat;
+			background-position:left 2px;
+		}
+		
+		div.pb-list.pb-list-icon-type-fa ul li
+		{
+			padding-left:2em;
+		}
+		
+			div.pb-list.pb-list-icon-type-fa ul li>i.fa
+			{
+				width:2em;
+				margin-left:-2em;
+			}
+			
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl div.pb-list.pb-list-icon-type-gr ul li
+{
+    padding-right:30px;
+    padding-left:0;
+    background-position:right 2px;
+}
+
+body.rtl div.pb-list.pb-list-icon-type-fa ul li
+{
+    padding-right:2em;
+    padding-left:0;
+}
+
+    body.rtl div.pb-list.pb-list-icon-type-fa ul li>i.fa
+    {
+        margin-left:0px;
+        margin-right:-2em;
+    }

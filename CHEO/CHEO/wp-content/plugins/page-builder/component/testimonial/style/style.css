@@ -1,0 +1,85 @@
+/******************************************************************************/
+/* Testimonial																  */
+/******************************************************************************/
+
+.pb-testimonial
+{
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	visibility:hidden;
+}
+
+	.pb-testimonial ul
+	{
+
+	}
+
+		.pb-testimonial ul>li
+		{
+
+		}
+
+			.pb-testimonial ul>li>div
+			{
+
+			}
+				.pb-testimonial ul>li>div>p,
+				.pb-testimonial ul>li>div>div.pb-testimonial-cite-up,
+				.pb-testimonial ul>li>div>div.pb-testimonial-cite-down,
+				.pb-testimonial ul>li>div>div.pb-testimonial-author-name,
+				.pb-testimonial ul>li>div>div.pb-testimonial-author-company,
+				.pb-testimonial ul>li>div>div.pb-testimonial-author-position
+				{
+					clear:both;
+				}
+
+				.pb-testimonial ul>li>div>div.pb-testimonial-cite-up
+				{
+					float:left;
+				}
+
+				.pb-testimonial ul>li>div>p
+				{
+
+				}
+
+				.pb-testimonial ul>li>div>div.pb-testimonial-cite-down
+				{
+					float:right;
+				}
+
+				.pb-testimonial ul>li>div>div.pb-testimonial-author-name
+				{
+
+				}
+
+				.pb-testimonial ul>li>div>div.pb-testimonial-author-company
+				{
+
+				}
+				
+				.pb-testimonial ul>li>div>div.pb-testimonial-author-position
+				{
+
+				}
+				
+		.pb-testimonial .pb-slider-pagination
+		{
+			position:static;
+			margin-top:20px;
+		}
+
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+				body.rtl .pb-testimonial ul>li>div>div.pb-testimonial-cite-up
+				{
+				
+				}
+
+				body.rtl .pb-testimonial ul>li>div>div.pb-testimonial-cite-down
+				{
+					
+				}

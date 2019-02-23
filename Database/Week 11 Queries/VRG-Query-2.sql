@@ -1,0 +1,2 @@
+SELECT * FROM TRANS
+WHERE AskingPrice = 400;

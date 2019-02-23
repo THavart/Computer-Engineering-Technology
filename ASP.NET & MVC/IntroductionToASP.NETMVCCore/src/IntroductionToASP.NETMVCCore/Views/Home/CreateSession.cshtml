@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Create Session";
+}
+
+<h3>Create Session Data</h3> 
+<form asp-controller="Home" asp-action="DisplaySession" method="post">
+    <table>
+        <tr>
+            <td>Email Address</td>
+            <td><input type="email" name="emailAddress" /></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" /></td>
+        </tr>
+    </table>
+    <input type="submit" value="Login" />
+</form>

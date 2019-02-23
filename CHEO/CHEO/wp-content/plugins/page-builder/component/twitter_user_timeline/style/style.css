@@ -1,0 +1,51 @@
+/******************************************************************************/
+/* Tiwtter User Timeline													  */
+/******************************************************************************/
+
+.pb-twitter-user-timeline
+{
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0;
+}
+
+	.pb-twitter-user-timeline .pb-twitter-user-timeline-list
+	{
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+	}
+	
+		.pb-twitter-user-timeline .pb-twitter-user-timeline-line
+		{
+			padding:0px;
+			background:none;
+		}
+		
+			.pb-twitter-user-timeline .pb-twitter-user-timeline-text
+			{
+
+			}
+			
+				.pb-twitter-user-timeline .pb-twitter-user-timeline-text a,
+				.pb-twitter-user-timeline .pb-twitter-user-timeline-text a:hover
+				{
+					text-decoration:none;
+				}
+			
+				.pb-twitter-user-timeline .pb-twitter-user-timeline-text-part-1,
+				.pb-twitter-user-timeline .pb-twitter-user-timeline-text-part-3
+				{
+
+				}
+
+			.pb-twitter-user-timeline .pb-twitter-user-timeline-date
+			{
+				visibility:hidden;
+			}
+
+			.pb-twitter-user-timeline .pb-twitter-user-timeline-author
+			{
+
+			}

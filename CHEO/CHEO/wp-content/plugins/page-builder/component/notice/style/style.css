@@ -1,0 +1,43 @@
+/******************************************************************************/
+/* Notice																	  */
+/******************************************************************************/
+
+.pb-notice
+{
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+	.pb-notice>.pb-notice-content
+	{
+		position:relative;
+	}
+
+		.pb-notice>.pb-notice-content .pb-notice-first-line
+		{
+
+		}
+
+		.pb-notice>.pb-notice-content .pb-notice-second-line
+		{
+			padding:0px;
+		}
+		
+		.pb-notice>.pb-notice-content .pb-notice-timeline
+		{
+			height:3px;
+			bottom:0px;
+			width:100%;
+			position:absolute;
+		}
+	
+			.pb-notice>.pb-notice-content .pb-notice-timeline>div
+			{
+				width:0px;
+				height:100%;
+			}
+		
+		.pb-notice>.pb-notice-content .pb-notice-close-button
+		{
+			
+		}

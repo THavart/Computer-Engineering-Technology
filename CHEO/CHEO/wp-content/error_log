@@ -1,0 +1,1 @@
+[05-Oct-2017 20:36:52 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home/deadbully/public_html/CHEO/wp-includes/class-wp-hook.php on line 283

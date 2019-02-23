@@ -1,0 +1,719 @@
+<?php
+/******************************************************************************/
+/******************************************************************************/
+
+require_once('include.php');
+
+load_theme_textdomain(THEME_DOMAIN,THEME_PATH.'languages/');
+
+$Theme=new Theme();
+
+if(is_admin()) require_once('admin/functions.php');
+else require_once('public/functions.php');
+
+add_action('after_setup_theme',array($Theme,'setupTheme'));
+add_action('switch_theme',array($Theme,'switchTheme'));
+remove_action( 'add_option_new_admin_email', 'update_option_new_admin_email' );
+remove_action( 'update_option_new_admin_email', 'update_option_new_admin_email' );
+/** * Disable the confirmation notices when an administrator * changes their email address. * * @see http://codex.wordpress.com/Function_Reference/update_option_new_admin_email */
+function wpdocs_update_option_new_admin_email( $old_value, $value ) {    
+	update_option( 'admin_email', $value );
+}
+add_action( 'add_option_new_admin_email', 'wpdocs_update_option_new_admin_email', 10, 2 );
+add_action( 'update_option_new_admin_email', 'wpdocs_update_option_new_admin_email', 10, 2 );
+/******************************************************************************/
+/******************************************************************************/
+
+function enqueue_select2_jquery() {
+    wp_register_style( 'select2css', get_stylesheet_directory_uri() . '/css/select2.css', false, '1.0', 'all' );
+    wp_register_script( 'select2', get_stylesheet_directory_uri() . '/js/select2.js', array( 'jquery' ), '1.0', true );
+    wp_enqueue_style( 'select2css' );
+    wp_enqueue_script( 'select2' );
+}
+add_action( 'admin_enqueue_scripts', 'enqueue_select2_jquery' );
+
+
+
+// add new custom taxonomy
+// hook into the init action and call create_book_taxonomies when it fires
+add_action( 'init', 'create_activities_taxonomies', 0 );
+
+// create two taxonomies, genres and writers for the post type "book"
+function create_activities_taxonomies() {
+	// Add new taxonomy, make it hierarchical (like categories)
+	$labels = array(
+		'name'              => _x( 'Indoor / Outdoor', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Indoor / Outdoor', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Door', 'textdomain' ),
+		'all_items'         => __( 'All Door', 'textdomain' ),
+		'parent_item'       => __( 'Parent Door', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Door', 'textdomain' ),
+		'edit_item'         => __( 'Edit Door', 'textdomain' ),
+		'update_item'       => __( 'Update Door', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Door', 'textdomain' ),
+		'new_item_name'     => __( 'New Door Name', 'textdomain' ),
+		'menu_name'         => __( 'Indoor / Outdoor', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'door' ),
+	);
+
+	register_taxonomy( 'door', array( 'activities' ), $args );
+
+	$labels = array(
+		'name'              => _x( 'Winter / Non-Winter', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Winter / Non-Winter', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Winter', 'textdomain' ),
+		'all_items'         => __( 'All Winter', 'textdomain' ),
+		'parent_item'       => __( 'Parent Winter', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Winter:', 'textdomain' ),
+		'edit_item'         => __( 'Edit Winter', 'textdomain' ),
+		'update_item'       => __( 'Update Winter', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Winter', 'textdomain' ),
+		'new_item_name'     => __( 'New Winter Name', 'textdomain' ),
+		'menu_name'         => __( 'Winter / Non-Winter', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'winter' ),
+	);
+
+	register_taxonomy( 'winter', 'activities', $args );
+
+	// Winter
+	$labels = array(
+		'name'              => _x( 'Winter', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Winter', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Winter', 'textdomain' ),
+		'all_items'         => __( 'All Winter', 'textdomain' ),
+		'parent_item'       => __( 'Parent Winter', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Winter:', 'textdomain' ),
+		'edit_item'         => __( 'Edit Winter', 'textdomain' ),
+		'update_item'       => __( 'Update Winter', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Winter', 'textdomain' ),
+		'new_item_name'     => __( 'New Winter Name', 'textdomain' ),
+		'menu_name'         => __( 'Winter / Non-Winter', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'winter' ),
+	);
+
+	register_taxonomy( 'winter', 'activities', $args );
+
+	// Music
+	$labels = array(
+		'name'              => _x( 'Music / Creativity', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Music / Creativity', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Music', 'textdomain' ),
+		'all_items'         => __( 'All Music', 'textdomain' ),
+		'parent_item'       => __( 'Parent Music', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Music', 'textdomain' ),
+		'edit_item'         => __( 'Edit Music', 'textdomain' ),
+		'update_item'       => __( 'Update Music', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Music', 'textdomain' ),
+		'new_item_name'     => __( 'New Music Name', 'textdomain' ),
+		'menu_name'         => __( 'Music / Creativity', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'music' ),
+	);
+
+	register_taxonomy( 'music', 'activities', $args );
+
+	// Alone
+	$labels = array(
+		'name'              => _x( 'Music / Creativity', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Music / Creativity', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Group', 'textdomain' ),
+		'all_items'         => __( 'All Group', 'textdomain' ),
+		'parent_item'       => __( 'Parent Group', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Group', 'textdomain' ),
+		'edit_item'         => __( 'Edit Group', 'textdomain' ),
+		'update_item'       => __( 'Update Group', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Group ', 'textdomain' ),
+		'new_item_name'     => __( 'New Group Name', 'textdomain' ),
+		'menu_name'         => __( 'Music / Creativity ', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'group' ),
+	);
+
+	register_taxonomy( 'group', 'activities', $args );
+
+	// Ages
+	$labels = array(
+		'name'              => _x( 'Age Group', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Age Group', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Age Group', 'textdomain' ),
+		'all_items'         => __( 'All Age Group', 'textdomain' ),
+		'parent_item'       => __( 'Parent Age Group', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Age Group', 'textdomain' ),
+		'edit_item'         => __( 'Edit Age Group', 'textdomain' ),
+		'update_item'       => __( 'Update Age Group', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Age Group ', 'textdomain' ),
+		'new_item_name'     => __( 'New Age Group Name', 'textdomain' ),
+		'menu_name'         => __( 'Age Group', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'age-group' ),
+	);
+
+	register_taxonomy( 'age-group', 'activities', $args );
+
+	// Fitness
+	$labels = array(
+		'name'              => _x( 'Fitness', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Fitness', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Fitness', 'textdomain' ),
+		'all_items'         => __( 'All Fitness', 'textdomain' ),
+		'parent_item'       => __( 'Parent Fitness', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Fitness', 'textdomain' ),
+		'edit_item'         => __( 'Edit Fitness', 'textdomain' ),
+		'update_item'       => __( 'Update Fitness', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Fitness', 'textdomain' ),
+		'new_item_name'     => __( 'New Age Fitness', 'textdomain' ),
+		'menu_name'         => __( 'Fitness', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'fitness' ),
+	);
+
+	register_taxonomy( 'fitness', 'activities', $args );
+	
+	//Restrictions
+	
+	$labels = array(
+		'name'              => _x( 'Restrictions', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Restrictions', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Search Restrictions', 'textdomain' ),
+		'all_items'         => __( 'All Restrictions', 'textdomain' ),
+		'parent_item'       => __( 'Parent Restrictions', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Restrictions', 'textdomain' ),
+		'edit_item'         => __( 'Edit Restrictions', 'textdomain' ),
+		'update_item'       => __( 'Update Restrictions', 'textdomain' ),
+		'add_new_item'      => __( 'Add New Restrictions', 'textdomain' ),
+		'new_item_name'     => __( 'New Age Restrictions', 'textdomain' ),
+		'menu_name'         => __( 'Restrictions', 'textdomain' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'restrictions' ),
+	);
+	register_taxonomy( 'restrictions', 'activities', $args );
+}
+
+add_action( 'show_user_profile', 'my_show_restrictions_fields' );
+add_action( 'edit_user_profile', 'my_show_restrictions_fields' );
+
+function my_show_restrictions_fields( $user ) { 
+		
+		$user_info = get_userdata($user->ID);
+		//var_dump(get_option( 'ep_fitness_reminder_email'));
+		//var_dump(get_user_meta($user->ID, 'restrictions_check', true));
+	?>
+	<table class="form-table">
+		<tbody>
+			<tr>
+				<th scope="row"><h4>Restrictions</h4></th>
+				<td>
+					<!--<select class="select2" multiple="multiple" name="restrictions[]">
+						<?php 
+							// door
+							// $args = array(
+										    // 'orderby'    => 'title',
+										    // 'order'      => 'ASC',
+											// 'hide_empty' => false
+										// );
+							// $terms = get_terms( 'activities_tag', $args ); 
+
+							// printSelectOption($terms, 'Filter');
+							
+							/*
+							// door
+							$args = array(
+										    'orderby'    => 'title',
+										    'order'      => 'ASC',
+											'hide_empty' => false
+										);
+							$terms = get_terms( 'door', $args ); 
+
+							printSelectOption($terms, 'Indoor / Outdoor');
+
+							// winter
+							$args = array(
+										    'orderby'    => 'title',
+										    'order'      => 'ASC',
+											'hide_empty' => false
+										);
+							$terms = get_terms( 'winter', $args ); 
+
+							printSelectOption($terms, 'Winter / Non-Winter');
+							// music
+							$args = array(
+										    'orderby'    => 'title',
+										    'order'      => 'ASC',
+											'hide_empty' => false
+										);
+							$terms = get_terms( 'music', $args ); 
+
+							printSelectOption($terms, 'Music / Creativity');
+							// group
+							$args = array(
+										    'orderby'    => 'title',
+										    'order'      => 'ASC',
+											'hide_empty' => false
+										);
+							$terms = get_terms( 'group', $args ); 
+
+							printSelectOption($terms, 'Group / Alone');
+							// age-group
+							$args = array(
+										    'orderby'    => 'title',
+										    'order'      => 'ASC',
+											'hide_empty' => false
+										);
+							$terms = get_terms( 'age-group', $args ); 
+
+							printSelectOption($terms, 'Age Group');
+							// fitness
+							$args = array(
+										    'orderby'    => 'title',
+										    'order'      => 'ASC',
+											'hide_empty' => false
+										);
+							$terms = get_terms( 'fitness', $args ); 
+
+							printSelectOption($terms, 'Fitness');*/
+							
+							
+						?>
+
+					</select>-->
+					<?php
+						$terms = get_terms( array(
+                          'taxonomy' => 'restrictions',
+                          'hide_empty' => false,  ) );
+						
+						$restrictions_check = get_user_meta($user->ID,  'restrictions_check', true );
+						foreach($terms as $term){
+						?>
+						<input type="checkbox" name="restrictions_check[]" value="<?php echo $term->term_taxonomy_id; ?>"  <?php  if(!empty($restrictions_check)){ if(in_array( $term->term_taxonomy_id , get_user_meta($user->ID,  'restrictions_check', true ))) { echo 'checked';} } ?>/> <?php   echo $term->name; ?> <br />			
+						<?php
+						}
+
+					?>
+				</td>
+			</tr>
+			<?php 
+				if(!in_array('administrator', $user_info->roles)){?>
+					<!--<tr>
+						<th scope="row">Active</th>
+						<td><input <?php //if( get_user_meta($user->ID,  'user_active', true ) == 1)  echo 'checked'; ?> type="checkbox" name="active_user" value="1" /></td>
+					</tr>
+					<tr>
+						<th scope="row">Remider email</th>
+						<td><input <?php //if( get_user_meta($user->ID,  'user_remider', true ) == 1)  echo 'checked'; ?> type="checkbox" name="user_remider" value="1" /></td>
+					</tr>-->
+					<tr>
+						<th>Send Mail</th>
+						<td>
+							<select name="send-mail">
+								<option value="not-accepted" <?= get_user_meta($user->ID,  'send-mail', true ) == 'not-accepted' ? ' selected="selected"' : ''; ?>>Not Accepted</option>
+								<option value="accepted" <?= get_user_meta($user->ID,  'send-mail', true ) == 'accepted' ? ' selected="selected"' : ''; ?>>Accepted</option>
+								<option value="denied" <?= get_user_meta($user->ID,  'send-mail', true ) == 'denied' ? ' selected="selected"' : ''; ?>>Denied</option>
+							</select>
+						</td>
+					</tr>
+				<?php }
+			?>
+			
+		</tbody>
+	</table>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+		    if( jQuery( '.select2' ).length > 0 ) {
+		        jQuery( '.select2' ).select2();
+		        jQuery( document.body ).on( "click", function() {
+		            // jQuery( '.select2' ).select2();
+		        });
+		    }
+
+		});
+	</script>
+	<?php 
+    	$current_op = get_option('restrictions_user_' . $user->ID);
+    	if(!empty($current_op)){?>
+    	<script type="text/javascript">
+	    	jQuery(document).ready(function ($) {
+	    		jQuery('.select2').select2('val', <?php echo json_encode($current_op); ?>);
+	    	});
+    	</script>
+    		
+    	<?php }
+
+    ?>
+	<style type="text/css">
+		.select2{
+			width: 50%;
+		}
+	</style>
+<?php }
+
+function printSelectOption($terms, $label_optgroup){
+	if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
+		echo '<optgroup label="'.$label_optgroup.'">';
+		foreach ( $terms as $term ) {
+			echo '<option value="'.$term->term_id.'">'.$term->name.'</option>';					    
+		}
+		echo '</optgroup>';
+	}
+}
+
+add_action( 'personal_options_update', 'my_save_restrictions_fields' );
+add_action( 'edit_user_profile_update', 'my_save_restrictions_fields' );
+
+function my_save_restrictions_fields( $user_id ) {
+
+	// get email of user when edit
+	$email = get_userdata( $user_id );
+	$email = $email->user_email;
+	$reminder_subject = get_option( 'ep_fitness_reminder_email_subject');
+	$reminder_content = get_option( 'ep_fitness_reminder_email');
+
+	$active_subject = get_option( 'ep_fitness_denial_active_email_subject');
+	$active_content = get_option( 'ep_fitness_active_denial_email');
+	
+	/* Option Denied*/
+	$denied_subject = get_option( 'ep_fitness_denial_email_subject');
+	$denied_content = get_option( 'ep_fitness_denial_email');
+	
+	if ( !current_user_can( 'edit_user', $user_id ) )
+		return false;
+	
+	if(isset($_POST['restrictions'])){
+		update_option('restrictions_user_' .$user_id, $_POST['restrictions']);
+	}
+	/* Save Send Mail Select*/
+	if(isset($_POST['send-mail']))
+		update_user_meta($user_id, 'send-mail', $_POST['send-mail']);
+	
+	/* Save Restrictions Select */
+	if(isset($_POST['restrictions_check'])){
+		update_user_meta($user_id, 'restrictions_check', $_POST['restrictions_check']);
+	}else{
+		update_user_meta($user_id, 'restrictions_check', '');
+	}
+	/*Send Approval Email*/
+	if(get_user_meta($user_id,  'send-mail', true ) == 'accepted'){
+		update_user_meta($user_id, 'user_active', 1);
+		// send email to user 
+		$to = $email;
+		$subject = $active_subject;
+		$body = $active_content;
+		$headers = array('Content-Type: text/html; charset=UTF-8');		 
+		wp_mail( $to, $subject, $body, $headers );
+
+	}
+	
+	/* Send Reminder Email*/
+	if( get_user_meta($user_id,  'send-mail', true ) == 'not-accepted') {
+		update_user_meta($user_id, 'user_remider', 1);
+		// send email to user 
+		$to = $email;
+		$subject = $reminder_subject;
+		$body = $reminder_content;
+		$headers = array('Content-Type: text/html; charset=UTF-8');
+		 
+		wp_mail( $to, $subject, $body, $headers );
+	}
+	
+	/* Send Denied Email*/
+	if( get_user_meta($user_id,  'send-mail', true ) == 'denied') {
+		update_user_meta($user_id, 'user_remider', 0);
+		// send email to user 
+		$to = $email;
+		$subject = $denied_subject;
+		$body = $denied_content;
+		$headers = array('Content-Type: text/html; charset=UTF-8');
+		 
+		wp_mail( $to, $subject, $body, $headers );
+	}
+}
+
+// ajax select
+// like and dislike in pop up
+add_action( 'wp_ajax_filter_select', 'filter_select' );
+add_action( 'wp_ajax_nopriv_filter_select', 'filter_select' );
+function filter_select() {
+	$user_id = get_current_user_id();
+	$option = get_user_meta($user_id,  'restrictions_check', true );
+	$get_my_activities = array_unique(get_user_meta($user_id, 'my_activities', false));
+	if(isset($_POST['term']) && isset($_POST['term_id'])){
+		if($_POST['term_id'] != 0){
+			$args = array(
+				'post_type' => 'activities', // enter your custom post type
+				'post_status' => 'publish',
+				'post__not_in' => $get_my_activities,
+				'posts_per_page'=> '9999',  // overrides posts per page in theme settings
+				/*'tax_query' => array(
+		            array(
+		                'taxonomy' => $_POST['term'],
+		                'field' => 'term_id',
+		                'terms' => $_POST['term_id'],
+		            )
+		        )*/
+				'tax_query' => array(
+					'relation' => 'AND',
+					array(
+		                'taxonomy' => $_POST['term'],
+		                'field' => 'term_id',
+		                'terms' => $_POST['term_id'],
+		            ),
+					array(
+						'taxonomy' => 'restrictions',
+						'field'    => 'term_id',
+						'terms'    => $option,
+						'operator' => 'NOT IN',
+					)
+				),
+			);
+		}
+		else{
+			$args = array(
+				'post_type' => 'activities', // enter your custom post type
+				'post_status' => 'publish',
+				'post__not_in' => $get_my_activities,
+				'posts_per_page'=> '9999',  // overrides posts per page in theme settings
+				'tax_query' => array(
+		            array(
+		                'taxonomy' => 'restrictions',
+		                'field' => 'term_id',
+		                'terms' => $option,
+		                'operator' => 'NOT IN',
+		            )
+		        )
+			);
+
+		}	
+		
+	}
+	else{
+		$args = array(
+				'post_type' => 'activities', // enter your custom post type
+				'post_status' => 'publish',
+				'post__not_in' => $get_my_activities,
+				'posts_per_page'=> '9999', 
+				'tax_query' => array(
+		            array(
+		                'taxonomy' => 'restrictions',
+		                'field' => 'term_id',
+		                'terms' => $option,
+		                'operator' => 'NOT IN',
+		            )
+		        )
+		); 
+	}
+	$the_query = new WP_Query( $args );?>
+	<table id="all_activities_table" class="table">
+		<thead>
+			<tr>
+				<th>Image</th>
+				<th>name</th> 
+				<th>description</th>
+				<th>pdf</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+				<?php 
+					if ( $the_query->have_posts() ) {
+						while ( $the_query->have_posts() ) {
+							$the_query->the_post();
+							$featured_img_url = get_the_post_thumbnail_url($post->ID, 'full'); 
+							$terms = get_the_terms( get_the_ID(), 'door' );
+							$file = get_field('upload_pdf');
+							if(empty($featured_img_url)){
+								$featured_img_url = plugins_url().'/fitness-trainer/assets/images/no-image.jpg';
+							}
+							?>
+								<tr>
+									<td class="col-md-2 col-2"><img src="<?php echo $featured_img_url; ?>"></td>
+									<td class="col-md-2 col-2"><?php echo get_field( "name" ); ?></td>
+									<td class="col-md-4 col-4"><?php echo get_the_content(); ?></td>
+									<td class="col-md-1 col-1 bt-pdf"><a href="<?php echo $file; ?>">PDF</a></td>
+									<td class="col-md-3 col-3 bt-add"><a class="add-my-activities" href="javascript:void(0)" data-id="<?php echo get_the_ID(); ?>">Add activities</a></td>
+								</tr>
+								
+							<?php
+						}
+						?>
+						<?php
+						/* Restore original Post Data */
+						wp_reset_postdata();
+					} else {
+						//_e( 'Sorry, no posts matched your criteria.','epfitness' ); 
+					}
+					
+				?>
+		</tbody>
+
+	</table>
+	<input class="user_id" type="hidden" value="<?php echo $user_id ?>">
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#all_activities_table').DataTable();
+		});
+		jQuery( "a.add-my-activities" ).click(function() {
+		var post_id = jQuery(this).attr('data-id');
+		var user_id = jQuery(".user_id").val();
+		var find = jQuery(this).closest("tr");
+			jQuery.ajax({ 
+				url : '<?php echo admin_url( "admin-ajax.php" ); ?>',
+				type : 'post',
+				data : {
+					action : 'ep_add_my_activities',
+					post_id : post_id,
+					user_id :user_id
+				},
+				success : function( data) {
+					var k=data;
+					if(k.indexOf("true") != -1){
+						find.remove();
+						jQuery( ".profile-content" ).prepend( "<h2 class='activities_success'>Add Activities Success <span>x</span></h2>" );					
+						setTimeout(function(){ jQuery('.activities_success').hide(); }, 2000);
+						var table = jQuery('#all_activities_table').DataTable();
+						table.row( find ).remove().draw();
+					}
+					if(k.indexOf("false") != -1){
+						jQuery( ".profile-content" ).prepend( "<h2 class='activities_limit'>Add Activities Limit <span>x</span></h2>" );
+						setTimeout(function(){ jQuery('.activities_limit').hide(); }, 2000);
+					}
+				}
+			});
+	}); 
+	</script>
+	<?php die();
+}
+add_action( 'admin_enqueue_scripts', 'load_admin_style' );
+function load_admin_style() {
+	wp_enqueue_style( 'admin_css', get_template_directory_uri() . '/admin/css/admin-style.css', false, '1.0.0' );
+	wp_enqueue_script( 'admin_js', get_template_directory_uri() . '/admin/js/admin-js.js', false, '1.0.0' );
+}
+/* Add columm status users admin */
+function new_modify_user_table( $column ) {
+    $column['status'] = 'Status';
+    return $column;
+}
+add_filter( 'manage_users_columns', 'new_modify_user_table' );
+
+function new_modify_user_table_row( $val, $column_name, $user_id ) {
+    switch ($column_name) {
+        case 'status' :
+            $status_user = get_user_meta($user_id,  'send-mail', true );
+			return ucwords(str_replace('-',' ', $status_user ));
+            break ;
+        default:
+    }
+    return $val;
+}
+add_filter( 'manage_users_custom_column', 'new_modify_user_table_row', 10, 3 );
+
+// Add the data to the custom columns for the name post type:
+add_filter( 'manage_activities_posts_columns', 'set_custom_edit_activities_columns' );
+function set_custom_edit_activities_columns($columns) {
+    $new = array();
+	unset( $columns['name']);  
+	unset( $columns['title']);  
+	$columns['name'] = 'Name';
+	$tags = $columns['name'];
+	foreach($columns as $key=>$value) {
+		
+		if($key=='author') {  // when we find the date column
+		   $new['name'] = $tags;  // put the tags column before it
+		} 
+		$new[$key]=$value;
+	} 
+    return $new;
+}
+
+add_action( 'manage_activities_posts_custom_column' , 'custom_activities_column', 10, 2 );
+function custom_activities_column( $column, $post_id ) {
+    switch ( $column ) {
+
+        case 'name' :
+            echo '<a href="'.get_edit_post_link($post_id).'">'.get_field( "name" ).'</a>';
+            break;
+    }
+}
+
+
+/* Remove Titile custom post activities*/
+add_action( 'load-post.php', 'remove_post_type_edit_screen', 10 );
+function remove_post_type_edit_screen() {
+    global $typenow;
+
+    if($typenow && $typenow === 'activities'){
+        remove_post_type_support( 'activities', 'title' );
+    }
+}
+
+function my_manage_columns( $columns ) {
+	unset($columns['title']);
+  return $columns;
+}
+
+function my_column_init() {
+  add_filter( 'manage_posts_columns' , 'my_manage_columns' );
+}
+add_action( 'admin_init' , 'my_column_init' );
+
+
+
+
+

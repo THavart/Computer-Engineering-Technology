@@ -1,0 +1,42 @@
+/******************************************************************************/
+/* Header + subheader														  */
+/******************************************************************************/
+
+.pb-header-subheader
+{
+	
+}
+
+	.pb-header-subheader .pb-header
+	{
+		margin-bottom:0px;
+	}
+	
+		.pb-header-subheader .pb-header .pb-header-content
+		{
+			text-align:left;
+		}
+	
+	.pb-header-subheader .pb-subheader
+	{
+		margin-bottom:0px;
+	}
+	
+		.pb-header-subheader .pb-header .pb-subheader-content
+		{
+			text-align:left;
+		}
+		
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl .pb-header-subheader .pb-header .pb-header-content
+{
+	text-align:right;
+}
+
+body.rtl .pb-header-subheader .pb-header .pb-subheader-content
+{
+	text-align:right;
+}

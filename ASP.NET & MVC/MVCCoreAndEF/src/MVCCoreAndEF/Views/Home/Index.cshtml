@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MVCCoreAndEF.Models.Car>
+@{
+
+}
+
+<h3>Cars</h3>
+@if (Model == null || Model.Count() == 0)
+{
+    <h4>Currently, there are no cars to display.</h4>
+}
+else
+{
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <a asp-controller="Home" asp-action="EditCar" asp-route-id="@item.CarId">Edit</a>&nbsp;&nbsp;
+                <a asp-controller="Home" asp-action="DeleteCar" asp-route-id="@item.CarId">Delete</a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                @item.Model
+            </li>
+        }
+    </ul>
+}
+<br />
+<a asp-controller="Home" asp-action="AddCar">Add Car</a>
+<br />
+<br />
+<hr />
+<h4>SQL To Create Database</h4>
+USE [master]
+<br />
+GO
+<br />
+CREATE DATABASE [MVCCoreAndEF]
+<br />
+GO
+<br />
+USE [MVCCoreAndEF]
+<br />
+CREATE TABLE Cars (
+<br />
+CarId int not null primary key identity(1,1),
+<br />
+Model nvarchar(1000) not null
+<br />
+)

@@ -1,0 +1,67 @@
+/******************************************************************************/
+/* Vertical Grid															  */
+/******************************************************************************/
+
+.pb-vertical-grid
+{
+	
+}
+
+	.pb-vertical-grid>ul
+	{
+		width:100%;
+		margin:0px;
+		padding:0px;
+		display:table;
+		list-style-type:none;
+	}
+
+		.pb-vertical-grid>ul>li
+		{
+			clear:both;
+			padding:0px;
+			display:table-row;
+			box-sizing:border-box;
+		}
+		
+		.pb-vertical-grid>ul>li.pb-vertical-grid-line-even
+		{
+			
+		}
+		
+		.pb-vertical-grid>ul>li.pb-vertical-grid-line-odd
+		{
+			
+		}
+
+			.pb-vertical-grid>ul>li>.pb-vertical-grid-column-name,
+			.pb-vertical-grid>ul>li>.pb-vertical-grid-column-value
+			{
+				display:table-cell;
+				box-sizing:border-box;
+				padding:10px 20px 10px 20px;
+			}
+
+			.pb-vertical-grid>ul>li>.pb-vertical-grid-column-name
+			{
+				text-align:left;
+			}
+
+			.pb-vertical-grid>ul>li>.pb-vertical-grid-column-value
+			{
+				text-align:right;
+			}
+
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+			body.rtl .pb-vertical-grid>ul>li>.pb-vertical-grid-column-name
+			{
+				text-align:right;
+			}
+
+			body.rtl .pb-vertical-grid>ul>li>.pb-vertical-grid-column-value
+			{
+				text-align:left;
+			}

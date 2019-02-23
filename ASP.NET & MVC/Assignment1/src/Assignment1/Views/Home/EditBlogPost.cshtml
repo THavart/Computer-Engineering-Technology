@@ -1,0 +1,29 @@
+﻿@model Assignment1.Models.BlogPost
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container-fluid text-center">
+    <h1>Edit Post</h1>
+    <form asp-controller="Home" asp-action="ChangePost">
+        <input type="hidden" value="@Model.BlogPostId" name="BlogPostId" />
+        <div class="form-group">
+            <label>Title:</label>
+            <input asp-for="Title" class="form-control" value="@Model.Title">
+        </div>
+        <div class="form-group">
+            <label>Content:</label>
+            <textarea asp-for="Content" raws="5" class="form-control" value="@Model.Content"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Posted Date:</label>
+            <input asp-for="Posted" class="form-control" value="@Model.Posted">
+        </div>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+
+</div>

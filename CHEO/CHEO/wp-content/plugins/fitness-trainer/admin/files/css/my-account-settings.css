@@ -1,0 +1,197 @@
+  #profile-account2 .profile-content {
+    border: 0;
+    padding: 0;
+    box-shadow: 0px 2px 0px rgba(0,0,0, .1);
+    background: #fff;
+    margin-bottom: 40px;
+    border: 1px solid #f3f3f3;
+    border-radius: 4px;
+  }
+  #profile-account2 .portlet {
+    padding: 0 15px;
+  }
+  #profile-account2 .caption {
+    display: block;
+    width: 100%;
+    float: none;
+    padding: 15px 20px !important;
+    background: #f0f0f0;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+  }
+  #profile-account2 .caption-subject {
+    color: #333 !important;
+    text-transform: capitalize;
+  }
+  #profile-account2 .nav-tabs {
+    float: none;
+    background: #f4f4f4;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+  }
+
+  #profile-account2 .nav-tabs li {
+    width: 25%;
+    border-right: 2px solid #f0f0f0;
+    border-bottom: o;
+    text-align: center;
+  }
+  #profile-account2 .nav-tabs li:last-child {
+    border-right: 0;
+  }
+
+  #profile-account2 .portlet-title .nav li.active {
+    border-bottom: 0;
+  }
+
+  #profile-account2 .portlet-title .nav li.active a {
+    background:  #<?php echo $color_setting; ?>;
+    color: #fff;
+    border-bottom-color: #<?php echo $color_setting; ?> !important;
+  }
+
+  #profile-account2 .portlet-title .nav li.active a:before {
+    content: '';
+    position: absolute;
+    left: 45%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+    border-top: 10px solid #<?php echo $color_setting; ?>;
+  }
+
+  @media screen and (max-width: 768px) {
+    #profile-account2 .portlet-title .nav li.active a:before {
+      display: none;
+    }
+
+    #profile-account2 .nav-tabs li {
+      width: 50%;
+    }
+  }
+
+  #profile-account2 .nav-tabs li a {
+    padding: 12px 7px;
+    border-bottom: 2px solid #f0f0f0 !important;
+    margin: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 13px;
+  }
+
+  #profile-account2 .portlet-title .nav li:hover {
+    border-bottom: 0;
+    background: transparent;
+  }
+
+  #profile-account2 .tabbable-line {
+    border-bottom: 0;
+  }
+
+  #profile-account2 .tab-content {
+    padding: 30px;
+  }
+
+  .tab-content .form-group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  #profile-account2 label {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  #profile-account2 .tab-content .table tbody tr {
+    background: #f4f4f4;
+  }
+
+  #profile-account2 .tab-content .table tbody tr td {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-left: 20px;
+    padding-top: 16px;
+    color: #333;
+  }
+  #profile-account2 .tab-content .table tbody tr td:last-child {
+    border-right: 1px solid #ddd;
+  }
+
+  #profile-account2 .tab-content .table tbody tr td label {
+    background: transparent;
+  }
+
+  #profile-account2 .tab-content .table tbody tr td label input {
+    margin-right: 5px;
+  }
+
+  #main-wrapper {
+    background: #fbfbfb;
+  }
+
+
+  .btn-new {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: inherit;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 0;
+    white-space: nowrap;
+    color: #ffffff !important;
+    padding: 6px 21.312px;
+    transition: all 0.3s;
+    border-radius: 3px;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+  }
+
+  .btn-custom {
+    background-color: #<?php echo $color_setting; ?>;
+    border: 2px solid #<?php echo $color_setting; ?>;
+    color: #fff;
+    padding: 6px 30px !important;
+  }
+
+
+
+  .btn-custom:hover, .btn-custom.hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+    background-color: #2771aa;
+    border-color: #2771aa;
+  }
+
+  input[type="text"].form-control-solid,
+  input[type="password"].form-control-solid,
+  input[type="email"].form-control-solid {
+    /*background-color: #F1F3F8;*/
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 2px solid #cecece;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  input[type="text"].form-control-solid:focus,
+  input[type="password"].form-control-solid:focus,
+  input[type="email"].form-control-solid:focus{
+    border: 2px solid #333;
+    box-shadow: none;
+
+  }

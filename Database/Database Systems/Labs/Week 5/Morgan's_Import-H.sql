@@ -1,0 +1,1 @@
+SELECT AVG(InsuredValue) AS AvergaeInsuredValue FROM SHIPMENT;

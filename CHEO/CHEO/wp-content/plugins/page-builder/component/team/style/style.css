@@ -1,0 +1,290 @@
+/******************************************************************************/
+/* Team																		  */
+/******************************************************************************/
+
+.pb-team
+{
+	overflow:hidden;
+}
+
+	/**************************************************************************/
+	/* Team	/ List															  */
+	/**************************************************************************/
+
+	.pb-team>ul
+	{	
+		
+	}
+	
+		/**********************************************************************/
+		/* Team	/ List / List Element										  */
+		/**********************************************************************/
+	
+		.pb-team>ul>li
+		{
+			margin-top:40px;
+			padding-top:40px;
+		}
+		
+		.pb-team.pb-team-template-1>ul>li
+		{
+			margin-top:40px;
+			padding-top:40px;			
+		}
+		
+		.pb-team.pb-team-template-1>ul>li:first-child
+		{
+			border:none;
+			margin-top:0px;
+			padding-top:0px;
+		}
+		
+		.pb-team.pb-team-template-2>ul>li
+		{
+			margin-top:0px;
+		}
+		
+		.pb-team.pb-team-template-2>ul>li:first-child,
+		.pb-team.pb-team-template-2>ul>li:first-child+li
+		{
+			padding-top:0px
+		}
+		
+		.pb-team.pb-team-template-2>ul>li,
+		.pb-team.pb-team-template-3>ul>li
+		{
+			border:none;
+		}
+		
+		.pb-team.pb-team-template-3>ul>li
+		{
+			margin-top:0px;
+			padding-top:0px;
+			margin-bottom:30px;
+		}
+		
+		/***/
+		
+		.pb-team.pb-team-template-1>ul>li>.pb-layout-33x66>.pb-layout-column-right.pb-responsive-column-a
+		{
+			margin-bottom:0px !important;
+		}
+		
+		/***/
+		
+		.pb-team.pb-team-template-2>ul>li .pb-responsive-column-a>*
+		{
+			margin-left:0px !important;
+		}
+		
+		.pb-team.pb-team-template-2>ul>li .pb-responsive-column-a.pb-layout-column-right
+		{
+			margin-bottom:0px !important;
+		}
+		
+		.pb-team.pb-team-template-1>ul>li .pb-responsive-column-a.pb-layout-column-left,
+		.pb-team.pb-team-template-2>ul>li .pb-responsive-column-a.pb-layout-column-left
+		{
+			margin-bottom:20px !important;
+		}
+		
+		.pb-team.pb-team-template-2>ul>li.pb-responsive-column-a
+		{
+			padding-top:0px;
+		}
+		
+		/***/
+		
+			.pb-team.pb-team-template-2>ul>li>div>.pb-layout-column-right>*
+			{
+				margin-left:15px;
+			}
+			
+			.pb-team>ul>li>div
+			{
+				overflow:hidden;
+			}
+		
+			/******************************************************************/
+			/* Team / List / List Element / Image							  */
+			/******************************************************************/
+			
+			/******************************************************************/
+			/* Team / List / List Element / Social list						  */
+			/******************************************************************/
+			
+			.pb-team>ul>li ul.pb-team-social-icon-box
+			{
+				margin-top:25px;
+			}
+			
+				.pb-team>ul>li ul.pb-team-social-icon-box>li
+				{
+					float:left;
+					margin-right:2px;
+				}
+				
+					.pb-team>ul>li ul.pb-team-social-icon-box>li>a
+					{
+						width:50px;
+						height:50px;
+						display:block;
+						background-size:40px 40px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+			
+			/******************************************************************/
+			/* Team / List / List Element / Quote							  */
+			/******************************************************************/					
+			
+			.pb-team>ul>li .pb-team-quote-box
+			{
+				z-index:2;
+				left:-60px;
+				width:112px;
+				height:50px;
+				margin-top:30px;
+				position:relative;
+				margin-bottom:25px;
+				background-repeat:no-repeat;
+				background-position:60px center;	
+			}
+			
+			.pb-team>ul>li .pb-responsive-column-a .pb-team-quote-box
+			{
+				display:none;
+			}
+					
+			/******************************************************************/
+			/* Team / List / List Element / Text							  */
+			/******************************************************************/
+			
+			.pb-team>ul>li .pb-team-text-box
+			{
+				
+			}
+									
+				.pb-team>ul>li .pb-team-text-box>h3.pb-team-text-box-member-name
+				{
+					margin-top:-10px;
+					margin-bottom:0px;
+				}
+				
+				.pb-team>ul>li .pb-team-text-box>div.pb-team-text-box-member-position
+				{
+					font-style:italic;
+				}
+				
+				.pb-team.pb-team-template-1>ul>li .pb-responsive-column-a .pb-team-text-box>h3.pb-team-text-box-member-name,
+				.pb-team.pb-team-template-1>ul>li .pb-responsive-column-a .pb-team-text-box>div.pb-team-text-box-member-position
+				{
+					display:none;
+				}
+				
+				.pb-team.pb-team-template-1>ul>li .pb-team-text-box p
+				{
+					padding:20px 0px 10px 0px;
+				}
+				
+				.pb-team.pb-team-template-1>ul>li .pb-responsive-column-a .pb-team-text-box p
+				{
+					padding-top:0px;
+				}
+				
+				.pb-team.pb-team-template-2>ul>li .pb-team-text-box p
+				{
+					padding:0px;
+				}
+			
+			/******************************************************************/
+			/* Team / List / List Element / Skill list						  */
+			/******************************************************************/
+			
+			.pb-team>ul>li .pb-team-skill-box 
+			{
+				
+			}
+			
+			.pb-team>ul>li .pb-responsive-column-a .pb-team-skill-box>*:first-child
+			{
+				margin-top:10px !important;
+			}
+			
+				.pb-team>ul>li .pb-team-skill-box>.pb-team-skill
+				{
+			
+				}
+				
+					.pb-team>ul>li .pb-team-skill-box>.pb-team-skill>*
+					{
+						box-sizing:border-box;
+					}
+
+					.pb-team>ul>li .pb-team-skill-box>.pb-team-skill>.pb-team-skill-label
+					{
+
+					}
+
+					.pb-team>ul>li .pb-team-skill-box>.pb-team-skill>.pb-team-skill-value
+					{
+
+					}
+
+					.pb-team>ul>li .pb-team-skill-box>.pb-team-skill>.pb-team-skill-foreground
+					{
+
+					}
+
+					.pb-team>ul>li .pb-team-skill-box>.pb-team-skill>.pb-team-skill-background
+					{
+
+					}
+					
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+		/**********************************************************************/
+		/* Team	/ List / List Element										  */
+		/**********************************************************************/
+	
+		body.rtl .pb-team.pb-team-template-2>ul>li .pb-responsive-column-a>*
+		{
+			margin-right:0px !important;
+			margin-left:0 !important;
+		}
+		
+		/***/
+		
+			body.rtl .pb-team.pb-team-template-2>ul>li>div>.pb-layout-column-right>*
+			{
+				margin-right:15px;
+				margin-left:0;
+			}
+			
+			/******************************************************************/
+			/* Team / List / List Element / Image							  */
+			/******************************************************************/
+			
+			/******************************************************************/
+			/* Team / List / List Element / Social list						  */
+			/******************************************************************/
+			
+				body.rtl .pb-team>ul>li ul.pb-team-social-icon-box>li
+				{
+					float:right;
+					margin-left:2px;
+					margin-right:0;
+				}
+			
+			/******************************************************************/
+			/* Team / List / List Element / Quote							  */
+			/******************************************************************/					
+			
+			body.rtl .pb-team>ul>li .pb-team-quote-box
+			{
+				left:auto;
+				right:-60px;
+				background-position:20px center;	
+			}				

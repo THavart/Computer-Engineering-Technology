@@ -1,0 +1,38 @@
+/******************************************************************************/
+/* Iframe																	  */
+/******************************************************************************/
+
+div.pb-iframe
+{
+	width:100%;
+	max-width:100%;
+}
+
+	div.pb-iframe>div.pb-iframe-content
+	{
+		height:0;
+		overflow:hidden;
+		position:relative;
+		padding-bottom:56.25%;
+	}
+
+		div.pb-iframe>div.pb-iframe-content>iframe
+		{
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			border:none;
+			max-width:100%;
+			position:absolute;
+		}
+		
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+		body.rtl div.pb-iframe>div.pb-iframe-content>iframe
+		{
+			right:0;
+			left:auto;
+		}

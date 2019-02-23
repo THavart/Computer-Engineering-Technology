@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+        <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            Header!
+            <br />
+            <br />
+            @Html.ActionLink("Hello World", "Index", "Home") &nbsp;
+            @Html.ActionLink("Razor Example", "Razor", "Home") &nbsp;
+            @Html.ActionLink("Create Session Data (using 'Loosely Typed' form)", "CreateSession", "Home") &nbsp;
+            @Html.ActionLink("Create Form Data (using 'Strongly Typed' form)", "Form", "Home")
+        </header>
+        <div class="content">
+            @RenderBody()
+        </div>
+        <footer>
+            Footer!
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,2368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-directory\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-27 16:48+0600\n"
+"PO-Revision-Date: 2017-03-27 16:49+0600\n"
+"Last-Translator: 2015admin <hb@janus-sc.de>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: plugin.php:381
+msgid "Parent Item:"
+msgstr ""
+
+#: plugin.php:382
+msgid "All Items"
+msgstr ""
+
+#: plugin.php:383
+#, fuzzy
+msgid "Add New Item"
+msgstr "Neuen Tag hinzufügen"
+
+#: plugin.php:384
+#, fuzzy
+msgid "Add New"
+msgstr "Neuen Tag hinzufügen"
+
+#: plugin.php:385
+msgid "New Item"
+msgstr ""
+
+#: plugin.php:386
+#, fuzzy
+msgid "Edit Item"
+msgstr "bearbeiten"
+
+#: plugin.php:387
+#, fuzzy
+msgid "Update Item"
+msgstr "Update"
+
+#: plugin.php:388
+#, fuzzy
+msgid "View Item"
+msgstr "Zeige Seite"
+
+#: plugin.php:389
+#, fuzzy
+msgid "Search Item"
+msgstr "Suche"
+
+#: plugin.php:390
+msgid "Not found"
+msgstr ""
+
+#: plugin.php:391
+msgid "Not found in Trash"
+msgstr ""
+
+#: plugin.php:444
+#, fuzzy
+msgid "Categories"
+msgstr "Kategorie"
+
+#: plugin.php:478 admin/pages/dir_setting.php:248
+#: admin/pages/dir_setting.php:382
+#: template/private-profile/listing-edit.php:703
+#: template/listing/single-listing.php:306
+msgid "Tags"
+msgstr "Tags"
+
+#: plugin.php:503
+msgid "Pricing Table"
+msgstr ""
+
+#: plugin.php:507 plugin.php:529 plugin.php:551 plugin.php:573 plugin.php:595
+#: plugin.php:617 plugin.php:639 plugin.php:662 plugin.php:685 plugin.php:708
+#: plugin.php:731 plugin.php:754 plugin.php:777 plugin.php:800 plugin.php:823
+#: plugin.php:846 plugin.php:869 plugin.php:892 plugin.php:915 plugin.php:938
+#: plugin.php:961 plugin.php:984 plugin.php:1007 plugin.php:1028
+#: plugin.php:1049 plugin.php:1070 plugin.php:1091 plugin.php:1116
+#, fuzzy
+msgid "Content"
+msgstr "Kontakt"
+
+#: plugin.php:515 plugin.php:537 plugin.php:559 plugin.php:581
+#, fuzzy
+msgid "Style Name"
+msgstr "Post Type Name"
+
+#: plugin.php:517 plugin.php:539 plugin.php:561 plugin.php:583 plugin.php:627
+msgid "Default"
+msgstr ""
+
+#: plugin.php:518
+msgid "You can select the style from wp-admin e.g : style-1."
+msgstr ""
+
+#: plugin.php:525
+#, fuzzy
+msgid "Signup "
+msgstr "Login"
+
+#: plugin.php:540 plugin.php:562
+msgid "."
+msgstr ""
+
+#: plugin.php:547
+#, fuzzy
+msgid "My Acount "
+msgstr "Mein Konto"
+
+#: plugin.php:569
+#, fuzzy
+msgid "Public Profile "
+msgstr "LinkedIn Profil"
+
+#: plugin.php:584
+msgid "You can select the style from wp-admin e.g : style-1 , style-2 "
+msgstr ""
+
+#: plugin.php:591
+#, fuzzy
+msgid "User Directory "
+msgstr "MEWES Marktplatz"
+
+#: plugin.php:603
+msgid "Show  number of user / Page"
+msgstr ""
+
+#: plugin.php:605
+msgid "12"
+msgstr ""
+
+#: plugin.php:606
+msgid "You can set the number : 10,20 "
+msgstr ""
+
+#: plugin.php:613 template/private-profile/profile-login.php:55
+msgid "Login"
+msgstr "Login"
+
+#: plugin.php:625
+#, fuzzy
+msgid " Login"
+msgstr "Login"
+
+#: plugin.php:628 plugin.php:650 plugin.php:673 plugin.php:696 plugin.php:719
+#: plugin.php:742 plugin.php:765 plugin.php:788 plugin.php:811 plugin.php:834
+#: plugin.php:857 plugin.php:880 plugin.php:903 plugin.php:926 plugin.php:949
+#: plugin.php:972 plugin.php:995 plugin.php:1016 plugin.php:1037
+#: plugin.php:1058 plugin.php:1079 plugin.php:1100 plugin.php:1127
+msgid "Default "
+msgstr ""
+
+#: plugin.php:635 plugin.php:649
+#, fuzzy
+msgid "Listing Slider"
+msgstr "Felder Eintragung"
+
+#: plugin.php:647 plugin.php:670 plugin.php:693 plugin.php:716 plugin.php:739
+#: plugin.php:762 plugin.php:785 plugin.php:808 plugin.php:831 plugin.php:854
+#: plugin.php:877 plugin.php:900 plugin.php:923 plugin.php:946 plugin.php:969
+#: plugin.php:992 plugin.php:1013 plugin.php:1034 plugin.php:1055
+#: plugin.php:1076 plugin.php:1097 plugin.php:1124
+#, fuzzy
+msgid " Title"
+msgstr "Titel"
+
+#: plugin.php:658 plugin.php:672
+#, fuzzy
+msgid "Listing feature image"
+msgstr "Feature Bild festlegen"
+
+#: plugin.php:681 plugin.php:695
+#, fuzzy
+msgid "Listing contact info"
+msgstr "Kontakt Info"
+
+#: plugin.php:704 plugin.php:718
+#, fuzzy
+msgid "Listing social profile"
+msgstr "Social Profil"
+
+#: plugin.php:727 plugin.php:741
+#, fuzzy
+msgid "Listing about us"
+msgstr "Felder Eintragung"
+
+#: plugin.php:750 plugin.php:764
+#, fuzzy
+msgid "Listing Specialitiess"
+msgstr "Besonderheiten"
+
+#: plugin.php:773 plugin.php:787
+#, fuzzy
+msgid "Listing awards"
+msgstr "Liste Auszeichnungen"
+
+#: plugin.php:796 plugin.php:810
+#, fuzzy
+msgid "Listing video"
+msgstr "Video Liste"
+
+#: plugin.php:819 plugin.php:833
+#, fuzzy
+msgid "Listing event"
+msgstr "Event Liste"
+
+#: plugin.php:842 plugin.php:856
+#, fuzzy
+msgid "Listing reviews"
+msgstr "Felder Eintragung"
+
+#: plugin.php:865 plugin.php:879
+#, fuzzy
+msgid "Listing working time"
+msgstr "Verzeichnis Übersicht"
+
+#: plugin.php:888 plugin.php:902
+msgid "Listing contact us"
+msgstr ""
+
+#: plugin.php:911 plugin.php:925
+#, fuzzy
+msgid "Listing claim"
+msgstr "Felder Eintragung"
+
+#: plugin.php:934 plugin.php:948
+#, fuzzy
+msgid "Listing share it"
+msgstr "Listen Typ"
+
+#: plugin.php:957 plugin.php:971
+#, fuzzy
+msgid "Listing map"
+msgstr "Listen Typ"
+
+#: plugin.php:980 plugin.php:994
+#, fuzzy
+msgid "Listing Logo"
+msgstr "Listen Typ"
+
+#: plugin.php:1003 plugin.php:1015
+#, fuzzy
+msgid "Listing Comments"
+msgstr "Verzeichnis Übersicht"
+
+#: plugin.php:1024 plugin.php:1036
+#, fuzzy
+msgid "Listing Tags"
+msgstr "Listen Typ"
+
+#: plugin.php:1045 plugin.php:1057
+#, fuzzy
+msgid "Listing Menu"
+msgstr "Listen Typ"
+
+#: plugin.php:1066 plugin.php:1078
+#, fuzzy
+msgid "Listing Room"
+msgstr "Verzeichnis Übersicht"
+
+#: plugin.php:1087 plugin.php:1099
+#, fuzzy
+msgid "Listing Booking"
+msgstr "Felder Eintragung"
+
+#: plugin.php:1112 plugin.php:1126
+#, fuzzy
+msgid "Listing about us fields"
+msgstr "Felder Eintragung"
+
+#: plugin.php:2290
+msgid " Claim Approve"
+msgstr ""
+
+#: plugin.php:2295
+msgid "Claim Approve "
+msgstr ""
+
+#: plugin.php:2578 template/listing/archive-listing.php:385
+msgid "Any Category"
+msgstr "Jede Kategorie"
+
+#: plugin.php:2763
+msgid "Sorry, BootstrapPress re requires WordPress "
+msgstr ""
+
+#: admin/pages/user_directory_admin.php:10
+msgid "User Setting"
+msgstr "Nutzer Einstellung"
+
+#: admin/pages/user_directory_admin.php:122
+msgid "Create Date"
+msgstr "Datum erstellen"
+
+#: admin/pages/user_directory_admin.php:123
+#: template/private-profile/interested-1.php:82
+#: template/private-profile/interested-1.php:91
+msgid "User Name"
+msgstr "Benutzername"
+
+#: admin/pages/user_directory_admin.php:124 admin/pages/settings.php:36
+#: template/private-profile/interested-1.php:83
+#: template/private-profile/interested-1.php:92
+#: template/listing/single-listing.php:671
+#: template/listing/visual-composer/contact_info_shortcode.php:28
+msgid "Email"
+msgstr "Email"
+
+#: admin/pages/user_directory_admin.php:125
+msgid "Expiry Date"
+msgstr "Auslaufdatum"
+
+#: admin/pages/user_directory_admin.php:126
+#: template/private-profile/profile-level-1.php:578
+msgid "Payment Status"
+msgstr "Status Zahlung"
+
+#: admin/pages/user_directory_admin.php:127
+msgid "Role"
+msgstr "Rolle"
+
+#: admin/pages/user_directory_admin.php:128
+msgid "Balance"
+msgstr "Saldo"
+
+#: admin/pages/user_directory_admin.php:129 admin/pages/review_fields.php:53
+#: admin/pages/package_all.php:189 admin/pages/post_type.php:44
+#: admin/pages/profile-fields.php:47 admin/pages/profile-fields.php:316
+msgid "Action"
+msgstr "Aktion"
+
+#: admin/pages/user_directory_admin.php:169
+#: template/private-profile/profile-all-post-1.php:198
+msgid "Edit"
+msgstr "bearbeiten"
+
+#: admin/pages/user_directory_admin.php:170 admin/pages/profile-fields.php:268
+#: admin/pages/profile-fields.php:283 admin/pages/profile-fields.php:365
+#: template/private-profile/profile-all-post-1.php:199
+msgid "Delete"
+msgstr "löschen"
+
+#: admin/pages/user_directory_admin.php:195
+#: template/user-directory/directory-template-1.php:481
+#: template/user-directory/directory-template-2.php:224
+msgid "&laquo; Previous"
+msgstr ""
+
+#: admin/pages/user_directory_admin.php:196
+#: template/user-directory/directory-template-1.php:482
+#: template/user-directory/directory-template-2.php:225
+msgid "Next &raquo;"
+msgstr ""
+
+#: admin/pages/review_fields.php:29
+#, fuzzy
+msgid "Review Fields"
+msgstr "Bewertungen"
+
+#: admin/pages/review_fields.php:39
+#, fuzzy
+msgid " Review Fields"
+msgstr "Bewertungen"
+
+#: admin/pages/review_fields.php:47
+#, fuzzy
+msgid "Post Meta Name"
+msgstr "Benutzer Metaname"
+
+#: admin/pages/review_fields.php:50 admin/pages/post_type.php:41
+#: admin/pages/profile-fields.php:313
+msgid "Display Label"
+msgstr "Display Label"
+
+#: admin/pages/review_fields.php:109 admin/pages/post_type.php:94
+#: admin/pages/profile-fields.php:295 admin/pages/profile-fields.php:380
+#: template/private-profile/new-listing.php:717
+#: template/private-profile/new-listing.php:799
+#: template/private-profile/new-listing.php:881
+#: template/private-profile/new-listing.php:1277
+#: template/private-profile/listing-edit.php:950
+#: template/private-profile/listing-edit.php:1115
+#: template/private-profile/listing-edit.php:1279
+#: template/private-profile/listing-edit.php:1704
+msgid "Add More"
+msgstr "mehr hinzufügen"
+
+#: admin/pages/review_fields.php:117 admin/pages/post_type.php:102
+#: admin/pages/post_type.php:197 admin/pages/profile-fields.php:24
+#: admin/pages/profile-fields.php:392 admin/pages/protected_page.php:155
+msgid "Update"
+msgstr "Update"
+
+#: admin/pages/review_fields.php:121
+msgid ""
+"Note : Keep \"Post Meta Name\" field without space e.g Dignity_and_respect\t"
+msgstr ""
+
+#: admin/pages/membership-profile-wizard.php:7
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: admin/pages/membership-profile-wizard.php:18
+msgid "Short Code"
+msgstr "Suchbegriff"
+
+#: admin/pages/membership-profile-wizard.php:26
+msgid "Php Code"
+msgstr "Php Code"
+
+#: admin/pages/membership-profile-wizard.php:35
+msgid "My Account Page"
+msgstr "Meine Konto Seite"
+
+#: admin/pages/membership-profile-wizard.php:43
+msgid "View Page"
+msgstr "Zeige Seite"
+
+#: admin/pages/membership-profile-wizard.php:49
+msgid "Profile Fields Setting"
+msgstr "Profil Felder Einstellungen"
+
+#: admin/pages/membership-profile-wizard.php:51
+msgid "Add /Edit/ Remove Profile Fields"
+msgstr "Profil Felder hinzufügen/Bearbeiten/Entfernen"
+
+#: admin/pages/membership-profile-wizard.php:56
+#: admin/pages/profile-fields.php:36
+msgid "My Account Menu"
+msgstr "Mein Konto Menü"
+
+#: admin/pages/membership-profile-wizard.php:58
+msgid "Show/Hide/Add Menu"
+msgstr "Menü zeigen/verbergen/hinzufügen"
+
+#: admin/pages/dashboard.php:9
+msgid "ep_fitness Affiliate Dashboard"
+msgstr ""
+
+#: admin/pages/dashboard.php:10
+msgid "Your Dashboard, Summary, Status, Shortcuts to modules"
+msgstr ""
+
+#: admin/pages/metabox.php:22 admin/pages/doctor-metabox.php:21
+msgid "User ID :"
+msgstr ""
+
+#: admin/pages/metabox.php:40 admin/pages/doctor-metabox.php:39
+msgid "Approve"
+msgstr ""
+
+#: admin/pages/dir_setting.php:20
+msgid "Directory Setting"
+msgstr "Verzeichnis Einstellung"
+
+#: admin/pages/dir_setting.php:72
+msgid "Archive Page"
+msgstr "Archiv Seite"
+
+#: admin/pages/dir_setting.php:75
+#, fuzzy
+msgid "All listings"
+msgstr "Alle Einträge"
+
+#: admin/pages/dir_setting.php:79
+#, fuzzy
+msgid "Single Page [No Paging]"
+msgstr "Einzelseite"
+
+#: admin/pages/dir_setting.php:84
+msgid "Listing with paging"
+msgstr ""
+
+#: admin/pages/dir_setting.php:92
+msgid "Listing Page toggle button[Search + Map] "
+msgstr ""
+
+#: admin/pages/dir_setting.php:96
+#, fuzzy
+msgid "Show"
+msgstr "Zeige alles"
+
+#: admin/pages/dir_setting.php:101
+msgid "Hide"
+msgstr ""
+
+#: admin/pages/dir_setting.php:106
+#, fuzzy
+msgid "Listing Page Top Map"
+msgstr "Listen Typ"
+
+#: admin/pages/dir_setting.php:110
+msgid "Show  Top Map"
+msgstr ""
+
+#: admin/pages/dir_setting.php:115
+#, fuzzy
+msgid "Hide Top Map"
+msgstr "Guutschein verbergen"
+
+#: admin/pages/dir_setting.php:125
+#, fuzzy
+msgid "Listing Filter option"
+msgstr "Felder Eintragung"
+
+#: admin/pages/dir_setting.php:128
+#, fuzzy
+msgid "Show Filter"
+msgstr "Zeige alles"
+
+#: admin/pages/dir_setting.php:133
+#, fuzzy
+msgid "Hide Filter"
+msgstr "Mobilnummer verbergen"
+
+#: admin/pages/dir_setting.php:140
+msgid "Listing Page Search Bar"
+msgstr ""
+
+#: admin/pages/dir_setting.php:144
+msgid "Show  Search Bar"
+msgstr ""
+
+#: admin/pages/dir_setting.php:149
+#, fuzzy
+msgid "Hide Search Bar"
+msgstr "Erweiterte Suche"
+
+#: admin/pages/dir_setting.php:154
+msgid "Map Zoom"
+msgstr ""
+
+#: admin/pages/dir_setting.php:167
+msgid "20 is more Zoom, 1 is less zoom"
+msgstr ""
+
+#: admin/pages/dir_setting.php:176
+msgid "Single Page"
+msgstr "Einzelseite"
+
+#: admin/pages/dir_setting.php:179 template/listing/single-listing.php:676
+msgid "Social Profile"
+msgstr "Social Profil"
+
+#: admin/pages/dir_setting.php:183
+#, fuzzy
+msgid "Show Social Profile"
+msgstr "Social Profil"
+
+#: admin/pages/dir_setting.php:188
+#, fuzzy
+msgid "Hide Social Profile"
+msgstr "Social Profil"
+
+#: admin/pages/dir_setting.php:194
+msgid "Slider Autoplay"
+msgstr ""
+
+#: admin/pages/dir_setting.php:198
+msgid "Slider Autoplay True"
+msgstr ""
+
+#: admin/pages/dir_setting.php:203
+msgid "Slider Autoplay False"
+msgstr ""
+
+#: admin/pages/dir_setting.php:212
+msgid "Slider Size"
+msgstr ""
+
+#: admin/pages/dir_setting.php:216
+msgid "Big Slider"
+msgstr ""
+
+#: admin/pages/dir_setting.php:221
+msgid "Small Slider"
+msgstr ""
+
+#: admin/pages/dir_setting.php:231 template/listing/single-listing.php:895
+msgid "Booking"
+msgstr ""
+
+#: admin/pages/dir_setting.php:235
+msgid "Show Booking"
+msgstr ""
+
+#: admin/pages/dir_setting.php:240
+#, fuzzy
+msgid "Hide Booking"
+msgstr "Guutschein verbergen"
+
+#: admin/pages/dir_setting.php:252
+#, fuzzy
+msgid "Show Tags"
+msgstr "Tags"
+
+#: admin/pages/dir_setting.php:257
+#, fuzzy
+msgid "Hide Tags"
+msgstr "Neuen Tag hinzufügen"
+
+#: admin/pages/dir_setting.php:263 template/listing/single-listing.php:955
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: admin/pages/dir_setting.php:267
+#, fuzzy
+msgid "Show Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: admin/pages/dir_setting.php:272
+#, fuzzy
+msgid "Hide Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: admin/pages/dir_setting.php:278
+msgid "Claim"
+msgstr ""
+
+#: admin/pages/dir_setting.php:282
+#, fuzzy
+msgid "Show Claim"
+msgstr "Zeige alles"
+
+#: admin/pages/dir_setting.php:287
+#, fuzzy
+msgid "Hide Claim"
+msgstr "Anspruch abschicken"
+
+#: admin/pages/dir_setting.php:292 template/listing/single-listing.php:619
+msgid "Comments"
+msgstr "Kommentare"
+
+#: admin/pages/dir_setting.php:296
+#, fuzzy
+msgid "Show Comments"
+msgstr "Kommentare"
+
+#: admin/pages/dir_setting.php:301
+#, fuzzy
+msgid "Hide Comments"
+msgstr "Kommentare"
+
+#: admin/pages/dir_setting.php:309
+msgid "Search Options"
+msgstr "Optionen der Suche"
+
+#: admin/pages/dir_setting.php:318 template/listing/slider-search.php:74
+#: template/listing/archive-listing.php:212
+msgid "Keyword"
+msgstr "Suchbegriff"
+
+#: admin/pages/dir_setting.php:339
+#: template/private-profile/new-listing.php:319
+#: template/private-profile/listing-edit.php:446
+msgid "City"
+msgstr "Stadt"
+
+#: admin/pages/dir_setting.php:360
+msgid "Country"
+msgstr "Land"
+
+#: admin/pages/dir_setting.php:403 admin/pages/map_marker.php:30
+#: template/private-profile/new-listing.php:222
+#: template/private-profile/listing-edit.php:251
+#: template/private-profile/listing-edit.php:348
+msgid "Category"
+msgstr "Kategorie"
+
+#: admin/pages/dir_setting.php:424 template/listing/single-listing.php:654
+#: template/listing/slider-search.php:78
+#: template/listing/archive-listing.php:488
+#: template/listing/visual-composer/contact_info_shortcode.php:13
+msgid "Location"
+msgstr "Ort"
+
+#: admin/pages/dir_setting.php:445 template/listing/archive-listing.php:504
+msgid "Radius"
+msgstr "Umkreis"
+
+#: admin/pages/dir_setting.php:465
+#: template/private-profile/new-listing.php:324
+#: template/private-profile/listing-edit.php:451
+#: template/listing/archive-listing.php:465
+msgid "Zipcode"
+msgstr "Postleitzahl"
+
+#: admin/pages/dir_setting.php:481
+msgid "Other Options"
+msgstr "weiter Optionen"
+
+#: admin/pages/dir_setting.php:491
+msgid "Plugin Color"
+msgstr "Plugin Farbe"
+
+#: admin/pages/dir_setting.php:503
+msgid "Directory Publish By User"
+msgstr "Verzeichnis Veröffentlichung durch Benutzer"
+
+#: admin/pages/dir_setting.php:522
+msgid "Directory Radius"
+msgstr "Verzeichnis Umkreis"
+
+#: admin/pages/dir_setting.php:541
+msgid "Google Map API Key"
+msgstr ""
+
+#: admin/pages/dir_setting.php:559 admin/pages/settings.php:594
+msgid "Cron Job URL"
+msgstr "Cron Job URL"
+
+#: admin/pages/package_all.php:184 admin/pages/package_create.php:96
+#: template/private-profile/profile-level-1.php:664
+#: template/signup/iv_stripe_form_2.php:21 template/signup/paypal_form_2.php:3
+msgid "Package Name"
+msgstr "Name Paket"
+
+#: admin/pages/package_all.php:185
+#: template/private-profile/profile-level-1.php:700
+#: template/signup/iv_stripe_form_2.php:74
+#: template/signup/paypal_form_2.php:60
+msgid "Amount"
+msgstr "Betrag"
+
+#: admin/pages/package_all.php:186 admin/pages/profile-fields.php:44
+msgid "Link"
+msgstr "Link"
+
+#: admin/pages/package_all.php:187
+#: template/private-profile/profile-level-1.php:588
+msgid "User Role"
+msgstr "Benutzerrolle"
+
+#: admin/pages/package_all.php:188
+msgid "Status"
+msgstr "Status"
+
+#: admin/pages/directory_fields.php:24
+msgid "Listing Fields"
+msgstr "Felder Eintragung"
+
+#: admin/pages/map_marker.php:24
+msgid "Category Image / Map Marker"
+msgstr "Kategorie Bild / Kartenmarker"
+
+#: admin/pages/map_marker.php:31
+msgid "Post Type"
+msgstr "Post Type"
+
+#: admin/pages/map_marker.php:32
+msgid "Map Marker"
+msgstr "Karten Marker"
+
+#: admin/pages/map_marker.php:33 admin/pages/map_marker.php:196
+#: admin/pages/map_marker.php:198
+msgid "Category Image"
+msgstr "Kategoriebild"
+
+#: admin/pages/map_marker.php:108
+msgid "Change Image"
+msgstr "Bild ändern"
+
+#: admin/pages/map_marker.php:124
+msgid "Set Image"
+msgstr "Bild festlegen"
+
+#: admin/pages/map_marker.php:149 admin/pages/map_marker.php:151
+#, fuzzy
+msgid "Marker Image"
+msgstr "Feature Bild"
+
+#: admin/pages/post_type.php:24
+msgid "Custom Post Type"
+msgstr "Custom Post Type"
+
+#: admin/pages/post_type.php:30
+msgid "Custom Post type list"
+msgstr "Custom Post type liste"
+
+#: admin/pages/post_type.php:38
+msgid "Post Type Name"
+msgstr "Post Type Name"
+
+#: admin/pages/post_type.php:116
+msgid "Custom Post Type Page Setting"
+msgstr "Custom Post Type Seiteneinstellung"
+
+#: admin/pages/post_type.php:122
+msgid "Select Your Custom Post Type Single/Detail Page"
+msgstr "Wählen Sie Ihren Custom Post Type Einzelseite/Detailseite"
+
+#: admin/pages/profile-fields.php:29
+msgid "Update Profile Setting"
+msgstr "Profileinstellung update"
+
+#: admin/pages/profile-fields.php:41
+msgid "Menu Title / Label"
+msgstr "Menü Titel/Label"
+
+#: admin/pages/profile-fields.php:58
+msgid "listing Home"
+msgstr "Verzeichnis Übersicht"
+
+#: admin/pages/profile-fields.php:81
+#: template/private-profile/profile-template-1.php:673
+#: template/private-profile/profile-level-1.php:483
+msgid "Membership Level"
+msgstr "Mitgliedslevel"
+
+#: admin/pages/profile-fields.php:106
+#: template/private-profile/profile-template-1.php:689
+msgid "Account Settings"
+msgstr "Kontoeinstellungen"
+
+#: admin/pages/profile-fields.php:129
+#: template/private-profile/profile-template-1.php:705
+#: template/private-profile/profile-all-post-1.php:37
+msgid "All Listing"
+msgstr "Alle Einträge"
+
+#: admin/pages/profile-fields.php:153
+msgid "New listing"
+msgstr "Neuer Eintrag"
+
+#: admin/pages/profile-fields.php:177
+msgid "New Doctor"
+msgstr "Neu Hilfe"
+
+#: admin/pages/profile-fields.php:202
+#: template/private-profile/profile-template-1.php:737
+#: template/private-profile/my-favorites-1.php:44
+msgid "My Favorites"
+msgstr "Meine Favoriten"
+
+#: admin/pages/profile-fields.php:225
+#: template/private-profile/interested-1.php:57
+#: template/private-profile/profile-template-1.php:752
+msgid "Who is Interested"
+msgstr "Wer interessiert sich?"
+
+#: admin/pages/profile-fields.php:303
+msgid "User Profile Fields"
+msgstr "Benutzerprofil Felder"
+
+#: admin/pages/profile-fields.php:310
+msgid "User Meta Name"
+msgstr "Benutzer Metaname"
+
+#: admin/pages/profile-fields.php:402
+msgid "Display the user meta on \"Public Profile"
+msgstr "Benutzer Metaname im öff. Profil anzeigen"
+
+#: admin/pages/profile-fields.php:404
+msgid ""
+"Open the template file  your-theme/directory-pro/profile-public/profile-"
+"template-1.php and put the code on the file. It will display  the  "
+"\"first_name\" user meta value."
+msgstr ""
+"Öffnen Sie die Vorlagendatei your-theme / directory-pro / profile-public / "
+"profile-template-1.php und setzen Sie den Code auf die Datei. Es wird der "
+"Benutzer-Meta-Wert \"first_name\" angezeigt."
+
+#: admin/pages/profile-fields.php:408
+msgid "Overriding templates"
+msgstr "Vorlagen überschreiben"
+
+#: admin/pages/profile-fields.php:409
+msgid ""
+"The template files can be found within the /directory-pro/template/ "
+"directory: Copy the template folder and paste it on your current theme "
+"folder and rename it as \"directorypro\"."
+msgstr ""
+"Die Vorlagendateien finden Sie im Verzeichnis / directory-pro / template / "
+"Verzeichnis: Kopieren Sie den Vorlagenordner und fügen Sie ihn in den "
+"aktuellen Themenordner ein und benennen ihn als \"directorypro\" um."
+
+#: admin/pages/protected_page.php:20
+msgid "Pages Restriction By Roles"
+msgstr "Seitenbeschränkung durch Rollen"
+
+#: admin/pages/protected_page.php:44
+msgid "Page Visibility Module :"
+msgstr "Seitensichtbarkeits Module:"
+
+#: admin/pages/protected_page.php:47
+msgid "Show Page By Role Access"
+msgstr "Zeige Seiten nach Rollenzugriff"
+
+#: admin/pages/protected_page.php:52 template/listing/archive-listing.php:556
+#: template/listing/archive-listing.php:592
+msgid "Show All"
+msgstr "Zeige alles"
+
+#: admin/pages/protected_page.php:58
+msgid "Select which pages are available for each user role.\t"
+msgstr "Legen Sie feste, welche Seiten für jede Benutzerrolle verfügbar sind."
+
+#: admin/pages/protected_page.php:83
+msgid "Check/Uncheck"
+msgstr "Einschalten/Ausschalten"
+
+#: admin/pages/settings.php:31
+msgid "Page"
+msgstr "Seite"
+
+#: admin/pages/settings.php:33 template/private-profile/interested-1.php:84
+#: template/private-profile/interested-1.php:93
+msgid "Directory"
+msgstr "Verzeichnis"
+
+#: admin/pages/settings.php:34
+msgid "Category Image/Marker"
+msgstr "Kategorie Bild/Marker"
+
+#: admin/pages/settings.php:35
+msgid "Payment Page"
+msgstr "Zahlungsseite"
+
+#: admin/pages/settings.php:37
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: admin/pages/settings.php:38
+msgid "Page Redirect"
+msgstr "Seiten Umleitung"
+
+#: admin/pages/settings.php:39
+msgid "Visibility Control"
+msgstr "Sichtbarkeits Kontrolle"
+
+#: admin/pages/settings.php:41
+msgid "Protected Page"
+msgstr "Geschützte Seite"
+
+#: admin/pages/package_update.php:275 admin/pages/package_create.php:276
+msgid "Access Control/Options"
+msgstr "Zugriffskontrolle Optionen"
+
+#: admin/pages/package_update.php:277 admin/pages/package_create.php:278
+msgid "Maximum listing"
+msgstr "Maximale Anzeige"
+
+#: admin/pages/package_update.php:280 admin/pages/package_create.php:281
+msgid "Maximum # of post by this package. Blank is none."
+msgstr "Maximale Zahl von Posts in diesem Paket. Leer bedeutet keine."
+
+#: admin/pages/package_update.php:284 admin/pages/package_create.php:285
+msgid "listing Visibility"
+msgstr "Listen Sichtbarkeit"
+
+#: admin/pages/package_update.php:287 admin/pages/package_create.php:288
+msgid "listing will hide after user subscription expire."
+msgstr "Eintrag wird nach Ende des Abos verborgen"
+
+#: admin/pages/package_update.php:292 admin/pages/package_create.php:293
+msgid "listing Event"
+msgstr "Event Liste"
+
+#: admin/pages/package_update.php:295 admin/pages/package_create.php:296
+msgid "Can Add Event."
+msgstr "Kann Event hinzufügen"
+
+#: admin/pages/package_update.php:304 admin/pages/package_create.php:305
+msgid "listing Videos"
+msgstr "Video Liste"
+
+#: admin/pages/package_update.php:307 admin/pages/package_create.php:308
+msgid "Can Add Videos."
+msgstr "Kann Videos hinzugügen"
+
+#: admin/pages/package_update.php:312 admin/pages/package_create.php:313
+msgid "listing Award"
+msgstr "Liste Auszeichnungen"
+
+#: admin/pages/package_update.php:315 admin/pages/package_create.php:316
+msgid "Can Add Award."
+msgstr "Kann Auszeichnung hinzufügen"
+
+#: admin/pages/package_update.php:321 admin/pages/package_create.php:322
+#, fuzzy
+msgid "listing Menu"
+msgstr "Event Liste"
+
+#: admin/pages/package_update.php:324 admin/pages/package_create.php:325
+#, fuzzy
+msgid "Can Add Menu."
+msgstr "Kann Event hinzufügen"
+
+#: admin/pages/package_update.php:329 admin/pages/package_create.php:330
+#, fuzzy
+msgid "listing Room"
+msgstr "Verzeichnis Übersicht"
+
+#: admin/pages/package_update.php:332 admin/pages/package_create.php:333
+#, fuzzy
+msgid "Can Add Room."
+msgstr "Kann Videos hinzugügen"
+
+#: admin/pages/package_update.php:337 admin/pages/package_create.php:338
+#, fuzzy
+msgid "listing Booking"
+msgstr "Verzeichnis Übersicht"
+
+#: admin/pages/package_update.php:340 admin/pages/package_create.php:341
+#, fuzzy
+msgid "Can Add Booking."
+msgstr "Kann Event hinzufügen"
+
+#: admin/pages/package_create.php:72 admin/pages/package_create.php:354
+msgid "Save Package"
+msgstr "Paket speichern"
+
+#: admin/pages/package_create.php:76
+msgid "Create Package / Membership Level"
+msgstr "Erstellen Paket / Benutzerlevel"
+
+#: admin/pages/package_create.php:102
+msgid "Package Feature List"
+msgstr "Feature Liste des Paketes"
+
+#: admin/pages/package_create.php:105
+msgid "It will display on price list table"
+msgstr "Wird in der Preisliste angezeigt"
+
+#: admin/pages/package_create.php:108
+msgid "Billing Details"
+msgstr "Rechnungsdetails"
+
+#: admin/pages/package_create.php:111
+msgid "Initial Payment"
+msgstr "Startzahlung"
+
+#: admin/pages/package_create.php:114
+msgid "The initial amount collected at user registration."
+msgstr "Die Startzahlung wird nach der Nutzerregistrierung erhoben."
+
+#: admin/pages/package_create.php:119
+msgid "Package Expire After"
+msgstr "Paket endet nach"
+
+#: admin/pages/package_create.php:154
+msgid ""
+"If select none then user package will expire after 19 years. Package Expire "
+"Option will not work on Recurring Subscription. \"Billing Cycle Limit\" will "
+"Work For Recurring Subscription."
+msgstr ""
+"Wenn nichts ausgewählt wird, dann läuft es nach 19 Jahren aus. die "
+"Auslauffunktion funktioniert nicht bei Abonnements, \"Rechnungszyklus "
+"Begrenzung\" wird dafür genutzt."
+
+#: admin/pages/package_create.php:161
+msgid "Recurring Subscription"
+msgstr "Automatisches Abonnement"
+
+#: admin/pages/package_create.php:164
+msgid "Enable Recurring Payment"
+msgstr "Wiederkehrende Zahlung aktivieren"
+
+#: admin/pages/package_create.php:170
+msgid "Billing Amount"
+msgstr "Rechnungsbetrag"
+
+#: admin/pages/package_create.php:174
+msgid "Per"
+msgstr "per"
+
+#: admin/pages/package_create.php:188
+msgid "The \"Billing Amount\" will Collect at User Registration."
+msgstr "Der Rechnungsbetrag wird nach der Registrierung erhoben."
+
+#: admin/pages/package_create.php:193
+msgid "Billing Cycle Limit"
+msgstr "Rechnungszyklus Limit"
+
+#: admin/pages/package_create.php:216
+msgid "Trial"
+msgstr "Test"
+
+#: admin/pages/package_create.php:219
+msgid "Enable Trial Period"
+msgstr "Testperiode aktivieren"
+
+#: admin/pages/package_create.php:222
+msgid "\"Billing Amount\" will Collect After Trial Period. "
+msgstr "Rechnungsbetrag wird nach Testperiode erhoben."
+
+#: admin/pages/package_create.php:230
+msgid "Trial Amount"
+msgstr "Test Kosten"
+
+#: admin/pages/package_create.php:233
+msgid ""
+"Amount to Bill for The Trial Period. Free is 0.[Stripe will not support this "
+"option ]"
+msgstr "Summe die für den Testzeitraum berechnet wird. Kostenlos ist 0."
+
+#: admin/pages/package_create.php:238
+msgid "Trial Period"
+msgstr "Testzeitraum"
+
+#: admin/pages/package_create.php:268
+msgid "After The Trial Period \"Billing Amount\"\tWill Be Billed."
+msgstr "Nach dem Testzeitraum wird der Rechnungsbetrag erhoben."
+
+#: admin/pages/update.php:9
+msgid "Update Products"
+msgstr ""
+
+#: admin/pages/update.php:10
+msgid "Synchronize your Products from Amazon with latest data"
+msgstr ""
+
+#: template/profile-public/profile-template-2.php:120
+#: template/private-profile/profile-template-1.php:789
+msgid "About"
+msgstr "Über"
+
+#: template/profile-public/profile-template-2.php:191
+msgid "User Post"
+msgstr "Benutzer Post"
+
+#: template/profile-public/profile-template-2.php:249
+msgid "Post on :"
+msgstr "Posten auf:"
+
+#: template/private-profile/interested-1.php:85
+#: template/private-profile/interested-1.php:94
+#: template/private-profile/interested-1.php:168
+#: template/private-profile/my-favorites-1.php:127
+msgid "Contact"
+msgstr "Kontakt"
+
+#: template/private-profile/profile-template-1.php:622
+msgid "Change"
+msgstr "Änderung"
+
+#: template/private-profile/profile-template-1.php:720
+msgid "Add New Listing"
+msgstr "neuen Eintrag hinzufügen"
+
+#: template/private-profile/profile-template-1.php:780
+msgid "Sign out"
+msgstr "Ausloggen"
+
+#: template/private-profile/profile-template-1.php:881
+#: template/private-profile/profile-template-1.php:883
+#, fuzzy
+msgid "Profile Image"
+msgstr "Profil"
+
+#: template/private-profile/new-listing.php:12
+msgid "New Listing"
+msgstr "Neuer Eintrag"
+
+#: template/private-profile/new-listing.php:67
+msgid "Please Upgrade Your Account"
+msgstr "Bitte upgraden Sie Ihr Konto"
+
+#: template/private-profile/new-listing.php:68
+msgid "Here"
+msgstr "Hier"
+
+#: template/private-profile/new-listing.php:69
+msgid "To Add More Post."
+msgstr "um mehr Posts hinzuzufügen."
+
+#: template/private-profile/new-listing.php:83
+#: template/private-profile/listing-edit.php:75
+msgid "Listing Type"
+msgstr "Listen Typ"
+
+#: template/private-profile/new-listing.php:115
+#: template/private-profile/listing-edit.php:105
+msgid "Name/Title"
+msgstr "Name/Titel"
+
+#: template/private-profile/new-listing.php:117
+msgid "Enter Name Here"
+msgstr "Namen hier eingeben"
+
+#: template/private-profile/new-listing.php:138
+#: template/private-profile/listing-edit.php:129
+msgid "Logo"
+msgstr "Logo"
+
+#: template/private-profile/new-listing.php:149
+#: template/private-profile/new-listing.php:165
+#: template/private-profile/new-listing.php:1335
+#: template/private-profile/listing-edit.php:149
+#: template/private-profile/listing-edit.php:181
+#: template/private-profile/listing-edit.php:1790
+msgid "Add"
+msgstr "hinzufügen"
+
+#: template/private-profile/new-listing.php:154
+#: template/private-profile/listing-edit.php:154
+msgid "Feature Image"
+msgstr "Feature Bild"
+
+#: template/private-profile/new-listing.php:172
+#: template/private-profile/listing-edit.php:186
+msgid "Image Gallery"
+msgstr "Bilder Gallerie"
+
+#: template/private-profile/new-listing.php:173
+#: template/private-profile/listing-edit.php:187
+msgid "Add Images"
+msgstr "Bilder hinzufügen"
+
+#: template/private-profile/new-listing.php:196
+#: template/private-profile/listing-edit.php:225
+msgid "Post Status"
+msgstr "Post Status"
+
+#: template/private-profile/new-listing.php:203
+#: template/private-profile/listing-edit.php:232
+msgid "Publish"
+msgstr "publizieren"
+
+#: template/private-profile/new-listing.php:206
+#: template/private-profile/listing-edit.php:235
+msgid "Pending Review"
+msgstr "Ausstehende Überprüfung"
+
+#: template/private-profile/new-listing.php:210
+msgid "Draft"
+msgstr "Entwurf"
+
+#: template/private-profile/new-listing.php:230
+#: template/private-profile/listing-edit.php:266
+#: template/private-profile/listing-edit.php:360
+msgid "Choose a category"
+msgstr "Wählen Sie eine Kategorie"
+
+#: template/private-profile/new-listing.php:308
+#: template/private-profile/listing-edit.php:436
+msgid "Address"
+msgstr "Adresse"
+
+#: template/private-profile/new-listing.php:310
+msgid "Enter here Here"
+msgstr "Hier eingeben"
+
+#: template/private-profile/new-listing.php:321
+#: template/private-profile/listing-edit.php:448
+msgid "Enter city "
+msgstr "Stadt eingeben "
+
+#: template/private-profile/new-listing.php:326
+#: template/private-profile/listing-edit.php:453
+msgid "Enter Zipcode "
+msgstr "Postleitzahl eingeben"
+
+#: template/private-profile/new-listing.php:330
+#: template/private-profile/listing-edit.php:458
+msgid "Address Map"
+msgstr "Karten Adresse"
+
+#: template/private-profile/new-listing.php:499
+#: template/private-profile/listing-edit.php:641
+msgid "Speciality(s)"
+msgstr "Spezialität(en)"
+
+#: template/private-profile/new-listing.php:504
+#: template/private-profile/new-listing.php:549
+#: template/private-profile/new-listing.php:622
+#: template/private-profile/new-listing.php:671
+#: template/private-profile/new-listing.php:744
+#: template/private-profile/new-listing.php:826
+#: template/private-profile/new-listing.php:906
+#: template/private-profile/new-listing.php:979
+#: template/private-profile/new-listing.php:1026
+#: template/private-profile/new-listing.php:1077
+#: template/private-profile/new-listing.php:1137
+#: template/private-profile/new-listing.php:1293
+#: template/private-profile/listing-edit.php:646
+#: template/private-profile/listing-edit.php:708
+#: template/private-profile/listing-edit.php:782
+#: template/private-profile/listing-edit.php:831
+#: template/private-profile/listing-edit.php:976
+#: template/private-profile/listing-edit.php:1142
+#: template/private-profile/listing-edit.php:1304
+#: template/private-profile/listing-edit.php:1388
+#: template/private-profile/listing-edit.php:1433
+#: template/private-profile/listing-edit.php:1482
+#: template/private-profile/listing-edit.php:1542
+#: template/private-profile/listing-edit.php:1720
+msgid "[ Edit ]"
+msgstr "[ ändern ]"
+
+#: template/private-profile/new-listing.php:514
+#: template/private-profile/listing-edit.php:656
+msgid ""
+"Wheelchair access, Accept credit cards, Kids corner,Car parking,Pets "
+"friendly,Gift wrapping,Bike parking,Free Wi-Fi,Alcohol,Reservations,Street "
+"Parking,Breakfast and Meals,Chauffer Check-In,Pick Up/ Drop Off Service,Car "
+"parking,Luggage Forwarding Service,Pick Up/ Drop Off Service,Movie Library,"
+"Bar,Private Dining Hall,Rooftop Viewpoint,Tesla Supercharger,Locker Room,Hot "
+"tub,Fitness Centre"
+msgstr ""
+
+#: template/private-profile/new-listing.php:544
+msgid "Amenities/Tags"
+msgstr "Ausstattung / Tags"
+
+#: template/private-profile/new-listing.php:556
+#: template/private-profile/listing-edit.php:715
+msgid "Select Tags"
+msgstr "Tag Auswählen"
+
+#: template/private-profile/new-listing.php:598
+msgid "Add New Amenities/Tags"
+msgstr "Neue Ausstattung hinzufügen"
+
+#: template/private-profile/new-listing.php:600
+#: template/private-profile/listing-edit.php:764
+msgid "Enter New Tags: Separate tags with commas"
+msgstr "Geben Sie neue Tags ein: ´durch Komma trennen"
+
+#: template/private-profile/new-listing.php:617
+#: template/private-profile/listing-edit.php:777
+#: template/listing/single-listing.php:645
+msgid "Contact Info"
+msgstr "Kontakt Info"
+
+#: template/private-profile/new-listing.php:629
+#: template/private-profile/listing-edit.php:789
+#: template/listing/single-listing.php:666
+#: template/listing/visual-composer/contact_info_shortcode.php:23
+msgid "Phone"
+msgstr "Telefon"
+
+#: template/private-profile/new-listing.php:631
+#: template/private-profile/listing-edit.php:791
+msgid "Enter Phone Number"
+msgstr "Telefonnummer eingeben"
+
+#: template/private-profile/new-listing.php:635
+#: template/private-profile/listing-edit.php:795
+#: template/listing/single-listing.php:669
+#: template/listing/visual-composer/contact_info_shortcode.php:26
+msgid "Fax"
+msgstr "Fax"
+
+#: template/private-profile/new-listing.php:638
+#: template/private-profile/listing-edit.php:798
+msgid "Enter Fax Number"
+msgstr "Faxnummer eingeben"
+
+#: template/private-profile/new-listing.php:642
+#: template/private-profile/listing-edit.php:802
+msgid "Email Address"
+msgstr "Email Adresse"
+
+#: template/private-profile/new-listing.php:645
+#: template/private-profile/profile-login.php:149
+#: template/private-profile/listing-edit.php:805
+msgid "Enter Email Address"
+msgstr "Email Adresse eingeben"
+
+#: template/private-profile/new-listing.php:649
+#: template/private-profile/listing-edit.php:809
+#: template/listing/single-listing.php:673
+#: template/listing/visual-composer/contact_info_shortcode.php:30
+msgid "Web Site"
+msgstr "Webseite"
+
+#: template/private-profile/new-listing.php:652
+#: template/private-profile/listing-edit.php:812
+msgid "Enter Web Site"
+msgstr "Webseite eingeben"
+
+#: template/private-profile/new-listing.php:666
+#: template/private-profile/listing-edit.php:826
+#: template/listing/single-listing.php:337
+msgid "Awards"
+msgstr "Auszeichnungen"
+
+#: template/private-profile/new-listing.php:684
+#: template/private-profile/listing-edit.php:856
+#: template/private-profile/listing-edit.php:912
+msgid "Award Title"
+msgstr "Titel der Auszeichnung"
+
+#: template/private-profile/new-listing.php:687
+#: template/private-profile/listing-edit.php:861
+#: template/private-profile/listing-edit.php:915
+msgid "Enter award title"
+msgstr "Titel der Auszeichnung eingeben"
+
+#: template/private-profile/new-listing.php:691
+#: template/private-profile/listing-edit.php:865
+#: template/private-profile/listing-edit.php:919
+msgid "Award Description"
+msgstr "Beschreibung der Auszeichnung"
+
+#: template/private-profile/new-listing.php:694
+#: template/private-profile/listing-edit.php:868
+#: template/private-profile/listing-edit.php:922
+msgid "Enter Award Description"
+msgstr "Beschreibung der Auszeichnung eingeben"
+
+#: template/private-profile/new-listing.php:698
+#: template/private-profile/listing-edit.php:872
+#: template/private-profile/listing-edit.php:926
+msgid "Year(s) for which award was received"
+msgstr "Für welche Jahre wurde diese vergeben"
+
+#: template/private-profile/new-listing.php:701
+#: template/private-profile/listing-edit.php:875
+#: template/private-profile/listing-edit.php:929
+msgid "Enter Award Year"
+msgstr "Jahr der Auszeichnung eingeben"
+
+#: template/private-profile/new-listing.php:705
+#: template/private-profile/listing-edit.php:879
+#: template/private-profile/listing-edit.php:933
+msgid "Award Image"
+msgstr "Bild der Auszeichnung"
+
+#: template/private-profile/new-listing.php:725
+#: template/private-profile/listing-edit.php:956
+msgid "Please upgrade your account to add Award "
+msgstr "Bitte upgraden, damit Sie Auszeichnungen eingeben können"
+
+#: template/private-profile/new-listing.php:739
+#: template/private-profile/listing-edit.php:971
+msgid "Food Menu"
+msgstr ""
+
+#: template/private-profile/new-listing.php:757
+#: template/private-profile/listing-edit.php:1000
+#: template/private-profile/listing-edit.php:1066
+#, fuzzy
+msgid "Menu Title"
+msgstr "Event Titel"
+
+#: template/private-profile/new-listing.php:760
+#: template/private-profile/listing-edit.php:1005
+#: template/private-profile/listing-edit.php:1069
+#, fuzzy
+msgid "Enter menu title"
+msgstr "Webseite eingeben"
+
+#: template/private-profile/new-listing.php:764
+#: template/private-profile/listing-edit.php:1009
+#: template/private-profile/listing-edit.php:1073
+#, fuzzy
+msgid "Menu Description"
+msgstr "Beschreibung der Auszeichnung"
+
+#: template/private-profile/new-listing.php:767
+#: template/private-profile/listing-edit.php:1076
+#, fuzzy
+msgid "Enter menu Description"
+msgstr "Beschreibung der Auszeichnung eingeben"
+
+#: template/private-profile/new-listing.php:771
+#: template/private-profile/new-listing.php:853
+#: template/private-profile/listing-edit.php:1017
+#: template/private-profile/listing-edit.php:1080
+#: template/private-profile/listing-edit.php:1183
+#: template/private-profile/listing-edit.php:1248
+msgid "Price"
+msgstr ""
+
+#: template/private-profile/new-listing.php:774
+#: template/private-profile/listing-edit.php:1020
+#: template/private-profile/listing-edit.php:1083
+#, fuzzy
+msgid "Enter Menu Price"
+msgstr "Webseite eingeben"
+
+#: template/private-profile/new-listing.php:778
+#: template/private-profile/new-listing.php:860
+#: template/private-profile/listing-edit.php:1024
+#: template/private-profile/listing-edit.php:1087
+#: template/private-profile/listing-edit.php:1190
+#: template/private-profile/listing-edit.php:1255
+msgid "Order Now Link"
+msgstr ""
+
+#: template/private-profile/new-listing.php:781
+#: template/private-profile/listing-edit.php:1193
+#: template/private-profile/listing-edit.php:1258
+msgid "Enter order full link"
+msgstr ""
+
+#: template/private-profile/new-listing.php:787
+#: template/private-profile/listing-edit.php:1032
+#: template/private-profile/listing-edit.php:1096
+#, fuzzy
+msgid "Menu Image"
+msgstr "Event Bild"
+
+#: template/private-profile/new-listing.php:807
+#: template/private-profile/listing-edit.php:1123
+#, fuzzy
+msgid "Please upgrade your account to add menu "
+msgstr "Bitte upgraden, damit Sie Events hinzufügen können"
+
+#: template/private-profile/new-listing.php:821
+#: template/private-profile/listing-edit.php:1137
+msgid "Room"
+msgstr ""
+
+#: template/private-profile/new-listing.php:839
+#: template/private-profile/listing-edit.php:1166
+#: template/private-profile/listing-edit.php:1234
+#, fuzzy
+msgid "Room Title"
+msgstr "Titel"
+
+#: template/private-profile/new-listing.php:842
+#: template/private-profile/listing-edit.php:1237
+#, fuzzy
+msgid "Enter Room Title"
+msgstr "Event Titel eingeben"
+
+#: template/private-profile/new-listing.php:846
+#: template/private-profile/listing-edit.php:1175
+#: template/private-profile/listing-edit.php:1241
+#, fuzzy
+msgid "Room Description"
+msgstr "Beschreibung der Auszeichnung"
+
+#: template/private-profile/new-listing.php:849
+#: template/private-profile/listing-edit.php:1178
+#: template/private-profile/listing-edit.php:1244
+#, fuzzy
+msgid "Enter Room Description"
+msgstr "Beschreibung der Auszeichnung eingeben"
+
+#: template/private-profile/new-listing.php:856
+#: template/private-profile/listing-edit.php:1186
+#: template/private-profile/listing-edit.php:1251
+#, fuzzy
+msgid "Enter Room Price"
+msgstr "Namen hier eingeben"
+
+#: template/private-profile/new-listing.php:863
+#: template/private-profile/listing-edit.php:1027
+#: template/private-profile/listing-edit.php:1090
+msgid "Enter order now full link"
+msgstr ""
+
+#: template/private-profile/new-listing.php:869
+#: template/private-profile/listing-edit.php:1198
+#: template/private-profile/listing-edit.php:1264
+#, fuzzy
+msgid "Room Image"
+msgstr "Logo Bild setzen"
+
+#: template/private-profile/new-listing.php:889
+#: template/private-profile/listing-edit.php:1287
+#, fuzzy
+msgid "Please upgrade your account to add room "
+msgstr "Bitte upgraden, damit Sie Auszeichnungen eingeben können"
+
+#: template/private-profile/new-listing.php:901
+#: template/private-profile/listing-edit.php:1299
+msgid "Booking Form"
+msgstr ""
+
+#: template/private-profile/new-listing.php:937
+#: template/private-profile/listing-edit.php:1346
+msgid "Default Booking Form"
+msgstr ""
+
+#: template/private-profile/new-listing.php:943
+#: template/private-profile/listing-edit.php:1352
+#, fuzzy
+msgid "Add Shortcode"
+msgstr "Suchbegriff"
+
+#: template/private-profile/new-listing.php:959
+#: template/private-profile/listing-edit.php:1368
+#, fuzzy
+msgid "Please upgrade your account to add Booking form "
+msgstr "Bitte upgraden, damit Sie Videos hinzufügen können."
+
+#: template/private-profile/new-listing.php:974
+#: template/private-profile/listing-edit.php:1383
+msgid "Videos"
+msgstr "Videos"
+
+#: template/private-profile/new-listing.php:992
+#: template/private-profile/listing-edit.php:1401
+msgid "Youtube"
+msgstr "Youtube"
+
+#: template/private-profile/new-listing.php:995
+#: template/private-profile/listing-edit.php:1404
+msgid "Enter Youtube video ID, e.g : bU1QPtOZQZU "
+msgstr "Bitte die Youtube VideoID eingeben. z.B:bU1QPtOZQZU "
+
+#: template/private-profile/new-listing.php:999
+msgid "vimeo"
+msgstr "Vimeo"
+
+#: template/private-profile/new-listing.php:1002
+#: template/private-profile/listing-edit.php:1411
+msgid "Enter vimeo ID, e.g : 134173961"
+msgstr "Vimeo Video ID eingeben:"
+
+#: template/private-profile/new-listing.php:1007
+#: template/private-profile/listing-edit.php:1416
+msgid "Please upgrade your account to add video "
+msgstr "Bitte upgraden, damit Sie Videos hinzufügen können."
+
+#: template/private-profile/new-listing.php:1021
+#: template/private-profile/listing-edit.php:1428
+msgid "Social Profiles"
+msgstr "Social Profil"
+
+#: template/private-profile/new-listing.php:1072
+#: template/private-profile/listing-edit.php:1477
+msgid "Additional Info"
+msgstr "zusätzliche Infos"
+
+#: template/private-profile/new-listing.php:1132
+#: template/private-profile/listing-edit.php:1537
+msgid "Working Time"
+msgstr "Öffnungszeiten"
+
+#: template/private-profile/new-listing.php:1148
+#: template/private-profile/listing-edit.php:1575
+msgid "Monday"
+msgstr "Montag"
+
+#: template/private-profile/new-listing.php:1149
+#: template/private-profile/listing-edit.php:1576
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: template/private-profile/new-listing.php:1150
+#: template/private-profile/listing-edit.php:1577
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: template/private-profile/new-listing.php:1151
+#: template/private-profile/listing-edit.php:1578
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: template/private-profile/new-listing.php:1152
+#: template/private-profile/listing-edit.php:1579
+msgid "Friday"
+msgstr "Freitag"
+
+#: template/private-profile/new-listing.php:1153
+#: template/private-profile/listing-edit.php:1580
+msgid "Saturday"
+msgstr "Samstag"
+
+#: template/private-profile/new-listing.php:1154
+#: template/private-profile/listing-edit.php:1581
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: template/private-profile/new-listing.php:1160
+#: template/private-profile/listing-edit.php:1587
+msgid "Closed"
+msgstr "geschlossen"
+
+#: template/private-profile/new-listing.php:1161
+#: template/private-profile/listing-edit.php:1588
+msgid "Always"
+msgstr "Immer"
+
+#: template/private-profile/new-listing.php:1288
+#: template/private-profile/listing-edit.php:1715
+#: template/listing/single-listing.php:570
+msgid "Event"
+msgstr "Event"
+
+#: template/private-profile/new-listing.php:1305
+#: template/private-profile/listing-edit.php:1732
+msgid "Event Title"
+msgstr "Event Titel"
+
+#: template/private-profile/new-listing.php:1306
+#: template/private-profile/listing-edit.php:1733
+msgid "Enter Title Here"
+msgstr "Event Titel eingeben"
+
+#: template/private-profile/new-listing.php:1309
+#: template/private-profile/listing-edit.php:1736
+msgid "Event Detail"
+msgstr "Event Details"
+
+#: template/private-profile/new-listing.php:1324
+#: template/private-profile/listing-edit.php:1753
+msgid "Event Image"
+msgstr "Event Bild"
+
+#: template/private-profile/new-listing.php:1341
+#: template/private-profile/listing-edit.php:1802
+msgid "Please upgrade your account to add event "
+msgstr "Bitte upgraden, damit Sie Events hinzufügen können"
+
+#: template/private-profile/new-listing.php:1354
+#: template/private-profile/listing-edit.php:1816
+msgid "Save Post"
+msgstr "Post speichern"
+
+#: template/private-profile/new-listing.php:1437
+#: template/private-profile/listing-edit.php:1963
+msgid "Set Feature Image "
+msgstr "Feature Bild festlegen"
+
+#: template/private-profile/new-listing.php:1439
+#: template/private-profile/listing-edit.php:1965
+msgid "Set Feature Image"
+msgstr "Feature Bild festlegen"
+
+#: template/private-profile/new-listing.php:1462
+#: template/private-profile/listing-edit.php:2067
+msgid "Set Logo Image "
+msgstr "Logo Bild setzen"
+
+#: template/private-profile/new-listing.php:1464
+#: template/private-profile/listing-edit.php:2069
+msgid "Set Logo Image"
+msgstr "Logo Bild setzen"
+
+#: template/private-profile/new-listing.php:1488
+#: template/private-profile/listing-edit.php:1908
+#, fuzzy
+msgid "Set Room Image "
+msgstr "Logo Bild setzen"
+
+#: template/private-profile/new-listing.php:1490
+#: template/private-profile/listing-edit.php:1910
+#, fuzzy
+msgid "Set Room Image"
+msgstr "Logo Bild setzen"
+
+#: template/private-profile/new-listing.php:1515
+#: template/private-profile/listing-edit.php:1935
+#, fuzzy
+msgid "Set Menu Image "
+msgstr "Event Bild setzen"
+
+#: template/private-profile/new-listing.php:1517
+#: template/private-profile/listing-edit.php:1937
+#, fuzzy
+msgid "Set Menu Image"
+msgstr "Event Bild setzen"
+
+#: template/private-profile/new-listing.php:1542
+#: template/private-profile/listing-edit.php:2096
+msgid "Set award Image "
+msgstr "Bild für Auszeichnung setzen"
+
+#: template/private-profile/new-listing.php:1544
+#: template/private-profile/listing-edit.php:2098
+msgid "Set award Image"
+msgstr "Bild für Auszeichnung setzen"
+
+#: template/private-profile/new-listing.php:1568
+#: template/private-profile/listing-edit.php:1992
+msgid "Set Event Image "
+msgstr "Event Bild setzen"
+
+#: template/private-profile/new-listing.php:1570
+#: template/private-profile/listing-edit.php:1994
+msgid "Set Event Image"
+msgstr "Event Bild setzen"
+
+#: template/private-profile/new-listing.php:1596
+#: template/private-profile/listing-edit.php:2023
+msgid "Gallery Images "
+msgstr "Gallerie Bilder"
+
+#: template/private-profile/new-listing.php:1598
+#: template/private-profile/listing-edit.php:2025
+msgid "Gallery Images"
+msgstr "Gallerie Bilder"
+
+#: template/private-profile/profile-all-post-1.php:70
+msgid " Home"
+msgstr "Home"
+
+#: template/private-profile/profile-setting-1.php:211
+msgid "Profile"
+msgstr "Profil"
+
+#: template/private-profile/profile-setting-1.php:215
+msgid "Personal Info"
+msgstr "Persönliche Infos"
+
+#: template/private-profile/profile-setting-1.php:218
+#: template/private-profile/profile-setting-1.php:332
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+#: template/private-profile/profile-setting-1.php:221
+msgid "Social"
+msgstr "Sozial"
+
+#: template/private-profile/profile-setting-1.php:224
+msgid "Privacy Settings"
+msgstr "Datenschutz Einstellungen"
+
+#: template/private-profile/profile-setting-1.php:310
+#: template/private-profile/profile-setting-1.php:360
+#: template/private-profile/profile-setting-1.php:402
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: template/private-profile/profile-setting-1.php:319
+msgid "Current Password"
+msgstr "aktuelles Passwort"
+
+#: template/private-profile/profile-setting-1.php:323
+msgid "New Password"
+msgstr "Neues Passwort"
+
+#: template/private-profile/profile-setting-1.php:327
+msgid "Re-type New Password"
+msgstr "neues Passwort erneut eingeben"
+
+#: template/private-profile/profile-setting-1.php:372
+msgid "Hide Email Address "
+msgstr "Email Adresse verbergen"
+
+#: template/private-profile/profile-setting-1.php:376
+#: template/private-profile/profile-setting-1.php:385
+#: template/private-profile/profile-setting-1.php:394
+msgid "Yes"
+msgstr "Ja"
+
+#: template/private-profile/profile-setting-1.php:381
+msgid "Hide Phone Number"
+msgstr "Telefonnummer verbergen"
+
+#: template/private-profile/profile-setting-1.php:390
+msgid "Hide Mobile Number"
+msgstr "Mobilnummer verbergen"
+
+#: template/private-profile/profile-login.php:26
+msgid "Sign In"
+msgstr "Login"
+
+#: template/private-profile/profile-login.php:35
+#: template/private-profile/profile-login.php:38
+msgid "Username"
+msgstr "Benutzername"
+
+#: template/private-profile/profile-login.php:45
+#: template/private-profile/profile-login.php:48
+msgid "Password"
+msgstr "Passwort"
+
+#: template/private-profile/profile-login.php:59
+msgid "Remember"
+msgstr "Erinnerung"
+
+#: template/private-profile/profile-login.php:62
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+#: template/private-profile/profile-login.php:83
+msgid "Create an account"
+msgstr "Konto erstellen"
+
+#: template/private-profile/profile-login.php:92
+msgid "Forget Password ?"
+msgstr "Passwort vergessen?"
+
+#: template/private-profile/profile-login.php:98
+msgid "Enter your e-mail address"
+msgstr "Ihre Email eingeben"
+
+#: template/private-profile/profile-login.php:108
+msgid "Back"
+msgstr "zurück"
+
+#: template/private-profile/profile-login.php:109
+#: template/private-profile/claim_popup.php:44
+#: template/private-profile/contact_popup.php:30
+#: template/signup/iv_stripe_form_2.php:176
+#: template/signup/wizard-style-2.php:175
+#: template/signup/paypal_form_2.php:136 template/signup/paypal_form_2.php:142
+msgid "Submit"
+msgstr "absenden"
+
+#: template/private-profile/profile-login.php:174
+msgid "Invalid Username & Password"
+msgstr "Ungültiger Benutzername & Passwort"
+
+#: template/private-profile/profile-login.php:181
+msgid "Enter Username & Password"
+msgstr "Benutzername und Passwort eingeben"
+
+#: template/private-profile/profile-level-1.php:487
+msgid "Current"
+msgstr "aktuell"
+
+#: template/private-profile/profile-level-1.php:490
+#: template/private-profile/profile-level-1.php:714
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: template/private-profile/profile-level-1.php:494
+msgid "Cancel"
+msgstr "abbrechen"
+
+#: template/private-profile/profile-level-1.php:518
+msgid "Current Package"
+msgstr "Aktuelles Paket"
+
+#: template/private-profile/profile-level-1.php:538
+msgid "Package Amount"
+msgstr "Kosten Paket"
+
+#: template/private-profile/profile-level-1.php:568
+msgid "Package Type"
+msgstr "Pakettyp"
+
+#: template/private-profile/profile-level-1.php:608
+msgid "Exprie Date"
+msgstr "Ablaufdatum"
+
+#: template/private-profile/profile-level-1.php:630
+msgid "Next Payment Date"
+msgstr "nächster Zahltermin"
+
+#: template/private-profile/profile-level-1.php:740
+msgid ""
+"Note: Your Successful Upgrade or Downgrade will affect on your user role "
+"immediately."
+msgstr "Hinweis: Ihr erfolgreides Up- oder Downgrade wirkt sich sofort aus"
+
+#: template/private-profile/profile-level-1.php:756
+#: template/private-profile/profile-level-1.php:795
+msgid "Cancel Reason"
+msgstr "Grund für Kündigung"
+
+#: template/private-profile/profile-level-1.php:757
+#: template/private-profile/profile-level-1.php:796
+msgid "Canceling Reason"
+msgstr "Kündigungsgrund"
+
+#: template/private-profile/profile-level-1.php:763
+#: template/private-profile/profile-level-1.php:801
+msgid "Cancel Membership"
+msgstr "Mitgliedschaft kündigen"
+
+#: template/private-profile/profile-level-1.php:773
+#: template/private-profile/profile-level-1.php:810
+msgid "Nothing to Cancel"
+msgstr "es gibt nichts zu kündigen"
+
+#: template/private-profile/claim_popup.php:19
+#: template/listing/single-listing.php:1148
+msgid "Please login to Claim The Listing"
+msgstr "Bitte loggen Sie sich ein"
+
+#: template/private-profile/claim_popup.php:28
+#: template/private-profile/claim_popup.php:35
+#: template/listing/single-listing.php:1006
+#: template/listing/single-listing.php:1010
+#: template/listing/visual-composer/claim_shortcode.php:17
+msgid "Claim The Listing"
+msgstr "Claim The Listing DE"
+
+#: template/private-profile/claim_popup.php:34
+#: template/private-profile/contact_popup.php:20
+msgid "Subject"
+msgstr "Thema"
+
+#: template/private-profile/claim_popup.php:38
+#: template/private-profile/contact_popup.php:24
+#: template/listing/single-listing.php:912
+#: template/listing/single-listing.php:967
+#: template/listing/single-listing.php:1013
+#: template/listing/visual-composer/claim_shortcode.php:20
+#: template/listing/visual-composer/contact_us_shortcode.php:15
+#: template/listing/visual-composer/booking_shortcode.php:30
+msgid "Enter Message"
+msgstr "Nachricht eingeben"
+
+#: template/private-profile/listing-edit.php:13
+msgid "Edit Listing"
+msgstr "Eintrag bearbeiten"
+
+#: template/private-profile/listing-edit.php:57
+msgid "Please "
+msgstr "Bitte"
+
+#: template/private-profile/listing-edit.php:58
+msgid "Login or upgrade "
+msgstr "Einloggen oder upgraden"
+
+#: template/private-profile/listing-edit.php:59
+msgid "To Edit The Post."
+msgstr "um den Post zu bearbeiten"
+
+#: template/private-profile/listing-edit.php:107
+msgid "Enter listing Name Here"
+msgstr "Geben Sie den Namen des Eintrags hier ein"
+
+#: template/private-profile/listing-edit.php:438
+msgid "Enter address Here"
+msgstr "Adresse eingeben"
+
+#: template/private-profile/listing-edit.php:762
+msgid "Add New Tags"
+msgstr "Neuen Tag hinzufügen"
+
+#: template/private-profile/listing-edit.php:1012
+#, fuzzy
+msgid "Enter Menu Description"
+msgstr "Beschreibung der Auszeichnung eingeben"
+
+#: template/private-profile/listing-edit.php:1171
+#, fuzzy
+msgid "Enter room title"
+msgstr "Titel der Auszeichnung eingeben"
+
+#: template/private-profile/listing-edit.php:1408
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: template/private-profile/my-favorites-1.php:120
+msgid "Address :"
+msgstr "Adresse:"
+
+#: template/private-profile/my-favorites-1.php:155
+msgid "No data available"
+msgstr "Keine Daten verfügbar"
+
+#: template/private-profile/contact_popup.php:14
+msgid "Message Board"
+msgstr "Nachrichten Anzeige"
+
+#: template/signup/iv_stripe_form_2.php:86
+#: template/signup/wizard-style-2.php:387 template/signup/paypal_form_2.php:75
+msgid "Have a coupon?"
+msgstr "Haben Sie einen Gutschein?"
+
+#: template/signup/iv_stripe_form_2.php:96
+#: files/short_code_file/iv_stripe_form_display.php:3
+msgid "Card Number"
+msgstr "Kartennummer"
+
+#: template/signup/iv_stripe_form_2.php:102
+msgid "Card CVV "
+msgstr "Karten CVV"
+
+#: template/signup/iv_stripe_form_2.php:109
+#: files/short_code_file/iv_stripe_form_display.php:11
+msgid "Expiration (MM/YYYY)"
+msgstr "Ablaufdatum MM/JJJJ"
+
+#: template/signup/wizard-style-2.php:383
+msgid "Hide Coupon"
+msgstr "Guutschein verbergen"
+
+#: template/signup/coupon_form_2.php:5
+msgid "Discount Coupon"
+msgstr "Rabattgutschein"
+
+#: template/signup/coupon_form_2.php:13
+msgid "(-) Discount"
+msgstr "(-) Rabatt"
+
+#: template/signup/coupon_form_2.php:20
+msgid "Total"
+msgstr "Gesamt"
+
+#: template/listing/single-listing.php:174
+#, fuzzy
+msgid "About Us"
+msgstr "Über"
+
+#: template/listing/single-listing.php:182
+#: template/listing/single-listing.php:1197
+msgid "Added to Favorites"
+msgstr "Zu Favoriten hinzufügefügt"
+
+#: template/listing/single-listing.php:186
+#: template/listing/single-listing.php:192
+#: template/listing/single-listing.php:1225
+msgid "Add to Favorites"
+msgstr "zu Favoriten hinzufügen"
+
+#: template/listing/single-listing.php:272
+#, fuzzy
+msgid "Specialities"
+msgstr "Besonderheiten"
+
+#: template/listing/single-listing.php:390
+msgid "Menus"
+msgstr ""
+
+#: template/listing/single-listing.php:426
+#: template/listing/single-listing.php:492
+#: template/listing/visual-composer/menu_shortcode.php:43
+#: template/listing/visual-composer/room_shortcode.php:44
+msgid "Order"
+msgstr ""
+
+#: template/listing/single-listing.php:456
+msgid "Rooms"
+msgstr ""
+
+#: template/listing/single-listing.php:529
+msgid "Video"
+msgstr "Video"
+
+#: template/listing/single-listing.php:661
+#: template/listing/visual-composer/contact_info_shortcode.php:20
+msgid "Click address for directions"
+msgstr "Auf die Adresse klicken -> Wegbeschreibung"
+
+#: template/listing/single-listing.php:680
+#: template/listing/visual-composer/social_profile_shortcode.php:12
+msgid "Facebook Profile"
+msgstr "Facebook Profil"
+
+#: template/listing/single-listing.php:686
+#: template/listing/visual-composer/social_profile_shortcode.php:18
+msgid "Twitter Profile"
+msgstr "Twitter Profil"
+
+#: template/listing/single-listing.php:692
+#: template/listing/visual-composer/social_profile_shortcode.php:24
+msgid "linkedin Profile"
+msgstr "LinkedIn Profil"
+
+#: template/listing/single-listing.php:698
+#: template/listing/visual-composer/social_profile_shortcode.php:30
+msgid "google+ Profile"
+msgstr "Google+ Profil"
+
+#: template/listing/single-listing.php:702
+#: template/listing/visual-composer/social_profile_shortcode.php:34
+msgid "Pinterest Profile"
+msgstr "Printerest Profil"
+
+#: template/listing/single-listing.php:706
+#: template/listing/visual-composer/social_profile_shortcode.php:38
+msgid "Instagram Profile"
+msgstr "Instagram Profil"
+
+#: template/listing/single-listing.php:713
+msgid "Share"
+msgstr "teilen"
+
+#: template/listing/single-listing.php:714
+#: template/listing/visual-composer/share_it_shortcode.php:7
+msgid "Share On Facebook"
+msgstr "teilen auf Facebook"
+
+#: template/listing/single-listing.php:716
+#: template/listing/visual-composer/share_it_shortcode.php:9
+msgid "Share On Twitter"
+msgstr "Teilen auf Twitter"
+
+#: template/listing/single-listing.php:718
+#: template/listing/visual-composer/share_it_shortcode.php:11
+msgid "Share On linkedin"
+msgstr "Teilen auf Linkedin"
+
+#: template/listing/single-listing.php:720
+#: template/listing/visual-composer/share_it_shortcode.php:13
+msgid "Share On google+"
+msgstr "teilen auf Google+"
+
+#: template/listing/single-listing.php:744
+msgid "Location Map"
+msgstr "Karte"
+
+#: template/listing/single-listing.php:794
+msgid "Opening Time"
+msgstr "Öffnungszeiten"
+
+#: template/listing/single-listing.php:916
+#: template/listing/visual-composer/booking_shortcode.php:34
+msgid "Book Now"
+msgstr ""
+
+#: template/listing/single-listing.php:970
+#: template/listing/visual-composer/contact_us_shortcode.php:19
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: template/listing/single-listing.php:1016
+#: template/listing/visual-composer/claim_shortcode.php:24
+msgid "Submit Claim"
+msgstr "Anspruch abschicken"
+
+#: template/listing/single-listing.php:1182
+msgid "Please login to add favorite"
+msgstr "Bitte einloggen und Favoriten hinzufügen"
+
+#: template/listing/single-listing.php:1210
+#: template/listing/single-listing.php:1312
+msgid "Please login to remove favorite"
+msgstr "Bitte einloggen um Favoriten zu entfernen"
+
+#: template/listing/slider-search.php:90
+#: template/listing/archive-listing.php:517
+msgid "Search"
+msgstr "Suche"
+
+#: template/listing/listing_filter.php:91
+#: template/listing/listing_featured.php:67
+#: template/listing/archive-listing.php:698
+msgid "VIEW DETAIL"
+msgstr "Details anzeigen"
+
+#: template/listing/archive-listing.php:346
+msgid "Any Tag"
+msgstr "jeden Tag"
+
+#: template/listing/archive-listing.php:541
+msgid "Advance Search"
+msgstr "Erweiterte Suche"
+
+#: template/listing/archive-listing.php:542
+msgid "Map"
+msgstr "Karte"
+
+#: template/listing/archive-listing.php:722
+#, fuzzy
+msgid "Sorry, no posts matched your criteria."
+msgstr "Entschuldigung, keine passenden Treffer"
+
+#: template/listing/archive-listing.php:750
+msgid " Newer Entries"
+msgstr "neuere Einträge"
+
+#: template/listing/archive-listing.php:751
+msgid " Older Entries "
+msgstr "Ältere Einträge"
+
+#: files/short_code_file/iv_stripe_form_display.php:7
+msgid "CVC"
+msgstr ""
+
+#: files/short_code_file/iv_stripe_form_display.php:18
+#, fuzzy
+msgid "Payment Type:"
+msgstr "Zahlungsseite"
+
+#: files/short_code_file/iv_stripe_form_display.php:19
+#, fuzzy
+msgid "One time payment"
+msgstr "Startzahlung"
+
+#: files/short_code_file/iv_stripe_form_display.php:20
+#, fuzzy
+msgid "Recurring monthly payment"
+msgstr "Wiederkehrende Zahlung aktivieren"
+
+#: files/short_code_file/iv_stripe_form_display.php:26
+#, fuzzy
+msgid "Submit Payment"
+msgstr "Anspruch abschicken"
+
+#~ msgid "Communication"
+#~ msgstr "Kommunikation"
+
+#~ msgid "Judgment"
+#~ msgstr "Beurteilung"
+
+#~ msgid "Analytical"
+#~ msgstr "Analyse"
+
+#~ msgid "Research Skills"
+#~ msgstr "Fähigkeiten suchen"
+
+#~ msgid "People Skills"
+#~ msgstr "Mitarbeiter Fähigkeiten"
+
+#~ msgid "Perseverance"
+#~ msgstr "Ausdauer"
+
+#~ msgid "Creativity"
+#~ msgstr "Kreativität"
+
+#~ msgid "Choose a City"
+#~ msgstr "Wählen Sie eine Stadt"
+
+#~ msgid "Choose a Country"
+#~ msgstr "Wählen Sie ein Land"
+
+#~ msgid "Submit Rating"
+#~ msgstr "Bewertung abschicken"
+
+#~ msgid "Remove"
+#~ msgstr "entfernen"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Expire"
+#~ msgstr "Ablauf"
+
+#~ msgid "Actions"
+#~ msgstr "Aktionen"
+
+#~ msgid ""
+#~ "Currently you have no listings added. Please manage your account from the "
+#~ "sidebar on the left."
+#~ msgstr ""
+#~ "Sie haben aktuell keine Einträge hinzugefügt. Bitte bearbeiten Sie Ihr "
+#~ "Konto mit dem linken Seitenmenü"
+
+#~ msgid "Phone:"
+#~ msgstr "Telefon:"
+
+#~ msgid "Mobile:"
+#~ msgstr "Mobil:"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "Website:"
+#~ msgstr "Webseite:"
+
+#~ msgid "User Information"
+#~ msgstr "Benutzer Information"
+
+#~ msgid ""
+#~ " The user name has to be an alphanumeric value between 4-12 characters"
+#~ msgstr ""
+#~ "Der Benutzername muss aus Buchstaben und Zahlen zwischen 4 und 12 Zeichen "
+#~ "haben"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Bitte geben Sie eine gültige Email Adresse ein"
+
+#~ msgid "Payment Info"
+#~ msgstr "Zahlungsinformation"
+
+#~ msgid "Sort By:"
+#~ msgstr "Sortiert nach:"
+
+#~ msgid ""
+#~ "Build Paid listing Directory using Wordpress.No programming knowledge "
+#~ "required."
+#~ msgstr ""
+#~ "Erstelle ein Verzeichnig mit Wordpress. Keine Programmierkenntnisse "
+#~ "erforderlich."
+
+#~ msgid "http://e-plugin.com/"
+#~ msgstr "http://e-plugin.com/"
+
+#~ msgid "e-plugin"
+#~ msgstr "e-plugin"

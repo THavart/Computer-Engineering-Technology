@@ -1,0 +1,45 @@
+﻿
+
+<h3>@@Razor Examples</h3> 
+<h4>for</h4>
+@for (i = 0; i < 100; i++)
+{
+    @if (i % 10 == 0)
+    {
+        <p>Count @i</p>
+    }
+}
+<h4>foreach</h4>
+@foreach (var person in family)
+{
+    switch (person)
+    {
+        case "Jemma":
+            <p>My name is @person and I am 3 years old.</p>
+            break;
+        case "Bailey":
+            <p>I'm a baby and can't talk yet. Baby @person!</p>
+            break;
+        default:
+            <p>Everyone else is old!</p>
+            break;
+    }
+}
+<h4>while</h4>
+<table style="border: solid 1px black; border-collapse: collapse;">
+    @{
+        i = 0;
+        @while (i < 100)
+        {
+            <tr style="margin: 0; border-spacing: 0;">
+                @if (i % 10 == 0)
+                {
+                    <td style="border: solid 1px black; padding: 4px;">Count</td>
+                    <td style="border: solid 1px black; padding: 4px;">@i</td>
+                }
+            </tr>
+
+            i++;
+        }
+    }
+</table>

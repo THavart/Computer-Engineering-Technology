@@ -1,0 +1,34 @@
+﻿Build started 2016-11-13 10:05:15 PM.
+     1>Project "C:\Users\Y.A.F.J\Desktop\School\VS2013 C++\C++ Assignment 2\C++ Assignment 2\C++ Assignment 2.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ass2.cpp GraphicElement.cpp Line.cpp Point.cpp VectorGraphic.cpp
+         VectorGraphic.cpp
+         Point.cpp
+         Line.cpp
+         GraphicElement.cpp
+     1>c:\users\y.a.f.j\desktop\school\vs2013 c++\c++ assignment 2\c++ assignment 2\graphicelement.cpp(35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\y.a.f.j\desktop\school\vs2013 c++\c++ assignment 2\c++ assignment 2\graphicelement.cpp(48): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\y.a.f.j\desktop\school\vs2013 c++\c++ assignment 2\c++ assignment 2\graphicelement.cpp(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\y.a.f.j\desktop\school\vs2013 c++\c++ assignment 2\c++ assignment 2\graphicelement.cpp(89): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\y.a.f.j\desktop\school\vs2013 c++\c++ assignment 2\c++ assignment 2\graphicelement.cpp(90): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\y.a.f.j\desktop\school\vs2013 c++\c++ assignment 2\c++ assignment 2\graphicelement.cpp(91): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         ass2.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Y.A.F.J\Desktop\School\VS2013 C++\C++ Assignment 2\Debug\C++ Assignment 2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Y.A.F.J\Desktop\School\VS2013 C++\C++ Assignment 2\Debug\C++ Assignment 2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Y.A.F.J\Desktop\School\VS2013 C++\C++ Assignment 2\Debug\C++ Assignment 2.lib" /MACHINE:X86 Debug\ass2.obj
+         Debug\GraphicElement.obj
+         Debug\Line.obj
+         Debug\Point.obj
+         Debug\VectorGraphic.obj
+         C++ Assignment 2.vcxproj -> C:\Users\Y.A.F.J\Desktop\School\VS2013 C++\C++ Assignment 2\Debug\C++ Assignment 2.exe
+     1>Done Building Project "C:\Users\Y.A.F.J\Desktop\School\VS2013 C++\C++ Assignment 2\C++ Assignment 2\C++ Assignment 2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.55

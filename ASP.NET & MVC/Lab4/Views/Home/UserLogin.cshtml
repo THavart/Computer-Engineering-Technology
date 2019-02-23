@@ -1,0 +1,13 @@
+﻿@model Lab4.Models.User
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-controller="Home" asp-action="LoginUser" method="post">
+    Email Address: <input asp-for="EmailAddress" name="EmailAddress">
+    <br />
+    Password: <input asp-for="Password" name="Password">
+    <br />
+    <input type="submit" value="User Login">
+</form>

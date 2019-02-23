@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Lab6.Models.Tweet>
+
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1>CST8359 Tweeter</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-3">
+                <h3>Post a comment!</h3>
+                <form method="post" action="/Home/PostTweet">
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" name="username" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Content</label>
+                        <textarea type="text" name="content" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Submit Tweet" class="btn btn-default" />
+                    </div>
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8JP54Hb-0ApPgEl0KHVoKKbcq0Wbp-PuZLadCN0DJFg6LBawbi7kTXk5EpKO2xk2DfWMR7GrPZLNbOnRPqMS2n2PVh3D3pLR7J9LwLAZeaGlrhNb_OLGMA1Zqj3T6cU4CnvHs9Xgv24-mOOTl7XOoUc" />
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-3">
+                <h3>Tweets</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-3">
+                <ul class="list-group">
+
+                    @if (Model == null || Model.Count() == 0)
+            {
+                        <p>There are no tweets to display.</p>
+                    }
+                    else
+                    {
+                        int i = 0;
+                        @foreach (var item in Model)
+                {
+                            <li class="list-group-item">@item.Content<br /><br />By: @item.Username<br /><span class="badge">@item.TweetId</span></li>
+
+                            i++;
+                            if (i == 100)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

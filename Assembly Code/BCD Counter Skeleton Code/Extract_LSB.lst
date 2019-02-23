@@ -1,0 +1,44 @@
+
+as12, an absolute assembler for Motorola MCU's, version 1.2h
+
+                        ; Extract LSB.asm
+                        ; Author(s): Taylor Havart-Labrecque
+                        ; Student Number(s): 040 764 885
+                        ; Date: 17/04/16
+                        ;
+                        ; Purpose:              Extract the least significant bit.
+                        ;
+                        ; Preconditions:        <list any hardware that must be initialized, as applicable>
+                        ;                       <list any software requirements that must be met before
+                        ;                        using this subroutine - e.g. Array to search must be sorted>
+                        ;                       <list what must be passed in specific registers in order
+                        ;                          to use this subroutine>
+                        ;
+                        ; Notes:                <list anything that is specific to this subroutine so that
+                        ;                         it may be correctly used>
+                        ;
+                        ; Postcondition:        <list what registers are destroyed>
+                        ;                       <list the registers' return values, as applicable>
+                        ;
+                        ;
+                        ; Any internal data or constants are placed BEFORE the subroutine's Access_Label
+                        ;
+                        ;<Access Label>
+                                ; Body of SubRoutine
+0000                    EXTRACT_LSB
+0000 48                         lsla
+0001 48                         lsla
+0002 48                         lsla
+0003 48                         lsla
+0004 44                         lsra
+0005 44                         lsra
+0006 44                         lsra
+0007 44                         lsra
+0008 3d                         rts
+                        ; ---------------------------------
+                        ;        END of <subroutine name> -
+                        ;----------------------------------
+
+Executed: Sun Apr 17 16:25:33 2016
+Total cycles: 13, Total bytes: 9
+Total errors: 0, Total warnings: 0

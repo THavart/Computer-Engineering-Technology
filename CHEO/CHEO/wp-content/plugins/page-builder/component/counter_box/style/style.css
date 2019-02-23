@@ -1,0 +1,126 @@
+/******************************************************************************/
+/* Counter Box																  */
+/******************************************************************************/
+
+.pb-counter-box
+{
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+	.pb-counter-box ul
+	{
+
+	}
+
+		.pb-counter-box ul>li
+		{
+
+		}
+
+			.pb-counter-box ul>li>div
+			{
+				text-align:center;
+			}
+			
+				/**************************************************************/
+				/* Counter Box / Text Counter								  */
+				/**************************************************************/			
+
+				.pb-counter-box ul>li>div>div.pb-counter-box-text-counter
+				{
+					line-height:1;
+					margin-bottom:22px;
+					box-sizing:border-box;
+				}
+				
+					.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-value,
+					.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-character-after,
+					.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-character-before
+					{
+						line-height:1;
+						display:inline;
+					}
+
+					.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-value
+					{
+
+					}
+
+					.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-character-after
+					{
+
+					}
+					
+					.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-character-before
+					{
+						
+					}
+					
+				/**************************************************************/
+				/* Counter Box / Header										  */
+				/**************************************************************/
+
+				.pb-counter-box ul>li>div>.pb-counter-box-header
+				{
+					margin-bottom:20px;
+				}
+				
+				/**************************************************************/
+				/* Counter Box / Content									  */
+				/**************************************************************/
+
+				.pb-counter-box ul>li>div>p
+				{
+					padding:0px;
+					margin-bottom:30px;
+				}
+				
+				/**************************************************************/
+				/* Counter Box / Graphic Counter							  */
+				/**************************************************************/
+
+				.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter
+				{
+					width:100%;
+					position:relative;
+				}
+
+				.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter,
+				.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter>.pb-counter-box-graphic-counter-background,
+				.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter>.pb-counter-box-graphic-counter-foreground
+				{
+					height:20px;
+					font-size:0px;		
+					box-sizing:border-box;
+				}
+				
+					.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter>.pb-counter-box-graphic-counter-background,
+					.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter>.pb-counter-box-graphic-counter-foreground
+					{
+						position:absolute;
+					}
+
+					.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter>.pb-counter-box-graphic-counter-background
+					{
+						z-index:1;
+						width:100%;
+					}
+					
+					.pb-counter-box ul>li>div>div.pb-counter-box-graphic-counter>.pb-counter-box-graphic-counter-foreground
+					{
+						z-index:2;
+						width:0px;
+						display:block;
+					}
+					
+		/**********************************************************************/
+		/* Counter Box / Pagination											  */
+		/**********************************************************************/
+					
+		.pb-counter-box .pb-slider-pagination
+		{
+			position:static;
+			margin-top:40px;
+		}

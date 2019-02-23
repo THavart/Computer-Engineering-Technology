@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Lab5.Models.Photo>
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Lab 5, File Uploads";
+}
+
+<h1>@ViewBag.Title</h1>
+<hr />
+<a href="/">Home</a> | <a href="~/Questions.html">Questions for Lab 5</a>
+<hr />
+<h2>Upload File</h2>
+<form asp-controller="Home" asp-action="UploadFileNow" enctype="multipart/form-data">
+    <input type="file" name="files" /> <button name="upload">Upload Now</button>
+</form>
+<br />
+<br />
+
+<h2>Currently Uploaded Images</h2>
+@if(Model.Count() == 0)
+{
+    <p>There are no files to display.</p>
+}
+else
+{
+    <table>
+        @foreach (var photo in Model)
+        {
+            <tr>
+                <td style="vertical-align: top; min-width: 100px;">
+                    <a onclick="alert('Not implemented. Have fun :)');">Delete</a>
+                </td>
+                <td style="vertical-align: top">
+                    @photo.FileName
+                    <br />
+                    <img src="@photo.Url" style="max-width: 400px;" />
+                </td>
+            </tr>
+        }
+    </table>
+    <br />
+    <br />
+    <hr />
+}

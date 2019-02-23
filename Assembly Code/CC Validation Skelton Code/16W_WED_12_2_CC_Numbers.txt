@@ -1,0 +1,8 @@
+CC1	db	1,1,1,5 Valid
+CC2	db	7,6,3,3 Valid
+CC3	db	8,8,7,7 Invalid
+CC4	db	7,7,8,1 Valid
+CC5	db	9,8,0,3 Valid
+CC6	db	6,5,0,2 Valid
+
+3 7

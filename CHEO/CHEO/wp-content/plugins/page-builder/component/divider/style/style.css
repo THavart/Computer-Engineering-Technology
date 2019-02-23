@@ -1,0 +1,16 @@
+/******************************************************************************/
+/* Divider																	  */
+/******************************************************************************/
+
+div.pb-divider
+{
+	width:100%;
+	float:none;
+	font-size:0px;
+	max-width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-style:solid;
+	border-color:#EEEEEE;
+	border-width:0px 0px 1px 0px;
+}

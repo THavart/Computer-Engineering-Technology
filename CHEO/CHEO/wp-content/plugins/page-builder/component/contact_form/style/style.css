@@ -1,0 +1,45 @@
+/******************************************************************************/
+/* Contact form																  */
+/******************************************************************************/
+
+.pb-contact-form
+{
+	
+}
+
+	.pb-contact-form .pb-contact-form-field
+	{
+		position:relative;
+		margin-bottom:30px;
+	}
+
+	.pb-contact-form>div>ul
+	{
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+	}
+	
+		.pb-contact-form>div>ul
+		{
+		
+		}
+		
+			.pb-contact-form>div>ul>li
+			{
+				
+			}
+			
+			.pb-contact-form>div>ul>li.pb-responsive-column-a
+			{
+				margin-bottom:0px !important;
+			}
+
+				.pb-contact-form>div>ul>li label.pb-infield-label
+				{
+					top:2px;
+					left:2px;
+					cursor:text;
+					display:block;
+					position:absolute;
+				}

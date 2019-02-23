@@ -1,0 +1,33 @@
+﻿@model Lab4.Models.Movie
+@{
+}
+
+<form asp-controller="Home" asp-action="ModifyMovie">
+    <input type="hidden" value="@Model.MovieId" name="MovieId" />
+    Title: <input asp-for="Model" />
+    <br />
+    <br />
+
+    SubTitle: <input asp-for="SubTitle" />
+    <br />
+    <br />
+
+    Description: <input asp-for="Description" />
+    <br />
+    <br />
+
+    Year: <input asp-for="Year" />
+    <br />
+    <br />
+
+
+    Rating: <input asp-for="Rating" />
+    <br />
+    <br />
+
+
+
+
+
+    <input type="submit" value="Edit Movie" />
+</form>

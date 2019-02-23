@@ -1,0 +1,32 @@
+﻿@model Assignment1.Models.BlogPost
+@{
+    ViewBag.Title = "Add Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    
+    <form asp-controller="Home" asp-action="AddPost">
+        <input type="hidden" value="@ViewData["UserId"]" asp-for="UserId" />
+        <fieldset>
+            <Legend>Add a BlogPost</Legend>
+
+            <div class="form-group">
+                <label>Title:</label><br />
+                <input asp-for="Title" class="form-control">
+            </div>
+            <div class="form-group">
+                <br /><label>Content:</label> <br />
+                <textarea asp-for="Content" raws="5" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Posted Date:</label><br />
+                <input asp-for="Posted" class="form-control" type="date" data-val-required="The Year field is required.">
+                
+
+            </div>
+            <br />
+            <br />
+            <input type="submit" value="Post" />
+        </fieldset>
+    </form>
+

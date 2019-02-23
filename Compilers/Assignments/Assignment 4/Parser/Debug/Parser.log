@@ -1,0 +1,29 @@
+﻿Build started 4/24/2017 10:43:51 AM.
+     1>Project "C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 4\Parser\Parser.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt buffer.c platy.c scanner.c stable.c
+         stable.c
+     1>c:\users\t-hla\documents\2017\compilers\assignments\assignment 4\parser\stable.c(266): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         scanner.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(156): warning C4001: nonstandard extension 'single line comment' was used
+     1>c:\users\t-hla\documents\2017\compilers\assignments\assignment 4\parser\scanner.c(126): warning C4127: conditional expression is constant
+         platy.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(156): warning C4001: nonstandard extension 'single line comment' was used
+         buffer.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt parser.c
+         parser.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(156): warning C4001: nonstandard extension 'single line comment' was used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 4\Parser\Debug\Parser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 4\Parser\Debug\Parser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 4\Parser\Debug\Parser.lib" /MACHINE:X86 Debug\buffer.obj
+         Debug\parser.obj
+         Debug\platy.obj
+         Debug\scanner.obj
+         Debug\stable.obj
+         Parser.vcxproj -> C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 4\Parser\Debug\Parser.exe
+     1>Done Building Project "C:\Users\t-hla\Documents\2017\Compilers\Assignments\Assignment 4\Parser\Parser.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.79

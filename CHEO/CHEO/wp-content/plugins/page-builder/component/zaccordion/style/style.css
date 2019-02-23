@@ -1,0 +1,60 @@
+/******************************************************************************/
+/* Zaccordion																  */
+/******************************************************************************/
+
+.pb-zaccordion
+{
+	
+}
+
+	.pb-zaccordion>ul
+	{
+		
+	}
+	
+		.pb-zaccordion>ul>li
+		{
+			height:auto !important;
+		}
+
+	/**************************************************************************/
+	/* Zaccordion / Caption box												  */
+	/**************************************************************************/
+	
+	.pb-zaccordion .pb-zaccordion-caption-box
+	{
+		z-index:2;
+		bottom:0px;
+		width:100%;
+		padding:20px;
+		display:none;
+		position:absolute;
+		box-sizing:border-box;
+	}
+	
+	.pb-zaccordion .pb-zaccordion-caption-box.pb-zaccordion-caption-box-disable
+	{
+		opacity:0;
+	}
+	
+		.pb-zaccordion .pb-zaccordion-caption-box .pb-zaccordion-caption-box-title,
+		.pb-zaccordion .pb-zaccordion-caption-box .pb-zaccordion-caption-box-excerpt
+		{
+			display:block;
+		}
+	
+		.pb-zaccordion .pb-zaccordion-caption-box .pb-zaccordion-caption-box-title+.pb-zaccordion-caption-box-excerpt
+		{
+			margin-top:10px;
+		}
+	
+		.pb-zaccordion .pb-zaccordion-caption-box .pb-zaccordion-caption-box-title
+		{
+			
+		}
+		
+		.pb-zaccordion .pb-zaccordion-caption-box .pb-zaccordion-caption-box-excerpt
+		{
+			font-size:0.9em;
+			line-height:140%;
+		}

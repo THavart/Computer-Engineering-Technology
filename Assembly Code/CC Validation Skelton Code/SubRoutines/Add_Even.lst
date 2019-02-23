@@ -1,0 +1,15 @@
+
+as12, an absolute assembler for Motorola MCU's, version 1.2h
+
+                        ; Add_Even.asm
+0000                    Add_Even
+0000 a6 41                      ldaa    1,y
+0002 e6 43                      ldab         3,y
+0004 18 06                      aba
+0006 18 07                      daa
+                        
+0008 3d                         rts
+
+Executed: Wed Apr 20 12:19:17 2016
+Total cycles: 11, Total bytes: 9
+Total errors: 0, Total warnings: 0

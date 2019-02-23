@@ -1,0 +1,5506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Builder\n"
+"POT-Creation-Date: 2017-02-03 08:18+0100\n"
+"PO-Revision-Date: 2017-02-03 08:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs <quanticalabs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class/PB.Align.class.php:14 ../class/PB.CarouFredSel.class.php:34
+#: ../component/box/class/PB.Component.Box.class.php:45
+#: ../component/button/class/PB.Component.Button.class.php:46
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:521
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:686
+#: ../component/feature/class/PB.Component.Feature.class.php:45
+#: ../component/layout/class/PB.Component.Layout.class.php:636
+msgid "Left"
+msgstr ""
+
+#: ../class/PB.Align.class.php:15
+msgid "Center"
+msgstr ""
+
+#: ../class/PB.Align.class.php:16 ../class/PB.CarouFredSel.class.php:35
+#: ../component/box/class/PB.Component.Box.class.php:43
+#: ../component/button/class/PB.Component.Button.class.php:47
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:473
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:638
+#: ../component/feature/class/PB.Component.Feature.class.php:43
+#: ../component/layout/class/PB.Component.Layout.class.php:596
+msgid "Right"
+msgstr ""
+
+#: ../class/PB.Background.class.php:14
+msgid "Image will not be repeated"
+msgstr ""
+
+#: ../class/PB.Background.class.php:15
+msgid "Image will be repeated only vertically"
+msgstr ""
+
+#: ../class/PB.Background.class.php:16
+msgid "Image will be repeated only horizontally"
+msgstr ""
+
+#: ../class/PB.Background.class.php:17
+msgid "Image will be repeated both vertically and horizontally"
+msgstr ""
+
+#: ../class/PB.Background.class.php:18
+msgid "Property should be inherited from the parent element"
+msgstr ""
+
+#: ../class/PB.Background.class.php:23
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:230
+msgid "Auto"
+msgstr ""
+
+#: ../class/PB.Background.class.php:24
+msgid "Length"
+msgstr ""
+
+#: ../class/PB.Background.class.php:25
+msgid "Percentage"
+msgstr ""
+
+#: ../class/PB.Background.class.php:26 ../class/PB.CarouFredSel.class.php:19
+msgid "Cover"
+msgstr ""
+
+#: ../class/PB.Background.class.php:27
+msgid "Contain"
+msgstr ""
+
+#: ../class/PB.Background.class.php:28
+msgid "Initial"
+msgstr ""
+
+#: ../class/PB.Background.class.php:29 ../class/PB.Border.class.php:24
+#: ../class/PB.Post.class.php:17
+msgid "Inherit"
+msgstr ""
+
+#: ../class/PB.Border.class.php:14 ../class/PB.CarouFredSel.class.php:14
+#: ../component/feature/class/PB.Component.Feature.class.php:50
+msgid "None"
+msgstr ""
+
+#: ../class/PB.Border.class.php:15
+msgid "Hidden"
+msgstr ""
+
+#: ../class/PB.Border.class.php:16
+msgid "Dotted"
+msgstr ""
+
+#: ../class/PB.Border.class.php:17
+msgid "Dashed"
+msgstr ""
+
+#: ../class/PB.Border.class.php:18
+msgid "Solid"
+msgstr ""
+
+#: ../class/PB.Border.class.php:19
+msgid "Double"
+msgstr ""
+
+#: ../class/PB.Border.class.php:20
+msgid "Groove"
+msgstr ""
+
+#: ../class/PB.Border.class.php:21
+msgid "Ridge"
+msgstr ""
+
+#: ../class/PB.Border.class.php:22
+msgid "Inset"
+msgstr ""
+
+#: ../class/PB.Border.class.php:23
+msgid "Outset"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:15
+msgid "Scroll"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:16
+msgid "Directscroll"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:17 ../class/PB.ImageHover.class.php:14
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:48
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:53
+msgid "Fade"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:18
+msgid "Crossfade"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:20
+msgid "Cover-fade"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:21
+msgid "Uncover"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:22
+msgid "Uncover-fade"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:27
+msgid "Resume"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:28
+msgid "Immediate"
+msgstr ""
+
+#: ../class/PB.CarouFredSel.class.php:29
+msgid "Immediate and resume"
+msgstr ""
+
+#: ../class/PB.Component.class.php:92
+#: ../component/gallery/class/PB.Component.Gallery.class.php:220
+#: ../component/menu/class/Walker_Nav_Menu.php:180
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:183
+msgid "Description"
+msgstr ""
+
+#: ../class/PB.Component.class.php:93
+msgid "Description of used component"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:14
+msgid "swing"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:15
+msgid "linear"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:16
+msgid "easeInQuad"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:17
+msgid "easeOutQuad"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:18
+msgid "easeInOutQuad"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:19
+msgid "easeInCubic"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:20
+msgid "easeOutCubic"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:21
+msgid "easeInOutCubic"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:22
+msgid "easeInQuart"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:23
+msgid "easeOutQuart"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:24 ../class/PB.Easing.class.php:25
+msgid "easeInOutQuart"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:26
+msgid "easeInQuint"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:27
+msgid "easeOutQuint"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:28
+msgid "easeInOutQuint"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:29
+msgid "easeInSine"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:30
+msgid "easeOutSine"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:31
+msgid "easeInOutSine"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:32
+msgid "easeInExpo"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:33
+msgid "easeOutExpo"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:34
+msgid "easeInOutExpo"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:35
+msgid "easeInCirc"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:36
+msgid "easeOutCirc"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:37
+msgid "easeInOutCirc"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:38
+msgid "easeInElastic"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:39
+msgid "easeOutElastic"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:40
+msgid "easeInOutElastic"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:41
+msgid "easeInBack"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:42
+msgid "easeOutBack"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:43
+msgid "easeInOutBack"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:44
+msgid "easeInBounce"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:45
+msgid "easeOutBounce"
+msgstr ""
+
+#: ../class/PB.Easing.class.php:46
+msgid "easeInOutBounce"
+msgstr ""
+
+#: ../class/PB.Font.class.php:14 ../class/PB.Layout.class.php:22
+msgid "100"
+msgstr ""
+
+#: ../class/PB.Font.class.php:15
+msgid "200"
+msgstr ""
+
+#: ../class/PB.Font.class.php:16
+msgid "300"
+msgstr ""
+
+#: ../class/PB.Font.class.php:17
+msgid "400"
+msgstr ""
+
+#: ../class/PB.Font.class.php:18
+msgid "500"
+msgstr ""
+
+#: ../class/PB.Font.class.php:19
+msgid "600"
+msgstr ""
+
+#: ../class/PB.Font.class.php:20
+msgid "700"
+msgstr ""
+
+#: ../class/PB.Font.class.php:21
+msgid "800"
+msgstr ""
+
+#: ../class/PB.Font.class.php:22
+msgid "900"
+msgstr ""
+
+#: ../class/PB.Font.class.php:23
+msgid "bold"
+msgstr ""
+
+#: ../class/PB.Font.class.php:24
+msgid "bolder"
+msgstr ""
+
+#: ../class/PB.Font.class.php:25 ../class/PB.Font.class.php:32
+msgid "inherit"
+msgstr ""
+
+#: ../class/PB.Font.class.php:26
+msgid "lighter"
+msgstr ""
+
+#: ../class/PB.Font.class.php:27 ../class/PB.Font.class.php:34
+msgid "normal"
+msgstr ""
+
+#: ../class/PB.Font.class.php:33
+msgid "italic"
+msgstr ""
+
+#: ../class/PB.Font.class.php:35
+msgid "oblique"
+msgstr ""
+
+#: ../class/PB.Form.class.php:116 ../class/PB.Form.class.php:143
+#: ../component/menu/class/Walker_Nav_Menu.php:259
+#: ../component/team/template/meta_box_skill.php:33
+#: ../component/team/template/meta_box_skill.php:56
+#: ../component/team/template/meta_box_skill.php:84
+#: ../component/team/template/meta_box_social.php:33
+#: ../component/team/template/meta_box_social.php:61
+#: ../component/team/template/meta_box_social.php:94
+msgid "Remove"
+msgstr ""
+
+#: ../class/PB.Form.class.php:172
+msgid "Add new"
+msgstr ""
+
+#: ../class/PB.Form.class.php:405
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:466
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1002
+msgid "Yes"
+msgstr ""
+
+#: ../class/PB.Form.class.php:405
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:466
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1002
+msgid "No"
+msgstr ""
+
+#: ../class/PB.Form.class.php:408
+#: ../template/admin/page_builder_option_general_setting.php:12
+#: ../template/admin/page_builder_option_general_setting.php:24
+msgid "Enable"
+msgstr ""
+
+#: ../class/PB.Form.class.php:408
+#: ../template/admin/page_builder_option_general_setting.php:14
+#: ../template/admin/page_builder_option_general_setting.php:26
+msgid "Disable"
+msgstr ""
+
+#: ../class/PB.Form.class.php:424
+msgid "- Use default -"
+msgstr ""
+
+#: ../class/PB.Form.class.php:573
+msgid "Build gallery"
+msgstr ""
+
+#: ../class/PB.Form.class.php:587 ../class/PB.Form.class.php:600
+msgid "Browse"
+msgstr ""
+
+#: ../class/PB.Header.class.php:14
+msgid "H1"
+msgstr ""
+
+#: ../class/PB.Header.class.php:15
+msgid "H2"
+msgstr ""
+
+#: ../class/PB.Header.class.php:16
+msgid "H3"
+msgstr ""
+
+#: ../class/PB.Header.class.php:17
+msgid "H4"
+msgstr ""
+
+#: ../class/PB.Header.class.php:18
+msgid "H5"
+msgstr ""
+
+#: ../class/PB.Header.class.php:19
+msgid "H6"
+msgstr ""
+
+#: ../class/PB.ImageHover.class.php:15
+msgid "Slide left to right"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:21
+msgid "Layout 100%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:28
+msgid "Layout 50x50%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:29
+msgid "50x50"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:35
+msgid "Layout 33x33x33%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:36
+msgid "33x33x33"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:42
+msgid "Layout 33x66%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:43
+msgid "33x66"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:49
+msgid "Layout 66x33%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:50
+msgid "66x33"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:56
+msgid "Layout 25x25x25x25%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:57
+msgid "25x25x25x25"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:63
+msgid "Layout 25x75%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:64
+msgid "25x75"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:70
+msgid "Layout 75x25%"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:71
+msgid "75x25"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:80
+msgid "Full width"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:84
+msgid "Wide"
+msgstr ""
+
+#: ../class/PB.Layout.class.php:88
+msgid "Boxed"
+msgstr ""
+
+#: ../class/PB.Notice.class.php:46
+msgid "Error"
+msgstr ""
+
+#: ../class/PB.Notice.class.php:47
+msgid "Changes can not be saved."
+msgstr ""
+
+#: ../class/PB.Notice.class.php:51
+msgid "Success"
+msgstr ""
+
+#: ../class/PB.Notice.class.php:52
+msgid "All changes have been saved."
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:586
+msgid "Save"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:587
+#: ../component/menu/class/Walker_Nav_Menu.php:260
+msgid "Cancel"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:588
+msgid "Delete"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:589
+msgid "Create Shortcode"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:602 ../class/PB.PageBuilder.class.php:603
+msgid "Page builder"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:610 ../class/PB.PageBuilder.class.php:943
+msgid "Page Builder"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:638
+msgid "Invalid value"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:691
+msgid "Processing..."
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:942
+msgid "Default editor"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1859
+msgid "Remove all components in this column"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1878
+msgid "To start creating content,<br/>drag and drop component here"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1892
+msgid "Remove this layout"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1893
+msgid "Edit this layout"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1894
+msgid "Clone this layout"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1895
+msgid "Move up/down this layout"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1921
+msgid "Remove this component"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1922
+msgid "Edit this component"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1923
+msgid "Clone this component"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:1942
+msgid "Select shortcode"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:2081
+#: ../component/button/class/PB.Component.Button.class.php:125
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:263
+#: ../component/feature/class/PB.Component.Feature.class.php:250
+#: ../component/feature/class/PB.Component.Feature.class.php:891
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:133
+#: ../component/iframe/class/PB.Component.Iframe.class.php:41
+#: ../component/menu/class/Walker_Nav_Menu.php:143
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:119
+#: ../component/redirect/class/PB.Component.Redirect.class.php:31
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:520
+#: ../component/team/template/meta_box_base.php:33
+#: ../component/team/template/meta_box_social.php:21
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:394
+msgid "URL"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:2084
+msgid "URL of the page which has to be opened when user has clicked on image"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:2094
+msgid "Video URL"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:2097
+msgid ""
+"URL of the video. Supported services: youtube.com, vimeo.com, dailymotion."
+"com, metacafe.com"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:2137
+msgid "no description"
+msgstr ""
+
+#: ../class/PB.PageBuilder.class.php:2206
+#, php-format
+msgid ""
+"<b>File %s cannot be created. Please make sure that this location is "
+"writable.</b>"
+msgstr ""
+
+#: ../class/PB.Post.class.php:14
+msgid "Auto draft"
+msgstr ""
+
+#: ../class/PB.Post.class.php:15
+msgid "Draft"
+msgstr ""
+
+#: ../class/PB.Post.class.php:16
+msgid "Future"
+msgstr ""
+
+#: ../class/PB.Post.class.php:18
+msgid "Pending"
+msgstr ""
+
+#: ../class/PB.Post.class.php:19
+msgid "Private"
+msgstr ""
+
+#: ../class/PB.Post.class.php:20
+msgid "Publish"
+msgstr ""
+
+#: ../class/PB.Post.class.php:21
+msgid "Trash"
+msgstr ""
+
+#: ../class/PB.Post.class.php:26
+#: ../component/blockquote/class/PB.Component.Blockquote.class.php:53
+msgid "Author"
+msgstr ""
+
+#: ../class/PB.Post.class.php:27
+msgid "Date creation"
+msgstr ""
+
+#: ../class/PB.Post.class.php:28
+msgid "Date of modification"
+msgstr ""
+
+#: ../class/PB.Post.class.php:29
+msgid "ID"
+msgstr ""
+
+#: ../class/PB.Post.class.php:30
+msgid "Menu order"
+msgstr ""
+
+#: ../class/PB.Post.class.php:31
+msgid "Slug"
+msgstr ""
+
+#: ../class/PB.Post.class.php:32
+#: ../component/audio/class/PB.Component.Audio.class.php:210
+msgid "Title"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:14
+msgid "%"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:15
+msgid "in"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:16
+msgid "cm"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:17
+msgid "mm"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:18
+msgid "em"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:19
+msgid "ex"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:20
+msgid "pt"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:21
+msgid "pc"
+msgstr ""
+
+#: ../class/PB.Unit.class.php:22
+msgid "px"
+msgstr ""
+
+#: ../class/PB.Window.class.php:14
+msgid "Open page in the same frame"
+msgstr ""
+
+#: ../class/PB.Window.class.php:15
+msgid "Open page in a new window"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:36
+#: ../component/tab/class/PB.Component.Tab.class.php:36
+msgid "Content: Each panel will be only as tall as its content"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:37
+#: ../component/tab/class/PB.Component.Tab.class.php:37
+msgid "Auto: all panels will be set to the height of the tallest panel"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:38
+#: ../component/tab/class/PB.Component.Tab.class.php:38
+msgid "Fill:\tExpand to the available height based on the parent height"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:43
+#: ../component/accordion/class/PB.Component.Accordion.class.php:49
+msgid "Accordion"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:44
+msgid "Displays accordion"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:57
+#: ../component/audio/class/PB.Component.Audio.class.php:63
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:54
+#: ../component/box/class/PB.Component.Box.class.php:64
+#: ../component/button/class/PB.Component.Button.class.php:73
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:51
+#: ../component/class/class/PB.Component.Class.class.php:56
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:79
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:54
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:50
+#: ../component/feature/class/PB.Component.Feature.class.php:217
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:150
+#: ../component/header/class/PB.Component.Header.class.php:41
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:41
+#: ../component/layout/class/PB.Component.Layout.class.php:44
+#: ../component/list/class/PB.Component.List.class.php:157
+#: ../component/notice/class/PB.Component.Notice.class.php:61
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:77
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:61
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:153
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:138
+#: ../component/tab/class/PB.Component.Tab.class.php:57
+#: ../component/team/class/PB.Component.Team.class.php:77
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:54
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:59
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:41
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:69
+msgid "General"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:61
+#: ../component/tab/class/PB.Component.Tab.class.php:61
+msgid "Animations"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:65
+#: ../component/tab/class/PB.Component.Tab.class.php:65
+msgid "Panels"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:72
+#: ../component/accordion/class/PB.Component.Accordion.class.php:328
+#: ../component/tab/class/PB.Component.Tab.class.php:85
+#: ../component/tab/class/PB.Component.Tab.class.php:438
+msgid "Content of the panel"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:86
+#: ../component/tab/class/PB.Component.Tab.class.php:126
+msgid "Active"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:87
+#: ../component/tab/class/PB.Component.Tab.class.php:127
+msgid "The zero-based index of the panel that is active (open)."
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:110
+msgid "Close at start"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:111
+msgid ""
+"Close all panels at start. This requires collapsible option to be enable."
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:131
+#: ../component/tab/class/PB.Component.Tab.class.php:150
+msgid "Collapsible"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:132
+#: ../component/tab/class/PB.Component.Tab.class.php:151
+msgid ""
+"Whether all the sections can be closed at once. Allows collapsing the active "
+"section."
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:152
+#: ../component/tab/class/PB.Component.Tab.class.php:171
+msgid "Disabled"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:153
+msgid "Disable entire accordion"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:173
+#: ../component/tab/class/PB.Component.Tab.class.php:192
+msgid "Height style"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:174
+msgid "Controls the height of the accordion and each panel"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:198
+#: ../component/tab/class/PB.Component.Tab.class.php:99
+msgid "Header font size"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:199
+msgid ""
+"Font size in pixels. If value 0 will be selected, then default font size "
+"will be applied."
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:225
+#: ../component/audio/class/PB.Component.Audio.class.php:178
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:80
+#: ../component/blockquote/class/PB.Component.Blockquote.class.php:41
+#: ../component/box/class/PB.Component.Box.class.php:119
+#: ../component/button/class/PB.Component.Button.class.php:210
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:124
+#: ../component/class/class/PB.Component.Class.class.php:106
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:152
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:112
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:79
+#: ../component/divider/class/PB.Component.Divider.class.php:174
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:117
+#: ../component/feature/class/PB.Component.Feature.class.php:345
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:588
+#: ../component/gallery/class/PB.Component.Gallery.class.php:240
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:475
+#: ../component/header/class/PB.Component.Header.class.php:121
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:168
+#: ../component/iframe/class/PB.Component.Iframe.class.php:91
+#: ../component/layout/class/PB.Component.Layout.class.php:163
+#: ../component/layout_column/class/PB.Component.LayoutColumn.class.php:32
+#: ../component/list/class/PB.Component.List.class.php:197
+#: ../component/menu/class/PB.Component.Menu.class.php:345
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:432
+#: ../component/notice/class/PB.Component.Notice.class.php:122
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:122
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:152
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:276
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:94
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:175
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:185
+#: ../component/space/class/PB.Component.Space.class.php:64
+#: ../component/supersized/class/PB.Component.Supersized.class.php:503
+#: ../component/tab/class/PB.Component.Tab.class.php:217
+#: ../component/team/class/PB.Component.Team.class.php:254
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:108
+#: ../component/text/class/PB.Component.Text.class.php:51
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:81
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:88
+#: ../component/video/class/PB.Component.Video.class.php:103
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:364
+msgid "CSS class"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:226
+#: ../component/audio/class/PB.Component.Audio.class.php:179
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:81
+#: ../component/blockquote/class/PB.Component.Blockquote.class.php:42
+#: ../component/box/class/PB.Component.Box.class.php:120
+#: ../component/button/class/PB.Component.Button.class.php:211
+#: ../component/class/class/PB.Component.Class.class.php:107
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:153
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:113
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:80
+#: ../component/divider/class/PB.Component.Divider.class.php:175
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:118
+#: ../component/feature/class/PB.Component.Feature.class.php:346
+#: ../component/header/class/PB.Component.Header.class.php:122
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:169
+#: ../component/iframe/class/PB.Component.Iframe.class.php:92
+#: ../component/list/class/PB.Component.List.class.php:198
+#: ../component/menu/class/PB.Component.Menu.class.php:346
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:123
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:153
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:95
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:176
+#: ../component/space/class/PB.Component.Space.class.php:65
+#: ../component/tab/class/PB.Component.Tab.class.php:218
+#: ../component/team/class/PB.Component.Team.class.php:255
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:109
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:89
+#: ../component/video/class/PB.Component.Video.class.php:104
+msgid "List of CSS classes defined in CSS files separated by space."
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:238
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:297
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:118
+#: ../component/feature/class/PB.Component.Feature.class.php:763
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:145
+#: ../component/team/class/PB.Component.Team.class.php:267
+msgid "Animation"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:239
+#: ../component/tab/class/PB.Component.Tab.class.php:231
+#: ../component/tab/class/PB.Component.Tab.class.php:325
+msgid "Enable or disable animation"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:259
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:280
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:342
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:163
+#: ../component/feature/class/PB.Component.Feature.class.php:739
+#: ../component/feature/class/PB.Component.Feature.class.php:813
+#: ../component/team/class/PB.Component.Team.class.php:312
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:276
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:334
+msgid "Duration"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:260
+#: ../component/tab/class/PB.Component.Tab.class.php:252
+#: ../component/tab/class/PB.Component.Tab.class.php:346
+msgid "Duration of animation in miliseconds"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:283
+msgid "Easing type"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:284
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:367
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:188
+#: ../component/feature/class/PB.Component.Feature.class.php:838
+#: ../component/tab/class/PB.Component.Tab.class.php:300
+#: ../component/tab/class/PB.Component.Tab.class.php:394
+#: ../component/team/class/PB.Component.Team.class.php:337
+msgid "Easing type of animation"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:309
+#: ../component/box/class/PB.Component.Box.class.php:132
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:392
+#: ../component/feature/class/PB.Component.Feature.class.php:937
+#: ../component/header/class/PB.Component.Header.class.php:27
+#: ../component/header/class/PB.Component.Header.class.php:33
+#: ../component/header/class/PB.Component.Header.class.php:59
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:63
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:166
+#: ../component/tab/class/PB.Component.Tab.class.php:419
+msgid "Header"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:310
+#: ../component/tab/class/PB.Component.Tab.class.php:420
+msgid "Header of the panel"
+msgstr ""
+
+#: ../component/accordion/class/PB.Component.Accordion.class.php:327
+#: ../component/blockquote/class/PB.Component.Blockquote.class.php:64
+#: ../component/box/class/PB.Component.Box.class.php:199
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:409
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:41
+#: ../component/feature/class/PB.Component.Feature.class.php:954
+#: ../component/layout/class/PB.Component.Layout.class.php:189
+#: ../component/layout_column/class/PB.Component.LayoutColumn.class.php:44
+#: ../component/tab/class/PB.Component.Tab.class.php:437
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:301
+#: ../component/text/class/PB.Component.Text.class.php:31
+msgid "Content"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:49
+#: ../component/audio/class/PB.Component.Audio.class.php:55
+msgid "Audio"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:50
+msgid "Displays Audio"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:67
+msgid "Tracks"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:74
+msgid "Track"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:88
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:135
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:136
+msgid "Volume"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:89
+msgid "Defines the initial volume as a value."
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:115
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:114
+#: ../component/layout/class/PB.Component.Layout.class.php:478
+msgid "Muted"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:116
+msgid "Determines whether the sound has to be muted by default"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:136
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:146
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:147
+#: ../component/feature/class/PB.Component.Feature.class.php:605
+#: ../component/feature/class/PB.Component.Feature.class.php:606
+#: ../component/layout/class/PB.Component.Layout.class.php:436
+#: ../component/supersized/class/PB.Component.Supersized.class.php:99
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:142
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:143
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:200
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:201
+msgid "Autoplay"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:137
+msgid "Enable or disable autoplay"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:157
+msgid "Enable playlist"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:158
+msgid "Determines whether the playlist has to be visible"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:192
+msgid "Artist"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:193
+msgid "Artist of the track"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:211
+msgid "Title of the track"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:228
+msgid "MP3"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:229
+msgid "URL of MP3 file"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:246
+msgid "OGG"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:247
+msgid "URL of OGG file"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:375
+msgid "Play"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:376
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:251
+msgid "Pause"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:390
+msgid "Mute"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:391
+msgid "Unmute"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:401
+msgid "Update Required"
+msgstr ""
+
+#: ../component/audio/class/PB.Component.Audio.class.php:402
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your <a href=\"http://get.adobe.com/flashplayer/\" target="
+"\"_blank\">Flash plugin</a>."
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:40
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:46
+msgid "Background Video"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:41
+msgid "Displays Background Video"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:58
+msgid "Videos"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:65
+#: ../component/layout/class/PB.Component.Layout.class.php:52
+#: ../component/layout/class/PB.Component.Layout.class.php:72
+#: ../component/video/class/PB.Component.Video.class.php:32
+#: ../component/video/class/PB.Component.Video.class.php:38
+msgid "Video"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:66
+msgid "Enter URL's to the videos in different formats"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:93
+#: ../component/layout/class/PB.Component.Layout.class.php:457
+msgid "Loop"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:94
+#: ../component/layout/class/PB.Component.Layout.class.php:458
+msgid ""
+"If enabled, upon reaching the end of the video, automatically seek back to "
+"the start"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:115
+#: ../component/layout/class/PB.Component.Layout.class.php:479
+msgid "If enabled, the audio will be initially silenced"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:163
+msgid "Playback rate"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:164
+msgid "Sets the speed of the video playback"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:187
+#: ../component/team/template/meta_box_base.php:25
+msgid "Position"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:188
+msgid "Position (x,y) of the video."
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:204
+#: ../component/layout/class/PB.Component.Layout.class.php:419
+msgid "Poster"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:221
+#: ../component/layout/class/PB.Component.Layout.class.php:369
+msgid "Format WEBM"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:238
+#: ../component/layout/class/PB.Component.Layout.class.php:386
+msgid "Format OGG"
+msgstr ""
+
+#: ../component/background_video/class/PB.Component.BackgroundVideo.class.php:255
+#: ../component/layout/class/PB.Component.Layout.class.php:403
+msgid "Format MP4"
+msgstr ""
+
+#: ../component/blockquote/class/PB.Component.Blockquote.class.php:24
+#: ../component/blockquote/class/PB.Component.Blockquote.class.php:30
+msgid "Blockquote"
+msgstr ""
+
+#: ../component/blockquote/class/PB.Component.Blockquote.class.php:25
+msgid "Displays blockquote"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:42
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:449
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:545
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:614
+#: ../component/feature/class/PB.Component.Feature.class.php:42
+#: ../component/layout/class/PB.Component.Layout.class.php:576
+msgid "Top"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:44
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:497
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:569
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:662
+#: ../component/feature/class/PB.Component.Feature.class.php:44
+#: ../component/layout/class/PB.Component.Layout.class.php:616
+msgid "Bottom"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:50
+#: ../component/box/class/PB.Component.Box.class.php:56
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:67
+#: ../component/notice/class/PB.Component.Notice.class.php:73
+msgid "Box"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:51
+msgid "Displays box"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:68
+#: ../component/box/class/PB.Component.Box.class.php:240
+#: ../component/button/class/PB.Component.Button.class.php:77
+#: ../component/button/class/PB.Component.Button.class.php:263
+#: ../component/feature/class/PB.Component.Feature.class.php:87
+#: ../component/feature/class/PB.Component.Feature.class.php:154
+#: ../component/feature/class/PB.Component.Feature.class.php:180
+#: ../component/list/class/PB.Component.List.class.php:85
+#: ../component/menu/class/Walker_Nav_Menu.php:193
+#: ../component/notice/class/PB.Component.Notice.class.php:77
+#: ../component/notice/class/PB.Component.Notice.class.php:412
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:79
+msgid "Icon"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:72
+#: ../component/button/class/PB.Component.Button.class.php:81
+#: ../component/feature/class/PB.Component.Feature.class.php:221
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:174
+#: ../component/header/class/PB.Component.Header.class.php:45
+#: ../component/layout/class/PB.Component.Layout.class.php:60
+#: ../component/list/class/PB.Component.List.class.php:161
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:161
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:142
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:45
+msgid "Styles"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:79
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:88
+#: ../component/layout/class/PB.Component.Layout.class.php:82
+#: ../component/notice/class/PB.Component.Notice.class.php:92
+msgid "Border top"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:80
+msgid "Border top properties in order: style, width, color, radius."
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:84
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:92
+#: ../component/layout/class/PB.Component.Layout.class.php:87
+#: ../component/notice/class/PB.Component.Notice.class.php:97
+msgid "Border right"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:85
+msgid "Border right properties in order: style, width, color, radius."
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:89
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:96
+#: ../component/layout/class/PB.Component.Layout.class.php:92
+#: ../component/notice/class/PB.Component.Notice.class.php:102
+msgid "Border bottom"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:90
+msgid "Border bottom properties in order: style, width, color, radius."
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:94
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:100
+#: ../component/layout/class/PB.Component.Layout.class.php:97
+#: ../component/notice/class/PB.Component.Notice.class.php:107
+msgid "Border left"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:95
+msgid "Border left properties in order: style, width, color, radius."
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:99
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:83
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:104
+#: ../component/layout/class/PB.Component.Layout.class.php:67
+msgid "Padding"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:100
+msgid "Padding of the box in pixels in order: top, right, bottom, left."
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:104
+msgid "Text colors"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:105
+msgid "Text colors in HEX."
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:133
+#: ../component/header/class/PB.Component.Header.class.php:60
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:64
+msgid "Content of the header"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:149
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:175
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:238
+#: ../component/header/class/PB.Component.Header.class.php:76
+msgid "Importance of the header"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:174
+msgid "Align of the header"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:220
+#: ../component/button/class/PB.Component.Button.class.php:243
+msgid "Enable icon"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:261
+#: ../component/feature/class/PB.Component.Feature.class.php:297
+#: ../component/list/class/PB.Component.List.class.php:123
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:117
+msgid "Icon size"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:285
+#: ../component/button/class/PB.Component.Button.class.php:283
+#: ../component/feature/class/PB.Component.Feature.class.php:321
+msgid "Icon position"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:309
+msgid "Icon background position"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:321
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:365
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:592
+#: ../component/header/class/PB.Component.Header.class.php:226
+#: ../component/layout/class/PB.Component.Layout.class.php:541
+#: ../component/notice/class/PB.Component.Notice.class.php:211
+#: ../component/notice/class/PB.Component.Notice.class.php:438
+#: ../component/notice/class/PB.Component.Notice.class.php:504
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:51
+msgid "Background color"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:322
+#: ../component/button/class/PB.Component.Button.class.php:325
+#: ../component/button/class/PB.Component.Button.class.php:474
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:593
+#: ../component/header/class/PB.Component.Header.class.php:227
+#: ../component/layout/class/PB.Component.Layout.class.php:542
+#: ../component/notice/class/PB.Component.Notice.class.php:212
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:52
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:417
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:488
+msgid "Background color in HEX"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:339
+#: ../component/box/class/PB.Component.Box.class.php:417
+#: ../component/box/class/PB.Component.Box.class.php:495
+#: ../component/box/class/PB.Component.Box.class.php:573
+#: ../component/layout/class/PB.Component.Layout.class.php:656
+#: ../component/layout/class/PB.Component.Layout.class.php:714
+#: ../component/layout/class/PB.Component.Layout.class.php:772
+#: ../component/layout/class/PB.Component.Layout.class.php:830
+msgid "Style:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:360
+#: ../component/box/class/PB.Component.Box.class.php:438
+#: ../component/box/class/PB.Component.Box.class.php:516
+#: ../component/box/class/PB.Component.Box.class.php:594
+#: ../component/layout/class/PB.Component.Layout.class.php:677
+#: ../component/layout/class/PB.Component.Layout.class.php:735
+#: ../component/layout/class/PB.Component.Layout.class.php:793
+#: ../component/layout/class/PB.Component.Layout.class.php:851
+msgid "Width in pixels:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:380
+#: ../component/box/class/PB.Component.Box.class.php:458
+#: ../component/box/class/PB.Component.Box.class.php:536
+#: ../component/box/class/PB.Component.Box.class.php:614
+#: ../component/layout/class/PB.Component.Layout.class.php:697
+#: ../component/layout/class/PB.Component.Layout.class.php:755
+#: ../component/layout/class/PB.Component.Layout.class.php:813
+#: ../component/layout/class/PB.Component.Layout.class.php:871
+msgid "Color in HEX:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:397
+#: ../component/box/class/PB.Component.Box.class.php:475
+#: ../component/box/class/PB.Component.Box.class.php:553
+#: ../component/box/class/PB.Component.Box.class.php:631
+msgid "Radius in pixels:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:651
+msgid "Top:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:671
+msgid "Right:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:691
+msgid "Bottom:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:711
+msgid "Left:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:731
+msgid "Content text color:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:752
+msgid "Header text color:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:773
+msgid "Link text color:"
+msgstr ""
+
+#: ../component/box/class/PB.Component.Box.class.php:790
+msgid "Link text color on hover:"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:38
+msgid "Tiny"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:39
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:41
+msgid "Small"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:40
+msgid "Medium"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:41
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:42
+msgid "Large"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:59
+#: ../component/button/class/PB.Component.Button.class.php:65
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:63
+msgid "Button"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:60
+msgid "Displays button"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:88
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:93
+msgid "Normal state"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:89
+msgid "Styles used in normal (default) state"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:93
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:98
+msgid "Hover state"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:94
+msgid "Styles used in hover state"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:108
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:305
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:521
+msgid "Label"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:109
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:306
+msgid "Label of the button"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:126
+msgid "URL address of a link"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:138
+msgid "URL target"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:162
+msgid "Button size"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:186
+msgid "Button style"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:223
+msgid "Enable arrow"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:308
+#: ../component/button/class/PB.Component.Button.class.php:457
+msgid "Text color in HEX"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:342
+#: ../component/button/class/PB.Component.Button.class.php:491
+msgid "Border style:"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:367
+#: ../component/button/class/PB.Component.Button.class.php:516
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:383
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:454
+msgid "Border color in HEX"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:384
+#: ../component/button/class/PB.Component.Button.class.php:533
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:363
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:434
+msgid "Border width in pixels"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:408
+#: ../component/button/class/PB.Component.Button.class.php:557
+msgid "Border radius in pixels"
+msgstr ""
+
+#: ../component/button/class/PB.Component.Button.class.php:432
+#: ../component/button/class/PB.Component.Button.class.php:581
+#: ../component/header/class/PB.Component.Header.class.php:161
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:209
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:332
+msgid "Font weight"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:37
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:43
+msgid "Call To Action"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:38
+msgid "Displays Call To Action box"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:55
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:137
+#: ../component/notice/class/PB.Component.Notice.class.php:65
+#: ../component/notice/class/PB.Component.Notice.class.php:135
+msgid "First line"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:59
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:200
+#: ../component/notice/class/PB.Component.Notice.class.php:69
+#: ../component/notice/class/PB.Component.Notice.class.php:173
+msgid "Second line"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:71
+msgid "Border"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:78
+#: ../component/layout/class/PB.Component.Layout.class.php:56
+msgid "Colors"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:79
+msgid "Colors of button elements in HEX"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:84
+msgid "Padding of the box in pixels"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:105
+msgid "Padding of the button in pixels"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:109
+msgid "Margin"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:110
+msgid "Margin of the button in pixels"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:125
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:589
+#: ../component/gallery/class/PB.Component.Gallery.class.php:241
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:476
+#: ../component/layout/class/PB.Component.Layout.class.php:164
+#: ../component/layout_column/class/PB.Component.LayoutColumn.class.php:33
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:433
+#: ../component/notice/class/PB.Component.Notice.class.php:123
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:277
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:186
+#: ../component/supersized/class/PB.Component.Supersized.class.php:504
+#: ../component/text/class/PB.Component.Text.class.php:52
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:82
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:365
+msgid "List of CSS classes defined in CSS files separated by space"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:138
+#: ../component/notice/class/PB.Component.Notice.class.php:136
+msgid "Content of the first line"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:154
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:217
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:323
+#: ../component/notice/class/PB.Component.Notice.class.php:152
+#: ../component/notice/class/PB.Component.Notice.class.php:190
+#: ../component/notice/class/PB.Component.Notice.class.php:570
+msgid "Text color"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:155
+#: ../component/notice/class/PB.Component.Notice.class.php:153
+msgid "Text color of the first line in HEX"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:201
+#: ../component/notice/class/PB.Component.Notice.class.php:174
+msgid "Content of the second line"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:218
+#: ../component/notice/class/PB.Component.Notice.class.php:191
+msgid "Text color of the second line in HEX"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:264
+msgid "URL of the button"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:280
+#: ../component/feature/class/PB.Component.Feature.class.php:909
+msgid "Target"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:281
+msgid "Target of the URL"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:344
+msgid "Text color (on hover)"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:386
+msgid "Background color (on hover)"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:407
+msgid "Border color"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:428
+msgid "Border color (on hover)"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:710
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:755
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:800
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:845
+#: ../component/notice/class/PB.Component.Notice.class.php:233
+#: ../component/notice/class/PB.Component.Notice.class.php:278
+#: ../component/notice/class/PB.Component.Notice.class.php:323
+#: ../component/notice/class/PB.Component.Notice.class.php:368
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:220
+msgid "Width in pixels"
+msgstr ""
+
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:734
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:779
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:824
+#: ../component/call_to_action/class/PB.Component.CallToAction.class.php:869
+#: ../component/notice/class/PB.Component.Notice.class.php:257
+#: ../component/notice/class/PB.Component.Notice.class.php:302
+#: ../component/notice/class/PB.Component.Notice.class.php:347
+#: ../component/notice/class/PB.Component.Notice.class.php:392
+msgid "Color in HEX"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:42
+#: ../component/class/class/PB.Component.Class.class.php:48
+msgid "Class"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:43
+msgid "Displays Class"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:60
+msgid "Classes"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:67
+msgid "Class details"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:81
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:99
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:558
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:87
+#: ../component/feature/class/PB.Component.Feature.class.php:272
+#: ../component/gallery/class/PB.Component.Gallery.class.php:92
+#: ../component/layout/class/PB.Component.Layout.class.php:29
+#: ../component/layout/class/PB.Component.Layout.class.php:36
+#: ../component/layout/class/PB.Component.Layout.class.php:137
+#: ../component/menu/class/Walker_Nav_Menu.php:211
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:102
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:135
+#: ../component/team/class/PB.Component.Team.class.php:120
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:83
+msgid "Layout"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:82
+msgid "Select layout of the classes."
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:120
+#: ../component/class/class/PB.Component.Class.class.php:144
+msgid "Class name"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:137
+msgid "Class label"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:138
+msgid "Caption displayed under name of the class"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:156
+msgid "Attributes"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:157
+msgid ""
+"List of attributes (pairs in format name:value) separated by new line. E.g: "
+"Class size:15 &lt;NEW_LINE&gt; Years old:2-3"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:178
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:253
+msgid "Image URL"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:199
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:275
+msgid "Image position"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:216
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:292
+msgid "Image repeat"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:217
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:293
+msgid "Select type of background repeat."
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:242
+#: ../component/class/class/PB.Component.Class.class.php:268
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:93
+#: ../component/gallery/class/PB.Component.Gallery.class.php:72
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:99
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:318
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:344
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:114
+#: ../component/team/class/PB.Component.Team.class.php:145
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:116
+msgid "Image size"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:243
+#: ../component/layout/class/PB.Component.Layout.class.php:266
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:319
+msgid ""
+"Specify the image size. For options \"Length\" and \"Percentage\" you have "
+"to specify these values in next field."
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:269
+#: ../component/layout/class/PB.Component.Layout.class.php:287
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:345
+msgid "Sets the width and height of the background image."
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:269
+#: ../component/layout/class/PB.Component.Layout.class.php:287
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:345
+msgid ""
+"Sets the width and height of the background image in percent of the parent "
+"element."
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:269
+#: ../component/layout/class/PB.Component.Layout.class.php:287
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:345
+msgid ""
+"The first value sets the width, the second value sets the height. If only "
+"one value is given, the second is set to \"auto\""
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:286
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:362
+msgid "Button label"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:292
+msgid "Read more"
+msgstr ""
+
+#: ../component/class/class/PB.Component.Class.class.php:304
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:379
+msgid "Button URL"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:46
+msgid "SSL"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:47
+msgid "TLS"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:52
+msgid "E-mail"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:53
+#: ../component/text/class/PB.Component.Text.class.php:14
+#: ../component/text/class/PB.Component.Text.class.php:20
+msgid "Text"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:54
+msgid "Textarea"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:55
+msgid "Drop-down list"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:56
+msgid "Submit button"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:65
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:71
+msgid "Contact Form"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:66
+msgid "Displays Contact Form"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:83
+msgid "Account details"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:87
+msgid "E-mail message"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:91
+msgid "Notices"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:95
+msgid "Fields"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:106
+msgid "Recipient"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:107
+msgid "Recipient name and e-mail address"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:111
+msgid "Sender"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:112
+msgid "Sender name and e-mail address"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:116
+msgid "Sender SMTP"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:117
+msgid "Specify SMTP settings (if it is needed)"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:121
+msgid "Columns content"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:122
+msgid ""
+"Enter name (or names, separated by comma) of the fields which have to put in "
+"one of the columns in this line"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:126
+msgid "Columns CSS classes"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:127
+msgid ""
+"Enter name (or names, separated by spaces) CSS class for each single column"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:134
+msgid "Field"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:138
+msgid "Line"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:165
+msgid "Debug contact form"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:166
+msgid "Enable this option if you have problems with working of contact form"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:166
+msgid ""
+"Then, you can check the result of processing request via Fire- or Chromebug "
+"console"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:186
+msgid "Reset contact form"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:187
+msgid ""
+"Enable this option if you would like to reset all fields in contact form "
+"after sending message"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:207
+#: ../component/redirect/class/PB.Component.Redirect.class.php:14
+#: ../component/redirect/class/PB.Component.Redirect.class.php:20
+msgid "Redirect"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:208
+msgid "Redirect user to URL when contact form will be sent without errors."
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:221
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:260
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:503
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:213
+#: ../component/team/class/PB.Component.Team.class.php:905
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:292
+msgid "Name"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:234
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:273
+msgid "E-mail address"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:247
+msgid ""
+"List of additional recipients in format: <i>recipient_name_1:"
+"recipient_email_1;recipient_name_2:recipient_email_2</i>"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:286
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:94
+msgid "Username"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:299
+msgid "Password"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:312
+msgid "Host"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:325
+msgid "Port"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:338
+msgid "Secure connection type"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:358
+msgid "Subject"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:359
+msgid "Enter subject of the message"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:375
+msgid "Message"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:376
+msgid "Enter text of the message"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:396
+msgid "Success notice"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:397
+msgid "Notice displayed when e-mail has been sent"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:402
+msgid "Thank you for contacting us."
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:413
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:539
+msgid "Error notice"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:414
+msgid "Notice displayed when email has not been sent (an error occurs)"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:419
+msgid "Sorry, we cannot send this message."
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:431
+msgid "Field type"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:457
+msgid "Mandatory"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:458
+msgid "Determine, if filling this field is mandatory"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:485
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:49
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:56
+msgid "Values"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:486
+msgid "List of possible values separated by semicolon for drop-down list"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:504
+msgid ""
+"Name of the field. This field cannot be empty. This field can contain only "
+"characters from range a-z."
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:522
+msgid "Label of the field. This field cannot be empty."
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:540
+msgid ""
+"Error notice displayed when field contains incorrect value (e.g is empty)"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:546
+msgid "This field cannot be empty."
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:559
+msgid "Select layout for this line"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:587
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:659
+msgid "First column"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:605
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:677
+msgid "Second column"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:623
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:695
+msgid "Third column"
+msgstr ""
+
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:641
+#: ../component/contact_form/class/PB.Component.ContactForm.class.php:713
+msgid "Fourth column"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:40
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:46
+msgid "Counter Box"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:41
+msgid "Displays Counter Box"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:58
+#: ../component/feature/class/PB.Component.Feature.class.php:225
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:58
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:67
+msgid "Carousel"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:62
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:54
+#: ../component/feature/class/PB.Component.Feature.class.php:229
+msgid "Waypoints"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:66
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:58
+#: ../component/feature/class/PB.Component.Feature.class.php:233
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:62
+msgid "Items"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:73
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:65
+#: ../component/feature/class/PB.Component.Feature.class.php:258
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:69
+msgid "Item"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:88
+msgid "Select layout of the counter boxes."
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:125
+#: ../component/feature/class/PB.Component.Feature.class.php:584
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:121
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:179
+msgid "Enable carousel"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:126
+#: ../component/feature/class/PB.Component.Feature.class.php:585
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:122
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:180
+msgid "Enable or disable carousel"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:167
+#: ../component/feature/class/PB.Component.Feature.class.php:626
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:163
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:221
+msgid "Circular"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:168
+#: ../component/feature/class/PB.Component.Feature.class.php:627
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:164
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:222
+msgid "Determines whether the carousel should be circular"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:188
+#: ../component/feature/class/PB.Component.Feature.class.php:647
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:184
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:242
+msgid "Infinite"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:189
+#: ../component/feature/class/PB.Component.Feature.class.php:648
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:185
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:243
+msgid "Determines whether the carousel should be infinite"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:209
+#: ../component/feature/class/PB.Component.Feature.class.php:668
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:428
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:372
+#: ../component/supersized/class/PB.Component.Supersized.class.php:325
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:205
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:263
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:252
+msgid "Pause on hover"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:210
+#: ../component/feature/class/PB.Component.Feature.class.php:669
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:206
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:264
+msgid "Determines whether the timeout between transitions should be paused"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:230
+#: ../component/feature/class/PB.Component.Feature.class.php:689
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:226
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:284
+msgid "Scroll effect"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:231
+#: ../component/feature/class/PB.Component.Feature.class.php:690
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:227
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:285
+msgid "Indicates which effect to use for the transition"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:255
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:366
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:187
+#: ../component/feature/class/PB.Component.Feature.class.php:714
+#: ../component/feature/class/PB.Component.Feature.class.php:837
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:169
+#: ../component/team/class/PB.Component.Team.class.php:336
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:251
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:309
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:272
+msgid "Easing"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:256
+#: ../component/feature/class/PB.Component.Feature.class.php:715
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:252
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:310
+msgid "Indicates which easing function to use for the transition"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:281
+#: ../component/feature/class/PB.Component.Feature.class.php:740
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:277
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:335
+msgid "Determines the duration of the transition in milliseconds"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:298
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:119
+#: ../component/team/class/PB.Component.Team.class.php:268
+msgid "Run animation on start"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:318
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:139
+#: ../component/feature/class/PB.Component.Feature.class.php:789
+#: ../component/team/class/PB.Component.Team.class.php:288
+msgid "Offset"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:319
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:140
+#: ../component/feature/class/PB.Component.Feature.class.php:790
+#: ../component/team/class/PB.Component.Team.class.php:289
+msgid ""
+"This option determines how far the top of the element must be from the top "
+"of the viewport to trigger the animation"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:343
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:164
+#: ../component/feature/class/PB.Component.Feature.class.php:814
+#: ../component/team/class/PB.Component.Team.class.php:313
+msgid "Duration of the animation in milliseconds"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:430
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:230
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:314
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:315
+msgid "Value"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:454
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:92
+msgid "Character before"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:455
+msgid "Enter character which has to be visible before value."
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:472
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:105
+msgid "Character after"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:473
+msgid "Enter character which has to be visible after value."
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:490
+msgid "Enable text counter"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:491
+msgid "Enable or disable text counter."
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:513
+msgid "Enable graphic counter"
+msgstr ""
+
+#: ../component/counter_box/class/PB.Component.CounterBox.class.php:514
+msgid "Enable or disable graphic counter."
+msgstr ""
+
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:36
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:42
+msgid "Counter List"
+msgstr ""
+
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:37
+msgid "Displays Counter List"
+msgstr ""
+
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:93
+msgid "Enter character which has to be visible before value on list."
+msgstr ""
+
+#: ../component/counter_list/class/PB.Component.CounterList.class.php:106
+msgid "Enter character which has to be visible after value on list."
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:27
+#: ../component/divider/class/PB.Component.Divider.class.php:33
+msgid "Divider"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:28
+msgid "Displays Divider"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:44
+msgid "Line width"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:45
+msgid "Line width in pixels"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:63
+#: ../component/header/class/PB.Component.Header.class.php:243
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:280
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:403
+msgid "Line height"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:64
+msgid "Line height in pixels"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:82
+msgid "Line style"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:101
+msgid "Line color"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:102
+msgid "Line color in HEX"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:117
+msgid "Align"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:136
+msgid "Top margin"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:137
+msgid "Top margin in pixels"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:155
+msgid "Bottom margin"
+msgstr ""
+
+#: ../component/divider/class/PB.Component.Divider.class.php:156
+msgid "Bottom margin in pixels"
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:24
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:30
+msgid "Dropcap"
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:25
+msgid "Displays dropcap"
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:60
+msgid "Font size of first letter"
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:61
+msgid ""
+"Font size of first letter in pixels. Font size equal to 0 means that default "
+"settings will be used."
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:85
+msgid "Text color of first letter"
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:86
+msgid "Text color of first letter in HEX"
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:101
+msgid "Background color of first letter"
+msgstr ""
+
+#: ../component/dropcap/class/PB.Component.Dropcap.class.php:102
+msgid "Background color of first letter in HEX"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:51
+msgid "Icon fade in"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:52
+msgid "Item fade in"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:116
+#: ../component/feature/class/PB.Component.Feature.class.php:133
+#: ../component/list/class/PB.Component.List.class.php:107
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:101
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:400
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:471
+msgid "Icon color in HEX"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:155
+#: ../component/list/class/PB.Component.List.class.php:86
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:80
+msgid ""
+"Enter name of the icon (you have to enter at least two characters to get "
+"best matched set of icons)."
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:181
+msgid "Select icon."
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:203
+#: ../component/feature/class/PB.Component.Feature.class.php:209
+msgid "Features"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:204
+msgid "Displays Features"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:240
+msgid "Odd elements"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:241
+msgid "Styles for odd elements"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:245
+msgid "Even elements"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:246
+msgid "Styles for even elements"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:251
+msgid "Enter link and link target of feature "
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:273
+msgid "Select layout of the features."
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:362
+#: ../component/feature/class/PB.Component.Feature.class.php:475
+msgid "Background color of icon in HEX"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:379
+#: ../component/feature/class/PB.Component.Feature.class.php:492
+msgid "Border color of icon in HEX"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:396
+#: ../component/feature/class/PB.Component.Feature.class.php:509
+msgid "Border style of icon"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:421
+#: ../component/feature/class/PB.Component.Feature.class.php:534
+msgid "Border width of icon in pixels"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:445
+#: ../component/feature/class/PB.Component.Feature.class.php:558
+msgid ""
+"Border radius of icon in percentage. Value -1 means that default value will "
+"be used."
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:764
+msgid "Select animation"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:862
+msgid "Opacity"
+msgstr ""
+
+#: ../component/feature/class/PB.Component.Feature.class.php:863
+msgid "Initial opacity value for \"fade in\" animations."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:49
+msgid "Slide"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:54
+msgid "Horizontal"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:55
+msgid "Vertical"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:60
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:66
+msgid "FlexSlider"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:61
+msgid "Displays FlexSlider"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:77
+#: ../component/gallery/class/PB.Component.Gallery.class.php:56
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:83
+#: ../component/supersized/class/PB.Component.Supersized.class.php:83
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:377
+msgid "Images"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:78
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:84
+#: ../component/supersized/class/PB.Component.Supersized.class.php:84
+msgid "Click on below button to create gallery with images to the slider"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:94
+#: ../component/gallery/class/PB.Component.Gallery.class.php:73
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:100
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:115
+#: ../component/team/class/PB.Component.Team.class.php:146
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:117
+msgid "Select image size"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:113
+#: ../component/gallery/class/PB.Component.Gallery.class.php:136
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:292
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:209
+#: ../component/team/class/PB.Component.Team.class.php:187
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:137
+msgid "Preloader"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:114
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:293
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:138
+msgid "Enable or disable image slider preloader"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:134
+msgid "URL of site which has to be open after clicking on each image."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:134
+msgid "You can set URL of separate image during editing it via Media Library."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:146
+msgid "Select animation type"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:170
+msgid "Determines the easing method used in transitions"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:193
+msgid "Direction"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:194
+msgid "Select the sliding direction"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:217
+msgid "Start at"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:218
+msgid "The slide that the slider should start on"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:240
+msgid "Slideshow speed"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:241
+msgid "Set the speed of the slideshow cycling in milliseconds."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:263
+msgid "Animation speed"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:264
+msgid "Set the speed of animations in milliseconds."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:286
+msgid "Initialization delay"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:287
+msgid "Set an initialization delay in milliseconds."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:309
+msgid "Reverse"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:310
+msgid "Reverse the animation direction"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:329
+msgid "Animation loop"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:348
+msgid "Smooth height"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:349
+msgid "Allow height of the slider to animate smoothly in horizontal mode"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:368
+msgid "Slideshow"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:369
+msgid "Animate slider automatically"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:388
+msgid "Randomize"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:389
+msgid "Randomize slide order"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:408
+msgid "Pause on action"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:409
+msgid "Pause the slideshow when interacting with control elements"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:429
+msgid ""
+"Pause the slideshow when hovering over slider, then resume when no longer "
+"hovering"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:448
+msgid "Use CSS"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:449
+msgid "Slider will use CSS3 transitions if available"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:468
+msgid "Touch"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:469
+msgid "Allow touch swipe navigation of the slider on touch-enabled devices"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:488
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:332
+msgid "Control navigation"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:489
+msgid "Enable or disable control (1,2,3 ...) navigation"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:508
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:312
+msgid "Direction navigation"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:509
+msgid "Enbale or disable direction (previous/next slide) navigation"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:528
+msgid "Keyboard"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:529
+msgid "Allow slider navigating via keyboard left/right keys"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:548
+msgid "Multiple keyboard"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:549
+msgid "Allow keyboard navigation to affect multiple sliders."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:549
+msgid ""
+"Default behavior cuts out keyboard navigation with more than one slider "
+"present."
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:568
+msgid "Mousewheel"
+msgstr ""
+
+#: ../component/flex_slider/class/PB.Component.FlexSlider.class.php:569
+msgid " Allows slider navigating via mousewheel."
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:39
+#: ../component/gallery/class/PB.Component.Gallery.class.php:45
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:43
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:73
+msgid "Gallery"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:40
+msgid "Displays Gallery"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:57
+msgid "Click on below button to create gallery"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:93
+msgid "Select layout of the images in gallery"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:116
+msgid "Layout full width"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:117
+msgid "Enable or disable full width layout (without margins between columns)"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:137
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:210
+#: ../component/team/class/PB.Component.Team.class.php:188
+msgid "Enable or disable preloader on images"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:156
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:230
+#: ../component/team/class/PB.Component.Team.class.php:208
+msgid "Hover"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:157
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:231
+#: ../component/team/class/PB.Component.Team.class.php:209
+msgid "Enable or disable hover on images"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:176
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:251
+#: ../component/team/class/PB.Component.Team.class.php:229
+msgid "Hover type"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:177
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:252
+#: ../component/team/class/PB.Component.Team.class.php:230
+msgid "Select hover for the images in gallery"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:200
+msgid "Caption"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:201
+msgid "Enable or disable displaying captions under images"
+msgstr ""
+
+#: ../component/gallery/class/PB.Component.Gallery.class.php:221
+msgid "Enable or disable displaying descriptions under images"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:40
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:47
+msgid "Default"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:48
+msgid "Horizontal Bar"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:49
+msgid "Dropdown Menu"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:54
+msgid "Top center"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:55
+msgid "Top left"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:56
+msgid "Top right"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:57
+msgid "Left top"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:58
+msgid "Right top"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:59
+msgid "Left center"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:60
+msgid "Right center"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:61
+msgid "Left bottom"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:62
+msgid "Right bottom"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:63
+msgid "Bottom center"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:64
+msgid "Bottom left"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:65
+msgid "Bottom right"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:70
+msgid "Roadmap"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:71
+msgid "Satellite"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:72
+msgid "Hybrid"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:73
+msgid "Terrain"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:74
+msgid "Custom styled map"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:79
+msgid "[administrative] Administrative areas"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:80
+msgid "[administrative.country] Countries"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:81
+msgid "[administrative.land_parcel] Land parcels"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:82
+msgid "[administrative.locality] Localities"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:83
+msgid "[administrative.neighborhood] Neighborhoods"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:84
+msgid "[administrative.province] Provinces"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:85
+msgid "[all] All selector types"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:86
+msgid "[landscape] Landscapes"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:87
+msgid "[landscape.man_made] Man made structures"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:88
+msgid "[landscape.natural] Natural features"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:89
+msgid "[landscape.natural.landcover] Landcover"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:90
+msgid "[landscape.natural.terrain] Terrain"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:91
+msgid "[poi] Points of interest"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:92
+msgid "[poi.attraction] Attractions for tourists"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:93
+msgid "[poi.business] Businesses"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:94
+msgid "[poi.government] Government buildings"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:95
+msgid ""
+"[poi.medical] Emergency services (hospitals, pharmacies, police, doctors, "
+"etc)"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:96
+msgid "[poi.park] Parks"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:97
+msgid ""
+"[poi.place_of_worship] Places of worship, such as church, temple, or mosque"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:98
+msgid "[poi.school] Schools"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:99
+msgid "[poi.sports_complex] Sports complexes"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:100
+msgid "[road] All roads"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:101
+msgid "[road.arterial] Arterial roads"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:102
+msgid "[road.highway] Highways"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:103
+msgid "[road.highway.controlled_access] Controlled-access highways"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:104
+msgid "[road.local] Local roads"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:105
+msgid "[transit] All transit stations and lines"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:106
+msgid "[transit.line] Transit lines"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:107
+msgid "[transit.station] All transit stations"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:108
+msgid "[transit.station.airport] Airports"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:109
+msgid "[transit.station.bus] Bus stops"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:110
+msgid "[transit.station.rail] Rail stations"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:111
+msgid "[water] Bodies of water"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:116
+msgid "[all] Specified feature"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:117
+msgid "[geometry] Feature's geometry"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:118
+msgid "[geometry.fill] Fill of the feature's geometry"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:119
+msgid "[geometry.stroke] Stroke of the feature's geometry"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:120
+msgid "[labels] Feature's labels"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:121
+msgid "[labels.icon] Icons within the feature's labels"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:122
+msgid "[labels.text] Text in the feature's label"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:123
+msgid "[labels.text.fill] Fill of the text in the feature's labels"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:124
+msgid "[labels.text.stroke] Stroke of the text in the feature's labels"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:129
+msgid "On"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:130
+msgid "Off"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:131
+msgid "Simplified"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:136
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:142
+msgid "Google Maps"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:137
+msgid "Displays Google Map"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:154
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:500
+msgid "Map type"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:158
+msgid "Zoom"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:162
+msgid "Pan"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:166
+msgid "Scale"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:170
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:803
+msgid "Street view"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:181
+msgid "Point coordinates"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:182
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:187
+msgid "Coordinates, in order: latitude, longitude."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:182
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:187
+msgid ""
+"You can define coordinates using this tool: <a href=\"http://www.birdtheme."
+"org/useful/googletool.html\">http://www.birdtheme.org/useful/googletool."
+"html</a>"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:186
+msgid "Marker coordinates"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:191
+msgid "Origin"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:192
+msgid ""
+"The position of the image within a sprite, if any. By default, the origin is "
+"located at the top left corner of the image (0, 0)."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:196
+msgid "Anchor"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:197
+msgid ""
+"The position at which to anchor an image in correspondance to the location "
+"of the marker on the map. By default, the anchor is located along the center "
+"point of the bottom of the image."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:204
+msgid "Style"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:219
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:245
+msgid "Latitude"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:232
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:258
+msgid "Longtitude"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:270
+msgid "Marker image URL"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:287
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:335
+msgid "X"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:311
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:359
+msgid "Y"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:382
+#: ../component/iframe/class/PB.Component.Iframe.class.php:53
+msgid "Width"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:383
+#, php-format
+msgid "Width of the map (in % of the parent selector)."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:409
+#: ../component/iframe/class/PB.Component.Iframe.class.php:72
+#: ../component/space/class/PB.Component.Space.class.php:41
+msgid "Height"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:410
+msgid "Map height in pixels"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:433
+msgid "Draggable"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:434
+msgid "Determines whether the map should be draggable"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:454
+msgid "Scrollwheel"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:455
+msgid "If disabled, prevents zooming the map during wheel scrolling"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:488
+msgid "Name of styled map"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:501
+msgid "Select map type. Must be selected also in \"Allowed map type section\"."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:525
+msgid "Allowed map types"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:549
+msgid "Map type control"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:550
+msgid "Enable or disable map type control"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:570
+msgid "Map type control style"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:594
+msgid "Map type control position"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:618
+msgid "Zoom control"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:619
+msgid "Enable or disable zoom control."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:639
+msgid "Zoom level"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:665
+msgid "Zoom control style"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:689
+msgid "Zoom position"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:713
+msgid "Pan control"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:714
+msgid "Enable or disable pan control"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:734
+msgid "Pan control position"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:758
+msgid "Scale control"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:759
+msgid "Enable or disable scale control"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:779
+msgid "Scale control position"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:804
+msgid "Enable or disable street view"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:824
+msgid "Street view position"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:849
+msgid "Feature type"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:875
+msgid "Element type"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:901
+msgid "Hue"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:902
+msgid ""
+"Sets the hue in HEX of the feature to match the hue of the color supplied. "
+"Note that the saturation and lightness of the feature is conserved, which "
+"means that the feature will not match the color supplied exactly."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:923
+msgid "Lightness"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:924
+msgid ""
+"Shifts lightness of colors by a percentage of the original value if "
+"decreasing and a percentage of the remaining value if increasing."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:949
+msgid "Saturation"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:950
+msgid ""
+"Shifts the saturation of colors by a percentage of the original value if "
+"decreasing and a percentage of the remaining value if increasing."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:975
+msgid "Gamma"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:976
+msgid "Modifies the gamma by raising the lightness to the given power."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:976
+msgid ""
+"Valid values: Floating point numbers, [0.01, 10], with 1.0 representing no "
+"change."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:994
+msgid "Inverse lightness"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:995
+msgid ""
+"Enable will invert the lightness of the feature while preserving the hue and "
+"saturation."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1021
+msgid "Visibility"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1022
+msgid "Sets the visibility of the feature."
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1048
+msgid "Color"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1049
+msgid "Sets the color in HEX of the feature"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1070
+msgid "Weight"
+msgstr ""
+
+#: ../component/google_map/class/PB.Component.GoogleMap.class.php:1071
+msgid "Sets the weight of the feature, in pixels."
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:28
+msgid "Displays header"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:100
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:147
+msgid "Underline"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:101
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:148
+msgid "Enable or disable header underline"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:134
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:181
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:304
+msgid "Font size"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:135
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:182
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:305
+msgid ""
+"Font size in pixels. Value 0 means that default size for selected header "
+"will be used."
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:185
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:234
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:357
+msgid "Font style"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:209
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:259
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:382
+msgid "Font color"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:210
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:260
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:383
+msgid "Font color in HEX"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:244
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:281
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:404
+msgid "Line height in selected unit. E.g: 1em, 2px etc."
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:263
+msgid "Text indent"
+msgstr ""
+
+#: ../component/header/class/PB.Component.Header.class.php:264
+msgid "Text indent in pixels"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:27
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:33
+msgid "Header + Subheader"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:28
+msgid "Displays header + subheader"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:45
+msgid "Header styles"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:49
+msgid "Subheader styles"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:80
+msgid "Important of the header"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:105
+msgid "Subheader"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:106
+msgid "Content of the subheader"
+msgstr ""
+
+#: ../component/header_subheader/class/PB.Component.HeaderSubheader.class.php:122
+msgid "Important of the subheader"
+msgstr ""
+
+#: ../component/iframe/class/PB.Component.Iframe.class.php:24
+#: ../component/iframe/class/PB.Component.Iframe.class.php:30
+msgid "Iframe"
+msgstr ""
+
+#: ../component/iframe/class/PB.Component.Iframe.class.php:25
+msgid "Displays Iframe"
+msgstr ""
+
+#: ../component/iframe/class/PB.Component.Iframe.class.php:42
+msgid "URL of iframe source"
+msgstr ""
+
+#: ../component/iframe/class/PB.Component.Iframe.class.php:54
+msgid "Width of the iframe in pixels"
+msgstr ""
+
+#: ../component/iframe/class/PB.Component.Iframe.class.php:73
+msgid "Height of the iframe in pixels"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:30
+msgid "Displays layout"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:48
+#: ../component/team/class/PB.Component.Team.class.php:904
+msgid "Image"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:68
+msgid "Padding of the layout in pixels"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:73
+msgid ""
+"Select video in available format. To display background video, at least one "
+"format has to be selected"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:77
+msgid "Overlay"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:78
+msgid "Select color and opacity of overlay"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:83
+msgid "Border top properties in order: style, width, color"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:88
+msgid "Border right properties in order: style, width, color"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:93
+msgid "Border bottom properties in order: style, width, color"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:98
+msgid "Border left properties in order: style, width, color"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:112
+msgid "Layout of parent section"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:113
+msgid "Select layout of parent section"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:138
+msgid "Select layout (number and width of columns)"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:176
+msgid "CSS class group name"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:177
+msgid "Name of the CSS class of related lines"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:210
+msgid "Background image"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:211
+#: ../component/layout/class/PB.Component.Layout.class.php:420
+msgid "Click on button to select image"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:227
+msgid "Background image repeat"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:228
+msgid "Select type of background repeat"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:252
+msgid "Background image position"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:253
+msgid "Enter position of the background"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:265
+#: ../component/layout/class/PB.Component.Layout.class.php:286
+msgid "Background image size"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:299
+msgid "Enable parallax"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:300
+msgid "Enable or disable parallax effect on background image"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:320
+msgid "Enable parallax on mobile devices"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:321
+msgid "Enable or disable parallax on mobile devices"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:341
+msgid "Parallax speed"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:342
+msgid "Speed of parallax effect"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:437
+msgid ""
+"If enabled, the video will automatically begin to play back as soon as it "
+"can do so without stopping to finish loading the data"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:499
+msgid "Controls"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:500
+msgid "If enabled, control buttons (play, mute etc.) will be visible"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:520
+msgid "Enable video on mobile devices"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:521
+msgid "Enable or disable video on mobile devices"
+msgstr ""
+
+#: ../component/layout/class/PB.Component.Layout.class.php:559
+msgid "Overlay color in HEX"
+msgstr ""
+
+#: ../component/layout_column/class/PB.Component.LayoutColumn.class.php:14
+#: ../component/layout_column/class/PB.Component.LayoutColumn.class.php:21
+msgid "Layout column"
+msgstr ""
+
+#: ../component/layout_column/class/PB.Component.LayoutColumn.class.php:15
+msgid "Displays layout column"
+msgstr ""
+
+#: ../component/list/class/PB.Component.List.class.php:58
+msgid "Bullet"
+msgstr ""
+
+#: ../component/list/class/PB.Component.List.class.php:59
+msgid "Select bullet of the list element"
+msgstr ""
+
+#: ../component/list/class/PB.Component.List.class.php:106
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:100
+msgid "Icon color"
+msgstr ""
+
+#: ../component/list/class/PB.Component.List.class.php:124
+msgid "Icon size in pixels. Value 0 means that default size will be used."
+msgstr ""
+
+#: ../component/list/class/PB.Component.List.class.php:143
+#: ../component/list/class/PB.Component.List.class.php:149
+#: ../component/list/class/PB.Component.List.class.php:176
+msgid "List"
+msgstr ""
+
+#: ../component/list/class/PB.Component.List.class.php:144
+msgid "Displays list"
+msgstr ""
+
+#: ../component/list/class/PB.Component.List.class.php:177
+msgid "Content of the list"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:71
+#: ../component/menu/class/PB.Component.Menu.class.php:77
+msgid "Menu + Logo"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:72
+msgid "Displays Menu and logo"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:88
+msgid "Logo"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:89
+msgid "Select a image file"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:104
+#: ../component/menu/class/PB.Component.Menu.class.php:454
+msgid "Menu"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:105
+msgid "Select a menu"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:124
+msgid "Responsive menu"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:125
+msgid "Enable responsive menu when screen width (in px) is less than selected"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:149
+msgid "Sticky menu"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:150
+msgid "Enable or disable sticky menu"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:169
+msgid "Hide menu on scroll"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:170
+msgid "Hide menu when page is scrolled"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:189
+msgid "Menu animation"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:190
+msgid "Enable or disable menu animation"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:209
+msgid "Menu opening speed"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:210
+msgid "Speed of the opening animation in miliseconds"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:232
+msgid "Menu closing speed"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:233
+msgid "Speed of the closing animation in miliseconds"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:255
+msgid "Menu delay"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:256
+msgid ""
+"The delay in milliseconds that the mouse can remain outside a submenu "
+"without it closing"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:278
+msgid "Scrolling animation"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:279
+msgid ""
+"Enable or disable animation during page scrolling (after clicking on menu "
+"item)"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:298
+msgid "Scrolling speed"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:299
+msgid "Speed of the scrolling in miliseconds"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:321
+msgid "Scrolling easing"
+msgstr ""
+
+#: ../component/menu/class/PB.Component.Menu.class.php:322
+msgid "Type of easing for scrolling animation."
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:85
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:89
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:102
+msgid "sub item"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:117
+msgid "Move up"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:130
+msgid "Move down"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:132
+#: ../component/menu/class/Walker_Nav_Menu.php:134
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:150
+msgid "Navigation Label"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:156
+msgid "Title Attribute"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:163
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:168
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:174
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:182
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:196
+msgid "[None]"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:206
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:234
+msgid "Move"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:235
+msgid "Up one"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:236
+msgid "Down one"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:239
+msgid "To the top"
+msgstr ""
+
+#: ../component/menu/class/Walker_Nav_Menu.php:246
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:46
+msgid "Slice down"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:47
+msgid "Slice down left"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:48
+msgid "Slice up"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:49
+msgid "Slice up left"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:50
+msgid "Slice up down"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:51
+msgid "Slice up down left"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:52
+msgid "Fold"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:54
+#: ../component/supersized/class/PB.Component.Supersized.class.php:345
+msgid "Random"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:55
+msgid "Slide in right"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:56
+msgid "Slide in left"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:57
+msgid "Box random"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:58
+msgid "Box rain"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:59
+msgid "Box rain reverse"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:60
+msgid "Box rain grow"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:61
+msgid "Box rain grow reverse"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:66
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:72
+msgid "Nivo Slider"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:67
+msgid "Displays Nivo Slider"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:130
+msgid "Transition effect"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:131
+msgid "Select transition effect"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:154
+msgid "Number of slices"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:155
+msgid "Enter number of slices - only for \"slice\" transitions"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:177
+msgid "Number of columns"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:178
+msgid "Enter number of columns - only for \"box\" transitions"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:200
+msgid "Number of rows"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:201
+msgid "Enter number of rows - only for \"box\" transitions"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:223
+#: ../component/supersized/class/PB.Component.Supersized.class.php:457
+msgid "Transition speed"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:224
+msgid "Slide transition speed in miliseconds"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:246
+msgid "Pause time"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:247
+msgid "Enter value of pause time in miliseconds"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:269
+#: ../component/supersized/class/PB.Component.Supersized.class.php:365
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:158
+msgid "Start slide"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:270
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:159
+msgid "Enter number of start slide"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:313
+msgid "Enable Prev/Next navigation"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:333
+msgid "Enable 1,2,3 ... navigation (pagination)"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:352
+msgid "Control navigation with thumbnails"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:353
+msgid "Use thumbnails for control navigation"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:373
+msgid "Stop transition when user hover on image"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:392
+msgid "Manual advance"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:393
+msgid "Force manual transitions"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:412
+msgid "Random at start"
+msgstr ""
+
+#: ../component/nivo_slider/class/PB.Component.NivoSlider.class.php:413
+msgid "Start on a random slide"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:47
+#: ../component/notice/class/PB.Component.Notice.class.php:53
+msgid "Notice"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:48
+msgid "Displays Notice"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:81
+msgid "Timeline"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:85
+msgid "Close button"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:93
+msgid "Border top settings (width, color) of the box"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:98
+msgid "Border right settings (width, color) of the box"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:103
+msgid "Border bottom settings (width, color) of the box"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:108
+msgid "Border left settings (width, color) of the box"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:413
+msgid "Select an icon"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:439
+msgid "Background color of the icon"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:459
+msgid "Enable timeline"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:480
+msgid "Time to close"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:481
+msgid "Time to close in seconds"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:505
+msgid "Background color of the timeline in HEX"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:525
+msgid "Timeline height"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:526
+msgid "Timeline height in pixels"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:549
+msgid "Enable close button"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:571
+msgid "Text color of the close button in HEX"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:714
+#, php-format
+msgid "Close within <span>%s</span> seconds"
+msgstr ""
+
+#: ../component/notice/class/PB.Component.Notice.class.php:714
+msgid "Close"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:34
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:40
+msgid "Preformatted Text"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:35
+msgid "Displays Preformatted Text"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:51
+msgid "Label open"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:52
+msgid "Label of the button (link) when text area is closed."
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:57
+msgid "- Hide code"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:67
+msgid "Label close"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:68
+msgid "Label of the button (link) when text area is opened."
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:73
+msgid "+ Show code"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:83
+msgid "Open start"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:84
+msgid "Open at start"
+msgstr ""
+
+#: ../component/preformatted_text/class/PB.Component.PreformattedText.class.php:103
+msgid "Preformatted text"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:55
+msgid "Type 1"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:56
+msgid "Type 2"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:63
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:69
+msgid "Pricing Plan"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:64
+msgid "Displays Pricing Plan"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:81
+msgid "Plans"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:88
+msgid "Content of the plan"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:103
+msgid "Select layout of the pricing plan."
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:127
+msgid "Type"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:128
+msgid "Select one from the available types."
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:204
+msgid "Feature list"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:205
+msgid "List of features separated by new line."
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:226
+msgid "Feature list bullet"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:227
+msgid "Bullet for the feature list elements"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:254
+msgid ""
+"Select image of the background. This option works only with type named "
+"\"Style 2\"."
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:396
+msgid "Price"
+msgstr ""
+
+#: ../component/pricing_plan/class/PB.Component.PricingPlan.class.php:413
+msgid "Price suffix"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:41
+#: ../component/team/class/PB.Component.Team.class.php:34
+msgid "Template 1"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:42
+#: ../component/team/class/PB.Component.Team.class.php:35
+msgid "Template 2"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:47
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:53
+msgid "Recent Posts"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:48
+msgid "Displays Recent Post"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:65
+msgid "Elements"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:80
+#: ../component/team/class/PB.Component.Team.class.php:166
+msgid "Category"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:81
+msgid "Select one or more categories from which data have to be retrieved."
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:101
+msgid "Posts ID"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:102
+msgid "ID of posts (separated by comma) which have to be displayed"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:136
+msgid "Select layout of the posts"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:160
+#: ../component/team/class/PB.Component.Team.class.php:95
+msgid "Template"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:161
+msgid "Select template"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:185
+msgid "Post count"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:186
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:289
+msgid "Show date"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:290
+msgid "Enable or disable visibility of post date"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:310
+msgid "Show image"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:311
+msgid "Enable or disable visibility of post feature image"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:331
+msgid "Show header"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:332
+msgid "Enable or disable visibility of post header"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:352
+msgid "Show excerpt"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:353
+msgid "Enable or disable visibility of post excerpt"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:373
+msgid "Show author"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:374
+msgid "Enable or disable visibility of post author"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:394
+msgid "Show categories"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:395
+msgid "Enable or disable visibility of post categories"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:415
+msgid "Show comment count"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:416
+msgid "Enable or disable visibility of comment count"
+msgstr ""
+
+#: ../component/recent_post/class/PB.Component.RecentPost.class.php:557
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: ../component/redirect/class/PB.Component.Redirect.class.php:15
+msgid "Creates Redirect"
+msgstr ""
+
+#: ../component/redirect/class/PB.Component.Redirect.class.php:32
+msgid "URL of target site"
+msgstr ""
+
+#: ../component/redirect/class/PB.Component.Redirect.class.php:43
+msgid "Post ID"
+msgstr ""
+
+#: ../component/redirect/class/PB.Component.Redirect.class.php:44
+msgid "ID of the post to which user has to be redirected"
+msgstr ""
+
+#: ../component/redirect/class/PB.Component.Redirect.class.php:62
+msgid "Status"
+msgstr ""
+
+#: ../component/redirect/class/PB.Component.Redirect.class.php:63
+msgid "The status code to use"
+msgstr ""
+
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:34
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:40
+msgid "Screen Preloader"
+msgstr ""
+
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:35
+msgid "Displays Screen Preloader"
+msgstr ""
+
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:71
+msgid "Z-index"
+msgstr ""
+
+#: ../component/screen_preloader/class/PB.Component.ScreenPreloader.class.php:72
+msgid "Z-index of preloader layer"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:52
+msgid "List bullet"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:118
+msgid "Icon size in pixels. Value 0 means that default size for will be used."
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:139
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:145
+msgid "Sitemap"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:140
+msgid "Displays Sitemap"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:157
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:91
+msgid "Data source"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:188
+msgid "Date"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:189
+msgid "Enable or disable displaying of item date."
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:209
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:406
+msgid "Post type"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:210
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:407
+msgid "Select types of posts which have to be displayed."
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:234
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:431
+msgid "Post status"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:235
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:432
+msgid "Select types of post statuses which have to be displayed."
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:259
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:456
+msgid "Include"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:260
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:457
+msgid "Define a comma-separated list of page ID's to be included to the list"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:276
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:473
+msgid "Exclude"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:277
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:474
+msgid ""
+"Define a comma-separated list of page ID's to be excluded from the list."
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:293
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:490
+msgid "Limit number of posts"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:294
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:491
+msgid "Number of posts to show. Leave this field empty to show all posts."
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:310
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:507
+msgid "Sort column"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:334
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:531
+msgid "Sort order"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:341
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:538
+msgid "Ascending"
+msgstr ""
+
+#: ../component/sitemap/class/PB.Component.Sitemap.class.php:341
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:538
+msgid "Descending"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:88
+msgid "Dimension"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:89
+msgid "Dimension of the icon in pixels"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:94
+msgid "Styles for normal state"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:99
+msgid "Styles for hover state"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:103
+msgid "Border radius"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:104
+msgid "Border radius in order: top left, top right, bottom right, bottom left"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:116
+#, php-format
+msgid "Settings for %s"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:124
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:130
+msgid "Social Icons"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:125
+msgid "Displays Social Icons"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:146
+msgid "Profiles"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:161
+msgid "Target of the links"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:198
+msgid "Native colors"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:199
+msgid "Use native colors for social icons (for both states: normal and hover)"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:240
+msgid "Height in pixels"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:260
+msgid "Icon size in pixels. Value 0 means that default size for will be used"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:283
+msgid "Top left in pixels:"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:303
+msgid "Top right in pixels:"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:323
+msgid "Bottom right in pixels:"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:343
+msgid "Bottom left in pixels"
+msgstr ""
+
+#: ../component/social_icon/class/PB.Component.SocialIcon.class.php:533
+#: ../component/team/template/meta_box_skill.php:27
+#: ../component/team/template/meta_box_social.php:27
+msgid "Order"
+msgstr ""
+
+#: ../component/space/class/PB.Component.Space.class.php:24
+#: ../component/space/class/PB.Component.Space.class.php:30
+msgid "Space"
+msgstr ""
+
+#: ../component/space/class/PB.Component.Space.class.php:25
+msgid "Displays Space"
+msgstr ""
+
+#: ../component/space/class/PB.Component.Space.class.php:42
+msgid "Space height in pixels. Value can be negative."
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:46
+msgid "No adjustments"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:47
+msgid ""
+"Hybrid, lowers image quality during transitions and restores after "
+"completed. (Default)"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:48
+msgid "Higher image quality"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:49
+msgid "Faster transition speed, lower image qualit"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:54
+msgid "none - No transition effect"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:55
+msgid "fade - Fade effect (Default)"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:56
+msgid "slideTop - Slide in from top"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:57
+msgid "slideRight - Slide in from right"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:58
+msgid "slideBottom - Slide in from bottom"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:59
+msgid "slideLeft - Slide in from left"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:60
+msgid "carouselRight - Carousel from right to left"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:61
+msgid "carouselLeft - Carousel from left to right"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:66
+#: ../component/supersized/class/PB.Component.Supersized.class.php:72
+msgid "Supersized"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:67
+msgid "Displays Supersized"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:100
+msgid "Determines whether slideshow begins playing when page is loaded"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:119
+msgid "Fit always"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:120
+msgid ""
+"Prevents the image from ever being cropped. Ignores minimum width and height"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:139
+msgid "Fit landscape"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:140
+msgid "Prevents the image from being cropped by locking it at 100% width"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:159
+msgid "Fit portrait"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:160
+msgid "Prevents the image from being cropped by locking it at 100% height"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:179
+msgid "Horizontal center"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:180
+msgid ""
+"Centers image horizontally. When turned off, the images resize/display from "
+"the left of the page"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:199
+msgid "Vertical center"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:200
+msgid ""
+"Centers image vertically. When turned off, the images resize/display from "
+"the top of the page"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:219
+msgid "Minimum width"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:220
+msgid ""
+"Minimum width the image is allowed to be. If it is met, the image won't size "
+"down any further."
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:242
+msgid "Minimum height"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:243
+msgid ""
+"Minimum height the image is allowed to be. If it is met, the image won't "
+"size down any further."
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:265
+msgid "Image protect"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:266
+msgid "Disables right clicking and image dragging using Javascript"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:285
+msgid "Keyboard navigation"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:286
+msgid "Allows control via keyboard"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:305
+msgid "New window"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:306
+msgid "Slide links open in a new window."
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:326
+msgid "Pauses slideshow while current image hovered over"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:346
+msgid "Slides are shown in a random order"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:366
+msgid "The slide the slideshow starts on"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:388
+msgid "Stop loop"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:389
+msgid "Pauses slideshow upon reaching the last slide"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:408
+msgid "Performance"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:409
+msgid ""
+"Uses image rendering options in Firefox and Internet Explorer to adjust "
+"image quality. This can speed up/slow down transitions. Webkit does not yet "
+"support these options"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:433
+msgid "Transition"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:434
+msgid "Controls which effect is used to transition between slides"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:458
+msgid "Speed of transitions in milliseconds"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:480
+msgid "Slide interval"
+msgstr ""
+
+#: ../component/supersized/class/PB.Component.Supersized.class.php:481
+msgid "Time between slide changes in milliseconds"
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:43
+#: ../component/tab/class/PB.Component.Tab.class.php:49
+msgid "Tab"
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:44
+msgid "Displays Tab"
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:72
+msgid "Show"
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:73
+msgid "Options describe how to animate the showing of the panel."
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:77
+msgid "Hide"
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:78
+msgid "Options describe how to animate the hiding of the panel."
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:100
+msgid ""
+"Font size in pixels. If value 0 will be selected, then default font size for "
+"H5 header will be applied."
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:172
+msgid "Disable all tabs"
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:193
+msgid "Controls the height of the tabs"
+msgstr ""
+
+#: ../component/tab/class/PB.Component.Tab.class.php:276
+#: ../component/tab/class/PB.Component.Tab.class.php:370
+msgid "Delay of animation in miliseconds"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:36
+msgid "Template 3"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:63
+#: ../component/team/class/PB.Component.Team.class.php:69
+#: ../component/team/class/PB.Component.Team.class.php:703
+#: ../component/team/class/PB.Component.Team.class.php:704
+#: ../component/team/class/PB.Component.Team.class.php:715
+msgid "Team"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:64
+msgid "Displays Team"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:81
+msgid "Skills list"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:96
+msgid "Select one from the available team templates."
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:121
+msgid ""
+"Select layout for the team members (this option can be used only for "
+"<i>Template 3</i>)."
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:167
+msgid ""
+"Select one or more categories from which team members have to be retrieved."
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:705
+msgid "Add New"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:706
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:707
+msgid "Edit Team Member"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:708
+msgid "New Team Member"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:709
+msgid "All Team Members"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:710
+msgid "View Team Member"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:711
+msgid "Search Team Members"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:712
+msgid "No Team Members found"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:713
+msgid "No Team Members found in Trash"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:732
+#: ../component/team/class/PB.Component.Team.class.php:737
+msgid "Categories"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:735
+msgid "Team categories"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:736
+msgid "Team category"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:738
+msgid "All Categories"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:739
+msgid "Edit Category"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:740
+msgid "View Category"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:741
+msgid "Update Category"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:742
+msgid "Add New Category"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:743
+msgid "New Category Name"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:744
+msgid "Parent Category"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:745
+msgid "Parent Category:"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:746
+msgid "Search Categories"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:747
+msgid "Popular Categories"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:748
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:749
+msgid "Add or remove categories"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:750
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:821
+msgid "Base information"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:822
+msgid "Skills"
+msgstr ""
+
+#: ../component/team/class/PB.Component.Team.class.php:823
+msgid "Social networks"
+msgstr ""
+
+#: ../component/team/template/meta_box_base.php:9
+msgid "First name"
+msgstr ""
+
+#: ../component/team/template/meta_box_base.php:10
+msgid "Enter first name of team member."
+msgstr ""
+
+#: ../component/team/template/meta_box_base.php:17
+msgid "Second name"
+msgstr ""
+
+#: ../component/team/template/meta_box_base.php:18
+msgid "Enter second name of team member."
+msgstr ""
+
+#: ../component/team/template/meta_box_base.php:26
+msgid "Enter company position of team member."
+msgstr ""
+
+#: ../component/team/template/meta_box_base.php:35
+msgid ""
+"URL of page, which has to be open after clicking on team member image/name."
+msgstr ""
+
+#: ../component/team/template/meta_box_base.php:36
+msgid "An image is opening by default (when URL isn't specified)."
+msgstr ""
+
+#: ../component/team/template/meta_box_skill.php:15
+msgid "Skill name"
+msgstr ""
+
+#: ../component/team/template/meta_box_skill.php:16
+msgid "Name of the skill, e.g: Web Design."
+msgstr ""
+
+#: ../component/team/template/meta_box_skill.php:21
+msgid "Skill level"
+msgstr ""
+
+#: ../component/team/template/meta_box_skill.php:22
+msgid "Integer value from range 1-100."
+msgstr ""
+
+#: ../component/team/template/meta_box_skill.php:28
+#: ../component/team/template/meta_box_social.php:28
+msgid "Integer value."
+msgstr ""
+
+#: ../component/team/template/meta_box_skill.php:34
+#: ../component/team/template/meta_box_social.php:34
+msgid "Click to remove row."
+msgstr ""
+
+#: ../component/team/template/meta_box_skill.php:94
+#: ../component/team/template/meta_box_social.php:104
+msgid "Add"
+msgstr ""
+
+#: ../component/team/template/meta_box_social.php:15
+msgid "Social network"
+msgstr ""
+
+#: ../component/team/template/meta_box_social.php:16
+msgid "Select social network."
+msgstr ""
+
+#: ../component/team/template/meta_box_social.php:22
+msgid "URL address of the social profile."
+msgstr ""
+
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:40
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:46
+msgid "Testimonials"
+msgstr ""
+
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:41
+msgid "Displays Testimonials"
+msgstr ""
+
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:84
+msgid "Select layout of the testimonials"
+msgstr ""
+
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:322
+msgid "Author name"
+msgstr ""
+
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:339
+msgid "Author position"
+msgstr ""
+
+#: ../component/testimonial/class/PB.Component.Testimonial.class.php:356
+msgid "Author company"
+msgstr ""
+
+#: ../component/text/class/PB.Component.Text.class.php:15
+msgid "Displays Text box"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:45
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:51
+msgid "Twitter User Timeline"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:46
+msgid "Displays Latest Tweets"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:63
+msgid "Twitter"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:95
+msgid "Username of Twitter account"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:107
+msgid "Consumer key"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:119
+msgid "Consumer secret key"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:131
+msgid "Access token"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:143
+msgid "Access token secret"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:155
+msgid "Number of tweets"
+msgstr ""
+
+#: ../component/twitter_user_timeline/class/PB.Component.TwitterUserTimeline.class.php:156
+msgid "Specifies the number of tweets to try and retrieve."
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:27
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:33
+msgid "Vertical Grid"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:28
+msgid "Displays Vertical Grid"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:63
+msgid "Dimensions"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:64
+msgid "Width of columns (in percentage of parent width)."
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:68
+msgid "Even lines"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:69
+msgid "Styles for even lines."
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:73
+msgid "Odd lines"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:74
+msgid "Styles for an odd lines."
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:102
+msgid "Width of the column name"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:129
+msgid "Width of the column value"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:156
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:224
+msgid "Text color for column name in HEX"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:173
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:241
+msgid "Text color for column value in HEX"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:190
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:258
+msgid "Background color for column name in HEX"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:207
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:275
+msgid "Background color for column value in HEX"
+msgstr ""
+
+#: ../component/vertical_grid/class/PB.Component.VerticalGrid.class.php:293
+msgid "Name of the value"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:24
+msgid "Vimeo video"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:25
+msgid "Youtube video"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:26
+msgid "Metacafe video"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:27
+msgid "Dailymotion video"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:33
+msgid "Displays Video"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:49
+msgid "Video type"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:72
+msgid "Video source"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:73
+msgid "URL address of video"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:84
+msgid "Player width"
+msgstr ""
+
+#: ../component/video/class/PB.Component.Video.class.php:85
+msgid "Player width in pixels"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:44
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:77
+msgid "Posts"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:49
+msgid "On click"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:50
+msgid "On mouseover"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:55
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:61
+msgid "zAccordion"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:56
+msgid "Displays zAccordion"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:92
+msgid "Select data source for accordion content."
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:92
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:298
+msgid ""
+"Accordion can be build based on gallery (images) or posts featured image. "
+"Each of them can be setup in separate tabs."
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:182
+msgid "Timeout"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:183
+msgid "Time between each slide in miliseconds"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:206
+msgid "Speed"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:207
+msgid "Speed of the slide in miliseconds"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:231
+msgid "Whether or not the slideshow should play automatically"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:273
+msgid "Easing method"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:297
+msgid "Event type"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:298
+msgid "Event type needed to open tab"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:322
+msgid "Slide title"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:323
+msgid "Enable or disable slide title (for posts) or caption (for images)"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:343
+msgid "Slide excerpt"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:344
+msgid "Enable or disable slide excerpt (for posts) or description (for images)"
+msgstr ""
+
+#: ../component/zaccordion/class/PB.Component.Zaccordion.class.php:378
+msgid "Click on below button to create gallery with images to the accordion"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:5
+msgid "Loading ..."
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:8
+msgid "Layouts"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:9
+msgid "Components"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:32
+msgid "To start build page, drag and drop selected layout here"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:44
+msgid "Delete layout"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:45
+msgid "Are you sure that you would like to remove this layout ?"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:48
+msgid "Remove component"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:49
+msgid "Are you sure that you would like to remove this element ?"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:52
+msgid "Remove all components in column"
+msgstr ""
+
+#: ../template/page_builder_meta_box.php:53
+msgid ""
+"Are you sure that you would like to remove all components in this column ?"
+msgstr ""
+
+#: ../template/admin/page_builder_option.php:16
+msgid "Plugin Options"
+msgstr ""
+
+#: ../template/admin/page_builder_option.php:42
+msgid "General settings"
+msgstr ""
+
+#: ../template/admin/page_builder_option.php:85
+msgid "Save changes"
+msgstr ""
+
+#: ../template/admin/page_builder_option_general_setting.php:7
+msgid "Enable plugin for new pages"
+msgstr ""
+
+#: ../template/admin/page_builder_option_general_setting.php:8
+msgid "Enable plugin by default for all new pages."
+msgstr ""
+
+#: ../template/admin/page_builder_option_general_setting.php:19
+msgid "Enable plugin for new posts"
+msgstr ""
+
+#: ../template/admin/page_builder_option_general_setting.php:20
+msgid "Enable plugin by default for all new posts."
+msgstr ""
+
+#: ../template/admin/page_builder_option_general_setting.php:37
+msgid "Google Maps API key"
+msgstr ""
+
+#: ../template/admin/page_builder_option_general_setting.php:38
+#, php-format
+msgid "Google Maps API Key (<a href=\"%s\" target=\"_blank\">more info</a>)."
+msgstr ""

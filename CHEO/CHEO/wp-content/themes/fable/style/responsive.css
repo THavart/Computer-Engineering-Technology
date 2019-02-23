@@ -1,0 +1,310 @@
+/******************************************************************************/
+/* 0-1069																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:0px) and (max-width:1069px)
+{
+	.pb-menu .pb-menu-default>.sf-menu>li>a
+	{
+		min-width:70px;
+	}
+	
+	.pb-menu.pb-menu-sticky .pb-menu-default>.sf-menu>li>a
+	{
+		padding:25px 15px 25px 15px;
+	}
+}
+
+/******************************************************************************/
+/* 0-959																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:0px) and (max-width:959px)
+{
+	/**************************************************************************/
+	/*	Comments / Comments list											  */
+	/**************************************************************************/
+
+		#comments_list>ul>li ul.children,
+		#comments_list>ul>li ul.children li
+		{
+			margin-left:0px;
+		}		
+}
+
+/******************************************************************************/
+/* 0-767																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:0px) and (max-width:767px)
+{
+	/**************************************************************************/
+	/* Theme classes				                                          */
+	/**************************************************************************/
+	
+	.theme-submit-button-column>div,
+	.theme-submit-button-column>div>input
+	{
+		width:100%;
+	}
+	
+	/**************************************************************************/
+	/*	Page layout															  */
+	/**************************************************************************/
+
+	.theme-page-sidebar-enable>.theme-column-left,
+	.theme-page-sidebar-enable>.theme-column-right
+	{
+		clear:both;
+		float:none;
+	}
+	
+	.theme-page-sidebar-enable>.theme-column-left,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation
+	{
+		margin-bottom:50px;
+	}	
+	
+	/**************************************************************************/
+	/* Page							                                          */
+	/**************************************************************************/	
+
+	body.theme-footer-sticky .theme-page
+	{
+		margin-bottom:0px !important;
+	}
+
+	/**************************************************************************/
+	/* Footer 						                                          */
+	/**************************************************************************/
+	
+	body.theme-footer-sticky .theme-footer
+	{
+		position:static;
+	}
+	
+	#theme-go-to-top
+	{
+		right:10px;
+		bottom:10px;
+	}
+    
+	/**************************************************************************/
+	/* WooCommerce  				                                          */
+	/**************************************************************************/
+    
+    .woocommerce-page .col2-set .col-1, .woocommerce-page .col2-set .col-2
+    {
+        margin-top:40px;
+    }
+}
+
+/******************************************************************************/
+/* 768-1069																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:768px) and (max-width:1069px)
+{
+	.pb-counter-box ul>li>div>div.pb-counter-box-text-counter,
+	.pb-feature.pb-feature-icon-size-large ul>li>div>.pb-feature-icon,
+	.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-value,
+	.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-character-after,
+	.pb-counter-box ul>li>div>div.pb-counter-box-text-counter .pb-counter-box-text-counter-character-before
+	{
+		width:160px;
+		height:160px;
+		line-height:160px;
+	}
+}
+
+/******************************************************************************/
+/* 960-1069																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:960px) and (max-width:1069px)
+{
+	/**************************************************************************/
+	/*	Page layout															  */
+	/**************************************************************************/
+
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .theme-main,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation
+	{
+		width:290px;
+	}
+
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .theme-main,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-content
+	{
+		width:610px;
+	}
+
+	/**************************************************************************/
+	/*	Main						                                          */
+	/**************************************************************************/
+
+	.theme-main,
+	.pb .pb-main,
+	.pb .pb-layout.pb-main,
+	.pb.pb-menu .pb-menu-default>.sf-menu li.sf-mega-enable-1 .sf-mega
+	{
+		width:930px;
+	}	
+}
+
+/******************************************************************************/
+/* 768-959																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:768px) and (max-width:959px)
+{
+	/**************************************************************************/
+	/*	Page layout															  */
+	/**************************************************************************/
+
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .theme-main,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation
+	{
+		width:230px;
+	}
+
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .theme-main,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-content
+	{
+		width:490px;
+	}
+    
+	/**************************************************************************/
+	/*	Main						                                          */
+	/**************************************************************************/
+
+	.theme-main,
+	.pb .pb-main,
+	.pb .pb-layout.pb-main,
+	.pb.pb-menu .pb-menu-default>.sf-menu li.sf-mega-enable-1 .sf-mega
+	{
+		width:750px;
+	}			
+}
+
+/******************************************************************************/
+/* 479-767																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:480px) and (max-width:767px)
+{
+	/**************************************************************************/
+	/*	Page layout															  */
+	/**************************************************************************/
+
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .theme-main,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-content
+	{
+		width:460px
+	}
+
+	/**************************************************************************/
+	/*	Main						                                          */
+	/**************************************************************************/
+
+	.theme-main,
+	.pb .pb-main,
+	.pb .pb-layout.pb-main,
+	.pb.pb-menu .pb-menu-default>.sf-menu li.sf-mega-enable-1 .sf-mega
+	{
+		width:460px;
+	}		
+}
+
+/******************************************************************************/
+/* 0-479																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:0px) and (max-width:479px)
+{	
+	/**************************************************************************/
+	/*	Page layout															  */
+	/**************************************************************************/
+
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-left .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-right .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right .theme-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .pb-main,
+	.theme-page-sidebar-enable.theme-page-sidebar-right>.theme-column-left .theme-main,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation,
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-content
+	{
+		width:300px;
+	}
+
+	/**************************************************************************/
+	/*	Main						                                          */
+	/**************************************************************************/
+
+	.theme-main,
+	.pb .pb-main,
+	.pb .pb-layout.pb-main,
+	.pb.pb-menu .pb-menu-default>.sf-menu li.sf-mega-enable-1 .sf-mega
+	{
+		width:300px;
+	}		
+		
+	/**************************************************************************/
+	/*	Comments / Comments list											  */
+	/**************************************************************************/
+
+		#comments_list>ul>li .theme-comment-meta,
+		#comments_list>ul>li .theme-comment-content
+		{
+			margin-left:0px;
+		}
+		
+		#comments_list>ul>li .theme-comment-content
+		{
+			margin-top:20px;
+		}
+		
+		#comments_list>ul>li .theme-comment-avatar
+		{
+			display:none;
+		}
+}

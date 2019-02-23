@@ -1,0 +1,24 @@
+The size of type int is: 4
+The size of type long int is: 4
+The size of type short is: 2
+The size of type char is: 1
+The size of type long is: 4
+The size of type double is: 8
+The size of type unsigned int is: 4
+
+-------------------------------------
+
+The last positive value is: 32767
+The last positive unsigned value is: 65535
+
+-------------------------------------
+
+Short max value = 32767
+Unsigned max value = 65535
+IOV Value: 30000
+
+-------------------------------------
+
+As the value of short is reached, it will add the remaining 
+amount onto the back of the short (negative side), 
+in effect wrapping around.

@@ -1,0 +1,2 @@
+SELECT COUNT (*) AS NumberOfShipments
+FROM SHIPMENT;

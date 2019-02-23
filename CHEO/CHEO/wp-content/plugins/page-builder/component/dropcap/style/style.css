@@ -1,0 +1,28 @@
+/******************************************************************************/
+/* Dropcap																	  */
+/******************************************************************************/
+
+p.pb-dropcap
+{
+	padding:0px;
+}
+
+	p.pb-dropcap>span.pb-dropcap-first-letter
+	{
+		float:left;
+		display:block;
+		line-height:1;
+		font-size:36px;
+		margin:4px 15px 10px 0px;
+		padding:15px 20px 15px 20px;
+	}
+	
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl p.pb-dropcap>span.pb-dropcap-first-letter
+{
+	float:right;
+	margin:4px 0px 10px 15px;
+}

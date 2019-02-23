@@ -1,0 +1,45 @@
+﻿@model Assignment1.Models.User
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container-fluid text-center">
+    <form asp-controller="Home" asp-action="RegisterUser">
+        <fieldset style="width: 300px">
+            <br />
+            <br />
+            <legend>Register </legend>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" asp-for="FirstName" required="required" /></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" asp-for="LastName" required="required" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" asp-for="EmailAddress" required="required" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" asp-for="Password" required="required" /></td>
+                </tr>
+                <tr>
+                    <td>Role</td>
+                    <td>
+                        <select asp-for="RoleId">
+                            <option value=1>User</option>
+                            <option value=2>Administrator</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <input type="submit" value="Register" />
+        </fieldset>
+    </form>
+</div>
