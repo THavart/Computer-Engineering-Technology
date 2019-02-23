@@ -1,4 +1,5 @@
-# Computer-Engineering-Tech
+# Computer-Engineering-Technology
+
 Overview of the majority of the code base that I created during my academic career in Computer Engineering Technology at Algonquin College.
 
 Categories are broken down as follows:
